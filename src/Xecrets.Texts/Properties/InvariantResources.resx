@@ -133,6 +133,10 @@
     <value>https://www.axantum.com/ez-features</value>
     <comment>DO NOT TRANSLATE - The URL for the Ez Features overview page</comment>
   </data>
+  <data name="FileEncryptionUrl" xml:space="preserve">
+    <value>https://www.axantum.com/file-encryption</value>
+    <comment>DO NOT TRANSLATE - The URL for the file encryption information page</comment>
+  </data>
   <data name="GetLicenseUrlFormat" xml:space="preserve">
     <value>https://www.axantum.com/license?m={0}&amp;l={1}</value>
     <comment>DO NOT TRANSLATE - The URL for getting a license. {0} is email, {1} is last 4 digits.</comment>

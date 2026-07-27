@@ -25,8 +25,6 @@
 
 using System.Reflection;
 
-using Microsoft.Extensions.Localization;
-
 using Xecrets.Localization;
 using Xecrets.Texts.Properties;
 using Xecrets.Texts.Translations;
@@ -59,6 +57,8 @@ namespace Xecrets.Texts;
 /// ChatGPT and DeepL (or whatever AI rules in the future) may be of assistance for translations.
 /// </para>
 /// </remarks>
+
+// ReSharper disable UnusedMember.Global - this file is included in different projects, not all texts are used in each.
 #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 public class Texts
 {
@@ -195,6 +195,7 @@ public class Texts
     public static string FeatureNotFreeInformation => $"{T[nameof(Resources.FeatureNotFreeShortInformation)]}{Environment.NewLine + Environment.NewLine}{T[nameof(Resources.FeatureNotFreeInformation)].FormatUi(GetXecretsUrl)}{Environment.NewLine + Environment.NewLine}{T[nameof(Resources.FeatureNotFreeHideQuestion)]}";
     public static string FeatureNotFreeShortInformation => T[nameof(Resources.FeatureNotFreeShortInformation)];
     public static string FeatureNotFreeTitle => T[nameof(Resources.FeatureNotFreeTitle)].FormatUi(InvariantResources.DisplayNameProgram);
+    public static string FileEncryptionUrl => InvariantResources.FileEncryptionUrl.ToSite();
     public static string FilesCanceledMessage => T[nameof(Resources.FilesCanceledMessage)];
     public static string FilesProcessedMessageFormat => T[nameof(Resources.FilesProcessedMessageFormat)];
     public static string GetLicenseTooltip => T[nameof(Resources.GetLicenseTooltip)];
