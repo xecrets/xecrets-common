@@ -134,8 +134,8 @@
     <comment>The text used as watermark (slightly transparent grey) in a email entry text box, i.e. "Email".</comment>
   </data>
   <data name="PlaceholderLoading" xml:space="preserve">
-    <value>Loading...</value>
-    <comment>A text shown as a placeholder when loading things takes time in a window, i.e. "Loading...".</comment>
+    <value>Loading…</value>
+    <comment>A text shown as a placeholder when loading things takes time in a window, i.e. "Loading…".</comment>
   </data>
   <data name="ToolTipMasterPassword" xml:space="preserve">
     <value>Your master password. Make it strong, write it down and keep it safe.</value>
@@ -146,12 +146,12 @@
     <comment>The text in the menu to open a window with about information, i.e. "About". (_ indicates keyboard accelerator)</comment>
   </data>
   <data name="MenuDecrypt" xml:space="preserve">
-    <value>_Decrypt...</value>
-    <comment>The text in the menu to open a dialog to select files to decrypt, i.e. "Decrypt...". (_ indicates keyboard accelerator)</comment>
+    <value>_Decrypt…</value>
+    <comment>The text in the menu to open a dialog to select files to decrypt, i.e. "Decrypt…". (_ indicates keyboard accelerator)</comment>
   </data>
   <data name="MenuEncrypt" xml:space="preserve">
-    <value>_Encrypt...</value>
-    <comment>The text in the menu to open a dialog to select files to encrypt, i.e. "Encrypt...". (_ indicates keyboard accelerator)</comment>
+    <value>_Encrypt…</value>
+    <comment>The text in the menu to open a dialog to select files to encrypt, i.e. "Encrypt…". (_ indicates keyboard accelerator)</comment>
   </data>
   <data name="MenuExit" xml:space="preserve">
     <value>E_xit</value>
@@ -166,8 +166,8 @@
     <comment>The text in the menu open the help submenu, i.e. "Help". (_ indicates keyboard accelerator)</comment>
   </data>
   <data name="MenuOpen" xml:space="preserve">
-    <value>_Open...</value>
-    <comment>The text in the menu to open a dialog to select a file to open, i.e. "Open...". (_ indicates keyboard accelerator)</comment>
+    <value>_Open…</value>
+    <comment>The text in the menu to open a dialog to select a file to open, i.e. "Open…". (_ indicates keyboard accelerator)</comment>
   </data>
   <data name="WatermarkPassword" xml:space="preserve">
     <value>Password</value>
@@ -187,11 +187,11 @@
   </data>
   <data name="ZzLabelCliToolInformationFormat" xml:space="preserve">
     <value>{0} information:</value>
-    <comment>CLI information label in about box, {0} is the tools display name, followed by some information, i.e. "Command Line Tools Information:" ...Splash from CLI.</comment>
+    <comment>CLI information label in about box, {0} is the tools display name, followed by some information, i.e. "Command Line Tools Information:" …Splash from CLI.</comment>
   </data>
   <data name="ZzLabelCliToolPathFormat" xml:space="preserve">
     <value>{0} path:</value>
-    <comment>CLI path label in about box, {0} is the tools display name, followed by a path, i.e. "Command Line Tools Path:" ...</comment>
+    <comment>CLI path label in about box, {0} is the tools display name, followed by a path, i.e. "Command Line Tools Path:" …</comment>
   </data>
   <data name="ZzLabelSdkApiVersionFormat" xml:space="preserve">
     <value>{0} version:</value>
@@ -250,7 +250,7 @@
     <comment>The title of a file selection dialog for selecting a file to open, i.e. 'Select files to open'.</comment>
   </data>
   <data name="MenuClose" xml:space="preserve">
-    <value>_Close all...</value>
+    <value>_Close all…</value>
     <comment>The text in the menu to close all possible currently opened files. (_ indicates the letter for a keyboard accelerator)</comment>
   </data>
   <data name="DialogValidationWrongPassword" xml:space="preserve">
@@ -258,7 +258,7 @@
     <comment>An error message displayed in a dialog when the users enters the wrong password.</comment>
   </data>
   <data name="DialogTextDropOrPasteTitle" xml:space="preserve">
-    <value>Drop or paste files here...</value>
+    <value>Drop or paste files here…</value>
     <comment>Text for the middle of the window, where files can be dropped or pasted. Not all OS's support drag and drop.</comment>
   </data>
   <data name="DialogTextDropOrPasteToolTip" xml:space="preserve">
@@ -278,7 +278,7 @@
     <comment>Text for a menu entry to show the program from a minimized state.</comment>
   </data>
   <data name="ZzCommandBarContentFilesOpenFormat" xml:space="preserve">
-    <value>No open files|One open file...|{0} Open files...</value>
+    <value>No open files|One open file…|{0} Open files…</value>
     <comment>Status text for number of files currently open, {0} is the number of files. Singular version|Plural version</comment>
   </data>
   <data name="ButtonNo" xml:space="preserve">
@@ -332,7 +332,7 @@ Please buy a license. See https://www.axantum.com/ .</value>
     <comment>The text shown when a decryption fails because of unknown password.</comment>
   </data>
   <data name="MenuAddPassword" xml:space="preserve">
-    <value>_Add decryption password...</value>
+    <value>_Add decryption password…</value>
     <comment>The menu item under to add an extra alternate password.</comment>
   </data>
   <data name="DialogTextAddPassword" xml:space="preserve">
@@ -356,8 +356,8 @@ Please buy a license. See https://www.axantum.com/ .</value>
     <comment>The dialog title when selecting a destination folder.</comment>
   </data>
   <data name="MenuEncryptCopyFor" xml:space="preserve">
-    <value>Encrypt _copy to share...</value>
-    <comment>The text in the menu to select files to encrypt a copy of  a file to another recipient in a different destination folder, i.e. "Encrypt Copy...".</comment>
+    <value>Encrypt _copy to share…</value>
+    <comment>The text in the menu to select files to encrypt a copy of  a file to another recipient in a different destination folder, i.e. "Encrypt Copy…".</comment>
   </data>
   <data name="OpenFilesRemainMessage" xml:space="preserve">
     <value>File(s) couldn't be closed and remain open!</value>
@@ -372,7 +372,7 @@ Please buy a license. See https://www.axantum.com/ .</value>
     <comment>The title of a file selection dialog for selecting files to wipe, i.e. 'Select files to wipe'.</comment>
   </data>
   <data name="MenuWipe" xml:space="preserve">
-    <value>_Delete securely...</value>
+    <value>_Delete securely…</value>
     <comment>The menu text to open a dialog asking for files to wipe.</comment>
   </data>
   <data name="MessageTextConfirmWipe" xml:space="preserve">
@@ -380,7 +380,7 @@ Please buy a license. See https://www.axantum.com/ .</value>
     <comment>A text asking a yes/no response confirmation for a dangerous irreversible operation, i.e. File Wipe.</comment>
   </data>
   <data name="DialogTextPasteOnlyTitle" xml:space="preserve">
-    <value>Paste files here...</value>
+    <value>Paste files here…</value>
     <comment>Text for the middle of the window, where files can be (only) pasted, as some OS's don't support drag and drop.</comment>
   </data>
   <data name="DialogTextPasteOnlyToolTip" xml:space="preserve">
@@ -396,8 +396,8 @@ Please buy a license. See https://www.axantum.com/ .</value>
     <comment>A heading in the create new user window, i.e. "Create New User".</comment>
   </data>
   <data name="MenuCreateUser" xml:space="preserve">
-    <value>_Create new profile...</value>
-    <comment>The text in the menu to open a dialog to create a new user, i.e. "Create New...". (_ indicates keyboard accelerator)</comment>
+    <value>_Create new profile…</value>
+    <comment>The text in the menu to open a dialog to create a new user, i.e. "Create New…". (_ indicates keyboard accelerator)</comment>
   </data>
   <data name="MenuUser" xml:space="preserve">
     <value>_User</value>
@@ -405,7 +405,7 @@ Please buy a license. See https://www.axantum.com/ .</value>
   </data>
   <data name="MenuOpenRecent" xml:space="preserve">
     <value>Open _recent</value>
-    <comment>The text in the menu to display a list of recent files to open, i.e. "Open Recent...". (_ indicates keyboard accelerator)</comment>
+    <comment>The text in the menu to display a list of recent files to open, i.e. "Open Recent…". (_ indicates keyboard accelerator)</comment>
   </data>
   <data name="ButtonGo" xml:space="preserve">
     <value>Go!</value>
@@ -429,8 +429,8 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>A text next to a check box, indicating whether an added password should be saved permanently for use, or just for this session.</comment>
   </data>
   <data name="MenuEncryptCopy" xml:space="preserve">
-    <value>Encrypt _copy...</value>
-    <comment>The text in the menu to select files to encrypt a copy of  a file in a different destination folder, i.e. "Encrypt Copy...".</comment>
+    <value>Encrypt _copy…</value>
+    <comment>The text in the menu to select files to encrypt a copy of  a file in a different destination folder, i.e. "Encrypt Copy…".</comment>
   </data>
   <data name="DialogTextWrongPasswordOpen" xml:space="preserve">
     <value>The file could not be opened. Try decrypting with an alternative password first.</value>
@@ -445,8 +445,8 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>The title of the message box displayed when it's time to check for updates.</comment>
   </data>
   <data name="MenuChangePassword" xml:space="preserve">
-    <value>Change _password...</value>
-    <comment>The text in the menu to open a dialog to change the password, i.e. "Change _Password...". (_ indicates keyboard accelerator)</comment>
+    <value>Change _password…</value>
+    <comment>The text in the menu to open a dialog to change the password, i.e. "Change _Password…". (_ indicates keyboard accelerator)</comment>
   </data>
   <data name="WatermarkCurrentPassword" xml:space="preserve">
     <value>Current password</value>
@@ -481,11 +481,11 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>A title for a generic select folder picker, used for both encrypt and decrypt folder etc.</comment>
   </data>
   <data name="MenuDecryptFolder" xml:space="preserve">
-    <value>Decrypt f_older files...</value>
+    <value>Decrypt f_older files…</value>
     <comment>A menu entry for the decrypt folder operation.</comment>
   </data>
   <data name="MenuEncryptFolder" xml:space="preserve">
-    <value>Encrypt _folder files...</value>
+    <value>Encrypt _folder files…</value>
     <comment>A menu entry for the encrypt folder operation.</comment>
   </data>
   <data name="DialogTitleFetchLicense" xml:space="preserve">
@@ -505,15 +505,15 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>A tooltip text explaining how getting the license works.</comment>
   </data>
   <data name="MenuBuyNow" xml:space="preserve">
-    <value>Subscribe to _premium...</value>
+    <value>Subscribe to _premium…</value>
     <comment>The menu text for a link to the purchase page.</comment>
   </data>
   <data name="MenuDownload" xml:space="preserve">
-    <value>Check for _update...</value>
+    <value>Check for _update…</value>
     <comment>The menu text for a link to the download page.</comment>
   </data>
   <data name="MenuLicense" xml:space="preserve">
-    <value>Get your subscription premium _license...</value>
+    <value>Get your subscription premium _license…</value>
     <comment>The menu text for the function to retrieve a purchased license.</comment>
   </data>
   <data name="FilesProcessedMessageFormat" xml:space="preserve">
@@ -521,7 +521,7 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>The progress finished indicator. The {0} is replaced by the number of files, 0, 1 or many.</comment>
   </data>
   <data name="TipMoreHelp" xml:space="preserve">
-    <value>Click for more information...</value>
+    <value>Click for more information…</value>
     <comment>An additional prompt informing that more information is available with a click. It may be added to help button and other tool tips at the end as a last sentence.</comment>
   </data>
   <data name="ToolTipAddPassword" xml:space="preserve">
@@ -553,8 +553,8 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>The text label describing the action for the clear passwords dialog. The {0} will be replaced by a number. This is a plural text, the first is for zero, then one, and then 2 or more separated by '|'.</comment>
   </data>
   <data name="MenuClearPasswords" xml:space="preserve">
-    <value>_Clear decryption passwords...</value>
-    <comment>Menu title for the clear passwords function. Also used as the title of the dialog, edited to remove "..." and accelerators</comment>
+    <value>_Clear decryption passwords…</value>
+    <comment>Menu title for the clear passwords function. Also used as the title of the dialog, edited to remove "…" and accelerators</comment>
   </data>
   <data name="ToolTipClearPasswords" xml:space="preserve">
     <value>Clear decryption passwords saved in settings. You can always add them back again.</value>
@@ -569,7 +569,7 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>Dialog title for the YubiKey enabling setup dialog.</comment>
   </data>
   <data name="DialogYubiKeyLooking" xml:space="preserve">
-    <value>Waiting for YubiKey...</value>
+    <value>Waiting for YubiKey…</value>
     <comment>Dialog title displayed when we're checking for a YubiKey during setup</comment>
   </data>
   <data name="DialogYubiKeyNotConnected" xml:space="preserve">
@@ -577,7 +577,7 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>Dialog title for the YubiKey setup dialog when there is no yubikey connected and no configuration.</comment>
   </data>
   <data name="MenuYubiKey" xml:space="preserve">
-    <value>_YubiKey configuration...</value>
+    <value>_YubiKey configuration…</value>
     <comment>Menu title for configuration of a YubiKey.</comment>
   </data>
   <data name="ToolTipYubiKeySetup" xml:space="preserve">
@@ -629,7 +629,7 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>An informational message displayed about what slot will be used. '{0}' will be filled with the actual slot in question.</comment>
   </data>
   <data name="DialogYubiKeyTouchPrompt" xml:space="preserve">
-    <value>Please touch the YubiKey...</value>
+    <value>Please touch the YubiKey…</value>
     <comment>A modal disappearing prompt to touch the YubiKey when required.</comment>
   </data>
   <data name="DialogYubiKeyOpenSecurity" xml:space="preserve">
@@ -653,7 +653,7 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>A label in the about box for the directory where all settings are stored.</comment>
   </data>
   <data name="MenuRandomRename" xml:space="preserve">
-    <value>_Rename randomly....</value>
+    <value>_Rename randomly…</value>
     <comment>The menu text for the random renaming of files.</comment>
   </data>
   <data name="ExpirationCheckWarning" xml:space="preserve">
@@ -669,7 +669,7 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>A dialog box text, asking the user if (s)he wants to download a free premium trial license.</comment>
   </data>
   <data name="MenuTrialDownload" xml:space="preserve">
-    <value>Get your 3 day _free premium license...</value>
+    <value>Get your 3 day _free premium license…</value>
     <comment>A menu entry to request a temporary trial license.</comment>
   </data>
   <data name="ButtonRetry" xml:space="preserve">
@@ -677,7 +677,7 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>A button to retry something.</comment>
   </data>
   <data name="MenuSuggestPassword" xml:space="preserve">
-    <value>_Suggest password...</value>
+    <value>_Suggest password…</value>
     <comment>Menu entry that opens a dialog box with suggestions for passwords</comment>
   </data>
   <data name="ButtonCopy" xml:space="preserve">
@@ -713,11 +713,11 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>The heading for the emergency reset password dialog</comment>
   </data>
   <data name="MenuClearRecent" xml:space="preserve">
-    <value>_Clear recent list...</value>
+    <value>_Clear recent list…</value>
     <comment>The  menu item to clear the recent files list</comment>
   </data>
   <data name="MenuEncryptDecryptText" xml:space="preserve">
-    <value>Encrypt or decrypt _text...</value>
+    <value>Encrypt or decrypt _text…</value>
     <comment>The menu item to encrypt or decrypt text</comment>
   </data>
   <data name="ToolTipEncryptDecryptText" xml:space="preserve">
@@ -749,7 +749,7 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>This is the title for the open dialog to select files to re-encrypt</comment>
   </data>
   <data name="MenuReEncryptFiles" xml:space="preserve">
-    <value>_Re-encrypt...</value>
+    <value>_Re-encrypt…</value>
     <comment>Menu entry for re-encrypting already encrypted files.</comment>
   </data>
   <data name="MenuReEncryptFolder" xml:space="preserve">
@@ -769,11 +769,11 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>An additional tooltip part, that explains that if no card was entered, getting the license this way won't work so easily.</comment>
   </data>
   <data name="MenuPreferences" xml:space="preserve">
-    <value>_Preferences...</value>
+    <value>_Preferences…</value>
     <comment>A menu entry to further options to change preferences.</comment>
   </data>
   <data name="MenuTheme" xml:space="preserve">
-    <value>_Theme...</value>
+    <value>_Theme…</value>
     <comment>A menu entry to further options to change the visual theme, i.e. dark or light.</comment>
   </data>
   <data name="ThemeDark" xml:space="preserve">
@@ -789,7 +789,7 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>A menu entry or lablel to select the visual theme to match the system theme.</comment>
   </data>
   <data name="MenuInactivityExit" xml:space="preserve">
-    <value>_Exit after inactivity...</value>
+    <value>_Exit after inactivity…</value>
     <comment>A menu entry for selecting an inactivty timeout exit</comment>
   </data>
   <data name="MenuInactivityNever" xml:space="preserve">
@@ -821,11 +821,11 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>A text in the about box, telling how many private keys there are available. It will not be displayed if there are none at all.</comment>
   </data>
   <data name="MenuCustomerPortal" xml:space="preserve">
-    <value>Customer _portal...</value>
+    <value>Customer _portal…</value>
     <comment>The menu to open the customer portal</comment>
   </data>
   <data name="MenuHelpVideos" xml:space="preserve">
-    <value>_Video guides...</value>
+    <value>_Video guides…</value>
     <comment>The menu to open a gallery of video instructions</comment>
   </data>
   <data name="MessageTextBadLicenseString" xml:space="preserve">
@@ -849,7 +849,7 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>A menu entry to clear previously hidden warnings</comment>
   </data>
   <data name="MenuChangeEmail" xml:space="preserve">
-    <value>Change _email...</value>
+    <value>Change _email…</value>
     <comment>The text used as a title in the change email dialog and the menu</comment>
   </data>
   <data name="MixedFilesWarning" xml:space="preserve">
@@ -901,8 +901,8 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>Button text for a "Copy All" button.</comment>
   </data>
   <data name="ButtonSaveAs" xml:space="preserve">
-    <value>Save As...</value>
-    <comment>Button text for a "Save As..." button.</comment>
+    <value>Save As…</value>
+    <comment>Button text for a "Save As…" button.</comment>
   </data>
   <data name="ErrorCombiningShares" xml:space="preserve">
     <value>The shares could not be combined. Please check the shares and try again.</value>
@@ -917,15 +917,15 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>A label for the textbox where a recovered secret is displayed.</comment>
   </data>
   <data name="MenuCombineShares" xml:space="preserve">
-    <value>C_ombine secret shares...</value>
+    <value>C_ombine secret shares…</value>
     <comment>Menu text for combining secret shares to recover the secret.</comment>
   </data>
   <data name="MenuCreateShares" xml:space="preserve">
-    <value>_Create secret shares...</value>
+    <value>_Create secret shares…</value>
     <comment>Menu text for creating secret shares.</comment>
   </data>
   <data name="MenuLoadShares" xml:space="preserve">
-    <value>_View secret shares...</value>
+    <value>_View secret shares…</value>
     <comment>Menu text for loading/viewing secret shares.</comment>
   </data>
   <data name="PromptEnterFirstShare" xml:space="preserve">
@@ -954,7 +954,7 @@ It's not free, but it's not expensive either and totally worth it we think!</val
   </data>
   <data name="ToolTipCombineShares" xml:space="preserve">
     <value>Enter the required number of shares to combine them and view the secret.</value>
-    <comment>Help tool tip for the combine shares dialog. It should be followed by a "Click for more info...." prompt, leading to a help page.</comment>
+    <comment>Help tool tip for the combine shares dialog. It should be followed by a "Click for more info…" prompt, leading to a help page.</comment>
   </data>
   <data name="ToolTipCreateShares" xml:space="preserve">
     <value>Split a secret into shares, specifying how many shares and how many are required to recover the secret.</value>
@@ -962,7 +962,7 @@ It's not free, but it's not expensive either and totally worth it we think!</val
   </data>
   <data name="ToolTipViewShares" xml:space="preserve">
     <value>View previously created shares, and send or save them to different places.</value>
-    <comment>Tooltip for the view shares dialog. Should be followed by a "Click for more info..." prompt, leading to the help page.</comment>
+    <comment>Tooltip for the view shares dialog. Should be followed by a "Click for more info…" prompt, leading to the help page.</comment>
   </data>
   <data name="ViewSharesDescriptionFormat" xml:space="preserve">
     <value>Save or distribute these shares to different people or places. At least {0} shares are required to recover the secret.</value>
@@ -993,11 +993,11 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>The title of the dialog to enter or paste a license string</comment>
   </data>
   <data name="WatermarkEnterLicenseHere" xml:space="preserve">
-    <value>The license key goes here: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ...</value>
+    <value>The license key goes here: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ…</value>
     <comment>A watermark helping guide users where to paste the license string</comment>
   </data>
   <data name="MenuEnterLicense" xml:space="preserve">
-    <value>Activate _Premium...</value>
+    <value>Activate _Premium…</value>
     <comment>The menu entry for opening a window where the license can be pasted.</comment>
   </data>
   <data name="DialogInstructionEnterLicenseFormat" xml:space="preserve">
