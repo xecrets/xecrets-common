@@ -160,7 +160,7 @@ public static partial class Extensions
     /// <returns>The cleaned label text.</returns>
     [PublicAPI]
     public static string MenuToLabelText(this LocalizedString format) =>
-        format.Value.Replace("_", string.Empty).Replace("...", string.Empty);
+        format.Value.Replace("_", string.Empty).Replace("...", string.Empty).Replace("…", string.Empty);
 
     /// <summary>
     /// Rewrites a production URL to point to a local dev server or test server when running in debug mode.
