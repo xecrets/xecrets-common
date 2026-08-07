@@ -154,13 +154,29 @@ public static partial class Extensions
     }
 
     /// <summary>
-    /// Strips accelerator underscores and trailing ellipsis from a localized menu label.
+    /// Strips accelerator underscores from a localized menu string, keeping any ellipsis. Use for text that is
+    /// displayed outside of a menu, but still triggers a dialog or a further selection, such as a tool bar button.
     /// </summary>
     /// <param name="format">The raw localized menu string.</param>
-    /// <returns>The cleaned label text.</returns>
+    /// <returns>The text without accelerator underscores.</returns>
+    /// <remarks>
+    /// Chain with <see cref="StripEllipsis(string)"/> when the text is used as a title, a heading or for an action
+    /// that is carried out immediately, i.e. where nothing further follows.
+    /// </remarks>
     [PublicAPI]
-    public static string MenuToLabelText(this LocalizedString format) =>
-        format.Value.Replace("_", string.Empty).Replace("...", string.Empty).Replace("…", string.Empty);
+    public static string StripAccelerator(this LocalizedString format) => format.Value.Replace("_", string.Empty);
+
+    /// <summary>
+    /// Strips ellipsis, both the single character and the three period variant, from a text. Use for text that is
+    /// used as a title or a heading, or for an action that is taken immediately, since an ellipsis indicates that a
+    /// dialog or a further selection follows.
+    /// </summary>
+    /// <param name="text">The text to strip the ellipsis from, typically the result of <see
+    /// cref="StripAccelerator(LocalizedString)"/>.</param>
+    /// <returns>The text without any ellipsis.</returns>
+    [PublicAPI]
+    public static string StripEllipsis(this string text) =>
+        text.Replace("...", string.Empty).Replace("…", string.Empty);
 
     /// <summary>
     /// Rewrites a production URL to point to a local dev server or test server when running in debug mode.

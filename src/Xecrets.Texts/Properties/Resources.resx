@@ -250,7 +250,7 @@
     <comment>The title of a file selection dialog for selecting a file to open, i.e. 'Select files to open'.</comment>
   </data>
   <data name="MenuClose" xml:space="preserve">
-    <value>_Close all…</value>
+    <value>_Close all</value>
     <comment>The text in the menu to close all possible currently opened files. (_ indicates the letter for a keyboard accelerator)</comment>
   </data>
   <data name="DialogValidationWrongPassword" xml:space="preserve">

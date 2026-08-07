@@ -116,27 +116,6 @@ A file name, presumably without extension
 [System.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System.Boolean')  
 [true](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool') if the name ends with the encrypted extension.
 
-<a name='Xecrets.Texts.Extensions.MenuToLabelText(thisMicrosoft.Extensions.Localization.LocalizedString)'></a>
-
-## Extensions.MenuToLabelText(this LocalizedString) Method
-
-Strips accelerator underscores and trailing ellipsis from a localized menu label.
-
-```csharp
-public static string MenuToLabelText(this Microsoft.Extensions.Localization.LocalizedString format);
-```
-#### Parameters
-
-<a name='Xecrets.Texts.Extensions.MenuToLabelText(thisMicrosoft.Extensions.Localization.LocalizedString).format'></a>
-
-`format` [Microsoft.Extensions.Localization.LocalizedString](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.localization.localizedstring 'Microsoft.Extensions.Localization.LocalizedString')
-
-The raw localized menu string.
-
-#### Returns
-[System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')  
-The cleaned label text.
-
 <a name='Xecrets.Texts.Extensions.NotEncrypted(thisSystem.Collections.Generic.IEnumerable_string_)'></a>
 
 ## Extensions.NotEncrypted(this IEnumerable<string>) Method
@@ -190,6 +169,55 @@ Additional format arguments.
 #### Returns
 [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')  
 The formatted plural string, or [System.String.Empty](https://learn.microsoft.com/en-us/dotnet/api/system.string.empty 'System.String.Empty') when [n](Xecrets.Texts.Extensions.md#Xecrets.Texts.Extensions.PluralFormatUi(thisMicrosoft.Extensions.Localization.LocalizedString,int,object[]).n 'Xecrets.Texts.Extensions.PluralFormatUi(this Microsoft.Extensions.Localization.LocalizedString, int, object[]).n') is negative.
+
+<a name='Xecrets.Texts.Extensions.StripAccelerator(thisMicrosoft.Extensions.Localization.LocalizedString)'></a>
+
+## Extensions.StripAccelerator(this LocalizedString) Method
+
+Strips accelerator underscores from a localized menu string, keeping any ellipsis. Use for text that is
+displayed outside of a menu, but still triggers a dialog or a further selection, such as a tool bar button.
+
+```csharp
+public static string StripAccelerator(this Microsoft.Extensions.Localization.LocalizedString format);
+```
+#### Parameters
+
+<a name='Xecrets.Texts.Extensions.StripAccelerator(thisMicrosoft.Extensions.Localization.LocalizedString).format'></a>
+
+`format` [Microsoft.Extensions.Localization.LocalizedString](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.localization.localizedstring 'Microsoft.Extensions.Localization.LocalizedString')
+
+The raw localized menu string.
+
+#### Returns
+[System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')  
+The text without accelerator underscores.
+
+### Remarks
+Chain with [StripEllipsis(this string)](Xecrets.Texts.Extensions.md#Xecrets.Texts.Extensions.StripEllipsis(thisstring) 'Xecrets.Texts.Extensions.StripEllipsis(this string)') when the text is used as a title, a heading or for an action
+that is carried out immediately, i.e. where nothing further follows.
+
+<a name='Xecrets.Texts.Extensions.StripEllipsis(thisstring)'></a>
+
+## Extensions.StripEllipsis(this string) Method
+
+Strips ellipsis, both the single character and the three period variant, from a text. Use for text that is
+used as a title or a heading, or for an action that is taken immediately, since an ellipsis indicates that a
+dialog or a further selection follows.
+
+```csharp
+public static string StripEllipsis(this string text);
+```
+#### Parameters
+
+<a name='Xecrets.Texts.Extensions.StripEllipsis(thisstring).text'></a>
+
+`text` [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')
+
+The text to strip the ellipsis from, typically the result of [StripAccelerator(this LocalizedString)](Xecrets.Texts.Extensions.md#Xecrets.Texts.Extensions.StripAccelerator(thisMicrosoft.Extensions.Localization.LocalizedString) 'Xecrets.Texts.Extensions.StripAccelerator(this Microsoft.Extensions.Localization.LocalizedString)').
+
+#### Returns
+[System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')  
+The text without any ellipsis.
 
 <a name='Xecrets.Texts.Extensions.ToEncryptedName(thisstring,string)'></a>
 
