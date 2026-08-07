@@ -204,6 +204,7 @@ public class Texts
     public static string HeadingCreateUserFirstTimeSetup => T[nameof(Resources.HeadingCreateUserFirstTimeSetup)];
     public static string HeadingEmergencyReset => T[nameof(Resources.HeadingEmergencyReset)];
     public static string InvalidLicenseIgnored => T[nameof(Resources.InvalidLicenseIgnored)];
+    public static string LabelCancel => T[nameof(Resources.ButtonCancel)].MenuToLabelText();
     public static string LabelCreate => T[nameof(Resources.ButtonCreate)].MenuToLabelText();
     public static string LabelDecryptionPasswordCountFormat => T[nameof(Resources.LabelDecryptionPasswordCountFormat)];
     public static string LabelLast4 => T[nameof(Resources.LabelLast4)];
