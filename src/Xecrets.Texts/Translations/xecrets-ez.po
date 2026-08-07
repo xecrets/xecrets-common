@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-07 05:41+0200\n"
+"POT-Creation-Date: 2026-08-07 08:23+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -87,11 +87,11 @@ msgstr "Reset!"
 msgid "ButtonRetry"
 msgstr "_Retry"
 
-#. Button text for a "Save As..." button. [ButtonSaveAs]
+#. Button text for a "Save As…" button. [ButtonSaveAs]
 #: Resources.resx
 #, new
 msgid "ButtonSaveAs"
-msgstr "Save As..."
+msgstr "Save As…"
 
 #. The text in a button that causes a 'Yes'-response, i.e. "Yes". [ButtonYes]
 #: Resources.resx
@@ -201,7 +201,7 @@ msgstr ""
 #: Resources.resx
 #, new
 msgid "DialogTextDropOrPasteTitle"
-msgstr "Drop or paste files here..."
+msgstr "Drop or paste files here…"
 
 #. The tooltip for the paste and drag and drop area, giving a little bit more information. Not all OS's support drag and drop. [DialogTextDropOrPasteToolTip]
 #: Resources.resx
@@ -261,7 +261,7 @@ msgstr "Unrecognized temporary files remain."
 #: Resources.resx
 #, new
 msgid "DialogTextPasteOnlyTitle"
-msgstr "Paste files here..."
+msgstr "Paste files here…"
 
 #. The tooltip for the paste (only) area, giving a little bit more information. Not all OS's support drag and drop. [DialogTextPasteOnlyToolTip]
 #: Resources.resx
@@ -468,7 +468,7 @@ msgstr "Please enter YubiKey PIV PIN:"
 #: Resources.resx
 #, new
 msgid "DialogYubiKeyLooking"
-msgstr "Waiting for YubiKey..."
+msgstr "Waiting for YubiKey…"
 
 #. A warning message stating that the PIV management key still has it's default value. [DialogYubiKeyManagementKeyDefault]
 #: Resources.resx
@@ -570,7 +570,7 @@ msgstr "This app can’t use a YubiKey on this operating system."
 #: Resources.resx
 #, new
 msgid "DialogYubiKeyTouchPrompt"
-msgstr "Please touch the YubiKey..."
+msgstr "Please touch the YubiKey…"
 
 #. Label for a checkbox to optionally hide a specific warning or other message. [DontShowAgain]
 #: Resources.resx
@@ -738,25 +738,25 @@ msgstr "_About"
 #: Resources.resx
 #, new
 msgid "MenuAddPassword"
-msgstr "_Add decryption password..."
+msgstr "_Add decryption password…"
 
 #. The menu text for a link to the purchase page. [MenuBuyNow]
 #: Resources.resx
 #, new
 msgid "MenuBuyNow"
-msgstr "Subscribe to _premium..."
+msgstr "Subscribe to _premium…"
 
 #. The text used as a title in the change email dialog and the menu [MenuChangeEmail]
 #: Resources.resx
 #, new
 msgid "MenuChangeEmail"
-msgstr "Change _email..."
+msgstr "Change _email…"
 
-#. The text in the menu to open a dialog to change the password, i.e. "Change _Password...". (_ indicates keyboard accelerator) [MenuChangePassword]
+#. The text in the menu to open a dialog to change the password, i.e. "Change _Password…". (_ indicates keyboard accelerator) [MenuChangePassword]
 #: Resources.resx
 #, new
 msgid "MenuChangePassword"
-msgstr "Change _password..."
+msgstr "Change _password…"
 
 #. A menu entry to clear previously hidden warnings [MenuClearDontShowAgain]
 #: Resources.resx
@@ -764,17 +764,17 @@ msgstr "Change _password..."
 msgid "MenuClearDontShowAgain"
 msgstr "Show all _messages again"
 
-#. Menu title for the clear passwords function. Also used as the title of the dialog, edited to remove "..." and accelerators [MenuClearPasswords]
+#. Menu title for the clear passwords function. Also used as the title of the dialog, edited to remove "…" and accelerators [MenuClearPasswords]
 #: Resources.resx
 #, new
 msgid "MenuClearPasswords"
-msgstr "_Clear decryption passwords..."
+msgstr "_Clear decryption passwords…"
 
 #. The  menu item to clear the recent files list [MenuClearRecent]
 #: Resources.resx
 #, new
 msgid "MenuClearRecent"
-msgstr "_Clear recent list..."
+msgstr "_Clear recent list…"
 
 #. A menu text, also used as tooltip for license paste button [MenuClipboardLicense]
 #: Resources.resx
@@ -786,49 +786,49 @@ msgstr "Paste license from _clipboard"
 #: Resources.resx
 #, new
 msgid "MenuClose"
-msgstr "_Close all..."
+msgstr "_Close all"
 
 #. Menu text for combining secret shares to recover the secret. [MenuCombineShares]
 #: Resources.resx
 #, new
 msgid "MenuCombineShares"
-msgstr "C_ombine secret shares..."
+msgstr "C_ombine secret shares…"
 
 #. Menu text for creating secret shares. [MenuCreateShares]
 #: Resources.resx
 #, new
 msgid "MenuCreateShares"
-msgstr "_Create secret shares..."
+msgstr "_Create secret shares…"
 
-#. The text in the menu to open a dialog to create a new user, i.e. "Create New...". (_ indicates keyboard accelerator) [MenuCreateUser]
+#. The text in the menu to open a dialog to create a new user, i.e. "Create New…". (_ indicates keyboard accelerator) [MenuCreateUser]
 #: Resources.resx
 #, new
 msgid "MenuCreateUser"
-msgstr "_Create new profile..."
+msgstr "_Create new profile…"
 
 #. The menu to open the customer portal [MenuCustomerPortal]
 #: Resources.resx
 #, new
 msgid "MenuCustomerPortal"
-msgstr "Customer _portal..."
+msgstr "Customer _portal…"
 
-#. The text in the menu to open a dialog to select files to decrypt, i.e. "Decrypt...". (_ indicates keyboard accelerator) [MenuDecrypt]
+#. The text in the menu to open a dialog to select files to decrypt, i.e. "Decrypt…". (_ indicates keyboard accelerator) [MenuDecrypt]
 #: Resources.resx
 #, new
 msgid "MenuDecrypt"
-msgstr "_Decrypt..."
+msgstr "_Decrypt…"
 
 #. A menu entry for the decrypt folder operation. [MenuDecryptFolder]
 #: Resources.resx
 #, new
 msgid "MenuDecryptFolder"
-msgstr "Decrypt f_older files..."
+msgstr "Decrypt f_older files…"
 
 #. The menu text for a link to the download page. [MenuDownload]
 #: Resources.resx
 #, new
 msgid "MenuDownload"
-msgstr "Check for _update..."
+msgstr "Check for _update…"
 
 #. The text in a menu for the Edit operation, i.e. "Edit" [MenuEdit]
 #: Resources.resx
@@ -836,41 +836,41 @@ msgstr "Check for _update..."
 msgid "MenuEdit"
 msgstr "_Edit"
 
-#. The text in the menu to open a dialog to select files to encrypt, i.e. "Encrypt...". (_ indicates keyboard accelerator) [MenuEncrypt]
+#. The text in the menu to open a dialog to select files to encrypt, i.e. "Encrypt…". (_ indicates keyboard accelerator) [MenuEncrypt]
 #: Resources.resx
 #, new
 msgid "MenuEncrypt"
-msgstr "_Encrypt..."
+msgstr "_Encrypt…"
 
-#. The text in the menu to select files to encrypt a copy of  a file in a different destination folder, i.e. "Encrypt Copy...". [MenuEncryptCopy]
+#. The text in the menu to select files to encrypt a copy of  a file in a different destination folder, i.e. "Encrypt Copy…". [MenuEncryptCopy]
 #: Resources.resx
 #, new
 msgid "MenuEncryptCopy"
-msgstr "Encrypt _copy..."
+msgstr "Encrypt _copy…"
 
-#. The text in the menu to select files to encrypt a copy of  a file to another recipient in a different destination folder, i.e. "Encrypt Copy...". [MenuEncryptCopyFor]
+#. The text in the menu to select files to encrypt a copy of  a file to another recipient in a different destination folder, i.e. "Encrypt Copy…". [MenuEncryptCopyFor]
 #: Resources.resx
 #, new
 msgid "MenuEncryptCopyFor"
-msgstr "Encrypt _copy to share..."
+msgstr "Encrypt _copy to share…"
 
 #. The menu item to encrypt or decrypt text [MenuEncryptDecryptText]
 #: Resources.resx
 #, new
 msgid "MenuEncryptDecryptText"
-msgstr "Encrypt or decrypt _text..."
+msgstr "Encrypt or decrypt _text…"
 
 #. A menu entry for the encrypt folder operation. [MenuEncryptFolder]
 #: Resources.resx
 #, new
 msgid "MenuEncryptFolder"
-msgstr "Encrypt _folder files..."
+msgstr "Encrypt _folder files…"
 
 #. The menu entry for opening a window where the license can be pasted. [MenuEnterLicense]
 #: Resources.resx
 #, new
 msgid "MenuEnterLicense"
-msgstr "Activate _Premium..."
+msgstr "Activate _Premium…"
 
 #. The text in the menu to exit the program, i.e. "Exit". (_ indicates keyboard accelerator) [MenuExit]
 #: Resources.resx
@@ -894,13 +894,13 @@ msgstr "_Help"
 #: Resources.resx
 #, new
 msgid "MenuHelpVideos"
-msgstr "_Video guides..."
+msgstr "_Video guides…"
 
 #. A menu entry for selecting an inactivty timeout exit [MenuInactivityExit]
 #: Resources.resx
 #, new
 msgid "MenuInactivityExit"
-msgstr "_Exit after inactivity..."
+msgstr "_Exit after inactivity…"
 
 #. A menu entry for selecting 'Never' as the choice for inactivity timeout [MenuInactivityNever]
 #: Resources.resx
@@ -918,21 +918,21 @@ msgstr "{0} minutes"
 #: Resources.resx
 #, new
 msgid "MenuLicense"
-msgstr "Get your subscription premium _license..."
+msgstr "Get your subscription premium _license…"
 
 #. Menu text for loading/viewing secret shares. [MenuLoadShares]
 #: Resources.resx
 #, new
 msgid "MenuLoadShares"
-msgstr "_View secret shares..."
+msgstr "_View secret shares…"
 
-#. The text in the menu to open a dialog to select a file to open, i.e. "Open...". (_ indicates keyboard accelerator) [MenuOpen]
+#. The text in the menu to open a dialog to select a file to open, i.e. "Open…". (_ indicates keyboard accelerator) [MenuOpen]
 #: Resources.resx
 #, new
 msgid "MenuOpen"
-msgstr "_Open..."
+msgstr "_Open…"
 
-#. The text in the menu to display a list of recent files to open, i.e. "Open Recent...". (_ indicates keyboard accelerator) [MenuOpenRecent]
+#. The text in the menu to display a list of recent files to open, i.e. "Open Recent…". (_ indicates keyboard accelerator) [MenuOpenRecent]
 #: Resources.resx
 #, new
 msgid "MenuOpenRecent"
@@ -948,19 +948,19 @@ msgstr "_Paste"
 #: Resources.resx
 #, new
 msgid "MenuPreferences"
-msgstr "_Preferences..."
+msgstr "_Preferences…"
 
 #. The menu text for the random renaming of files. [MenuRandomRename]
 #: Resources.resx
 #, new
 msgid "MenuRandomRename"
-msgstr "_Rename randomly...."
+msgstr "_Rename randomly…"
 
 #. Menu entry for re-encrypting already encrypted files. [MenuReEncryptFiles]
 #: Resources.resx
 #, new
 msgid "MenuReEncryptFiles"
-msgstr "_Re-encrypt..."
+msgstr "_Re-encrypt…"
 
 #. The menu entry to select a folder and re-encrypt all files in it and subfolders [MenuReEncryptFolder]
 #: Resources.resx
@@ -978,19 +978,19 @@ msgstr "_Show"
 #: Resources.resx
 #, new
 msgid "MenuSuggestPassword"
-msgstr "_Suggest password..."
+msgstr "_Suggest password…"
 
 #. A menu entry to further options to change the visual theme, i.e. dark or light. [MenuTheme]
 #: Resources.resx
 #, new
 msgid "MenuTheme"
-msgstr "_Theme..."
+msgstr "_Theme…"
 
 #. A menu entry to request a temporary trial license. [MenuTrialDownload]
 #: Resources.resx
 #, new
 msgid "MenuTrialDownload"
-msgstr "Get your 3 day _free premium license..."
+msgstr "Get your 3 day _free premium license…"
 
 #. The text in the menu to open the User submenu, i.e. "User". (_ indicates keyboard accelerator) [MenuUser]
 #: Resources.resx
@@ -1002,13 +1002,13 @@ msgstr "_User"
 #: Resources.resx
 #, new
 msgid "MenuWipe"
-msgstr "_Delete securely..."
+msgstr "_Delete securely…"
 
 #. Menu title for configuration of a YubiKey. [MenuYubiKey]
 #: Resources.resx
 #, new
 msgid "MenuYubiKey"
-msgstr "_YubiKey configuration..."
+msgstr "_YubiKey configuration…"
 
 #. Error message when decryption fails due to broken data. [MessageFileFormatError]
 #: Resources.resx
@@ -1080,11 +1080,11 @@ msgstr "File(s) couldn't be closed and remain open!"
 msgid "OperationCanceledFormat"
 msgstr "Operation was canceled during processing of '{0}'. Check and verify!"
 
-#. A text shown as a placeholder when loading things takes time in a window, i.e. "Loading...". [PlaceholderLoading]
+#. A text shown as a placeholder when loading things takes time in a window, i.e. "Loading…". [PlaceholderLoading]
 #: Resources.resx
 #, new
 msgid "PlaceholderLoading"
-msgstr "Loading..."
+msgstr "Loading…"
 
 #. A text in the about box, telling how many private keys there are available. It will not be displayed if there are none at all. [PrivateKeysAboutFormat]
 #: Resources.resx
@@ -1162,7 +1162,7 @@ msgstr "_System"
 #: Resources.resx
 #, new
 msgid "TipMoreHelp"
-msgstr "Click for more information..."
+msgstr "Click for more information…"
 
 #. Tooltip for the Add Password dialog, explaining a litte more. [ToolTipAddPassword]
 #: Resources.resx
@@ -1181,7 +1181,7 @@ msgstr ""
 "Clear decryption passwords saved in settings. You can always add them back "
 "again."
 
-#. Help tool tip for the combine shares dialog. It should be followed by a "Click for more info...." prompt, leading to a help page. [ToolTipCombineShares]
+#. Help tool tip for the combine shares dialog. It should be followed by a "Click for more info…" prompt, leading to a help page. [ToolTipCombineShares]
 #: Resources.resx
 #, new
 msgid "ToolTipCombineShares"
@@ -1301,7 +1301,7 @@ msgstr ""
 msgid "ToolTipSuggestMasterPassword"
 msgstr "Suggest a password."
 
-#. Tooltip for the view shares dialog. Should be followed by a "Click for more info..." prompt, leading to the help page. [ToolTipViewShares]
+#. Tooltip for the view shares dialog. Should be followed by a "Click for more info…" prompt, leading to the help page. [ToolTipViewShares]
 #: Resources.resx
 #, new
 msgid "ToolTipViewShares"
@@ -1368,7 +1368,7 @@ msgstr "Email"
 #: Resources.resx
 #, new
 msgid "WatermarkEnterLicenseHere"
-msgstr "The license key goes here: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ..."
+msgstr "The license key goes here: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ…"
 
 #. The watermark prompt for the last 4 digits to enter. [WatermarkLast4]
 #: Resources.resx
@@ -1410,7 +1410,7 @@ msgstr "One or more selected files are empty. They might be damaged."
 #: Resources.resx
 #, new
 msgid "ZzCommandBarContentFilesOpenFormat"
-msgstr "No open files|One open file...|{0} Open files..."
+msgstr "No open files|One open file…|{0} Open files…"
 
 #. A heading in the sign in window, {0} is the program name, i.e. "Xecrets Ez". [ZzHeadingSignInFormat]
 #: Resources.resx
@@ -1424,13 +1424,13 @@ msgstr "Sign in to {0}"
 msgid "ZzLabelCliToolApiVersionFormat"
 msgstr "{0} API version:"
 
-#. CLI information label in about box, {0} is the tools display name, followed by some information, i.e. "Command Line Tools Information:" ...Splash from CLI. [ZzLabelCliToolInformationFormat]
+#. CLI information label in about box, {0} is the tools display name, followed by some information, i.e. "Command Line Tools Information:" …Splash from CLI. [ZzLabelCliToolInformationFormat]
 #: Resources.resx
 #, new
 msgid "ZzLabelCliToolInformationFormat"
 msgstr "{0} information:"
 
-#. CLI path label in about box, {0} is the tools display name, followed by a path, i.e. "Command Line Tools Path:" ... [ZzLabelCliToolPathFormat]
+#. CLI path label in about box, {0} is the tools display name, followed by a path, i.e. "Command Line Tools Path:" … [ZzLabelCliToolPathFormat]
 #: Resources.resx
 #, new
 msgid "ZzLabelCliToolPathFormat"
