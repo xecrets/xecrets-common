@@ -18,7 +18,7 @@
     <Authors>Axantum Software AB, Svante Seleborg</Authors>
     <Company>Axantum Software AB</Company>
     <Description>User interface texts and localization for Xecrets apps</Description>
-    <Copyright>Copyright � 2026-2026 Svante Seleborg, All Rights Reserved</Copyright>
+    <Copyright>Copyright © 2026-2026 Svante Seleborg, All Rights Reserved</Copyright>
     <PackageProjectUrl>https://www.axantum.com</PackageProjectUrl>
     <PackageTags>texts;xecrets</PackageTags>
     <AssemblyVersion>2.3.0.0</AssemblyVersion>
