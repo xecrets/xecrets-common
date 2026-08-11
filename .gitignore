@@ -57,3 +57,6 @@ TestResult.xml
 nunit-*.xml
 .vs
 *.bak
+
+# Claude Code personal settings (not shared with the team)
+.claude/settings.local.json

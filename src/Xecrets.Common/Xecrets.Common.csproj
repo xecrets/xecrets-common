@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- We're using ExcludeRestorePackageImports as a canary, indicating publishing Xecrets.Ez.Wap in IDE using 'publish' action.
+       Normally RuntimeIdentifiers should only be set in the top level project, but here it needs to be set transitively, in order
+       for Restore to create the correct project.assets.json for the platform-architectures. BuildingWapPackage is used in CI for
+       same reason. -->
+  <PropertyGroup Condition="( '$(BuildingWapPackage)' == 'true' and '$(RuntimeIdentifiers)' == '') or '$(ExcludeRestorePackageImports)' == 'True' ">
+    <RuntimeIdentifiers>win-x64;win-arm64;linux-x64;linux-arm64;osx-x64;osx-arm64</RuntimeIdentifiers>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <JsonSerializerIsReflectionEnabledByDefault>false</JsonSerializerIsReflectionEnabledByDefault>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Xecrets Common BETA GPL</Title>
+    <Version>2.3.0-beta</Version>
+    <Authors>Axantum Software AB, Svante Seleborg</Authors>
+    <Company>Axantum Software AB</Company>
+    <Description>Common data defintions and code for all Xecrets components.</Description>
+    <Copyright>Copyright © 2026-2026 Svante Seleborg, All Rights Reserved</Copyright>
+    <PackageProjectUrl>https://www.axantum.com</PackageProjectUrl>
+    <RepositoryType></RepositoryType>
+    <PackageTags>common;xecrets</PackageTags>
+    <AssemblyVersion>2.3.0.0</AssemblyVersion>
+    <FileVersion>2.3.0.0</FileVersion>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <IncludeSymbols>False</IncludeSymbols>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DefaultDocumentationGeneratedAccessModifiers>Public</DefaultDocumentationGeneratedAccessModifiers>
+    <Nullable>enable</Nullable>
+    <RepositoryUrl>https://github.com/xecrets/xecrets-texts</RepositoryUrl>
+    <LangVersion>default</LangVersion>
+    <Platforms>AnyCPU;x64;ARM64</Platforms>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <IsTrimmable>True</IsTrimmable>
+    <IsAotCompatible>True</IsAotCompatible>
+    <WarningLevel>9999</WarningLevel>
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+</Project>
