@@ -1,4 +1,4 @@
-#region Copyright and License
+﻿#region Copyright and License
 
 /*
  * Xecrets Texts - Copyright © 2022-2026, Svante Seleborg, All Rights Reserved.

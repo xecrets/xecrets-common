@@ -12,5 +12,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Xecrets.Common\Xecrets.Common.csproj" />
+    <ProjectReference Include="..\Xecrets.Texts\Xecrets.Texts.csproj" />
   </ItemGroup>
 </Project>

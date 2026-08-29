@@ -68,24 +68,24 @@ File names to filter
 [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')[[]](https://learn.microsoft.com/en-us/dotnet/api/system.array 'System.Array')  
 An array of the files that match the pattern for encrypted files.
 
-<a name='Xecrets.Texts.Extensions.FormatUi(thisMicrosoft.Extensions.Localization.LocalizedString,object[])'></a>
+<a name='Xecrets.Texts.Extensions.FormatUi(thisstring,object[])'></a>
 
-## Extensions.FormatUi(this LocalizedString, object[]) Method
+## Extensions.FormatUi(this string, object[]) Method
 
-Formats a [Microsoft.Extensions.Localization.LocalizedString](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.localization.localizedstring 'Microsoft.Extensions.Localization.LocalizedString') using [System.Globalization.CultureInfo.CurrentCulture](https://learn.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo.currentculture 'System.Globalization.CultureInfo.CurrentCulture').
+Formats a string using [System.Globalization.CultureInfo.CurrentCulture](https://learn.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo.currentculture 'System.Globalization.CultureInfo.CurrentCulture').
 
 ```csharp
-public static string FormatUi(this Microsoft.Extensions.Localization.LocalizedString format, params object[] args);
+public static string FormatUi(this string format, params object[] args);
 ```
 #### Parameters
 
-<a name='Xecrets.Texts.Extensions.FormatUi(thisMicrosoft.Extensions.Localization.LocalizedString,object[]).format'></a>
+<a name='Xecrets.Texts.Extensions.FormatUi(thisstring,object[]).format'></a>
 
-`format` [Microsoft.Extensions.Localization.LocalizedString](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.localization.localizedstring 'Microsoft.Extensions.Localization.LocalizedString')
+`format` [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')
 
 The raw localized menu string.
 
-<a name='Xecrets.Texts.Extensions.FormatUi(thisMicrosoft.Extensions.Localization.LocalizedString,object[]).args'></a>
+<a name='Xecrets.Texts.Extensions.FormatUi(thisstring,object[]).args'></a>
 
 `args` [System.Object](https://learn.microsoft.com/en-us/dotnet/api/system.object 'System.Object')[[]](https://learn.microsoft.com/en-us/dotnet/api/system.array 'System.Array')
 
@@ -137,30 +137,30 @@ File names to filter
 [System.Collections.Generic.IEnumerable&lt;](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1 'System.Collections.Generic.IEnumerable`1')[System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')[&gt;](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1 'System.Collections.Generic.IEnumerable`1')  
 An enumeration of the files that do not match the pattern for encrypted files.
 
-<a name='Xecrets.Texts.Extensions.PluralFormatUi(thisMicrosoft.Extensions.Localization.LocalizedString,int,object[])'></a>
+<a name='Xecrets.Texts.Extensions.PluralFormatUi(thisstring,int,object[])'></a>
 
-## Extensions.PluralFormatUi(this LocalizedString, int, object[]) Method
+## Extensions.PluralFormatUi(this string, int, object[]) Method
 
-Formats a pipe-delimited plural [Microsoft.Extensions.Localization.LocalizedString](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.localization.localizedstring 'Microsoft.Extensions.Localization.LocalizedString') by selecting the segment matching [n](Xecrets.Texts.Extensions.md#Xecrets.Texts.Extensions.PluralFormatUi(thisMicrosoft.Extensions.Localization.LocalizedString,int,object[]).n 'Xecrets.Texts.Extensions.PluralFormatUi(this Microsoft.Extensions.Localization.LocalizedString, int, object[]).n')/>.
+Formats a pipe-delimited plural string by selecting the segment matching [n](Xecrets.Texts.Extensions.md#Xecrets.Texts.Extensions.PluralFormatUi(thisstring,int,object[]).n 'Xecrets.Texts.Extensions.PluralFormatUi(this string, int, object[]).n')/>.
 
 ```csharp
-public static string PluralFormatUi(this Microsoft.Extensions.Localization.LocalizedString format, int n, params object[] args);
+public static string PluralFormatUi(this string format, int n, params object[] args);
 ```
 #### Parameters
 
-<a name='Xecrets.Texts.Extensions.PluralFormatUi(thisMicrosoft.Extensions.Localization.LocalizedString,int,object[]).format'></a>
+<a name='Xecrets.Texts.Extensions.PluralFormatUi(thisstring,int,object[]).format'></a>
 
-`format` [Microsoft.Extensions.Localization.LocalizedString](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.localization.localizedstring 'Microsoft.Extensions.Localization.LocalizedString')
+`format` [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')
 
 The raw localized menu string.
 
-<a name='Xecrets.Texts.Extensions.PluralFormatUi(thisMicrosoft.Extensions.Localization.LocalizedString,int,object[]).n'></a>
+<a name='Xecrets.Texts.Extensions.PluralFormatUi(thisstring,int,object[]).n'></a>
 
 `n` [System.Int32](https://learn.microsoft.com/en-us/dotnet/api/system.int32 'System.Int32')
 
 The count that selects the plural form. Negative values return an empty string.
 
-<a name='Xecrets.Texts.Extensions.PluralFormatUi(thisMicrosoft.Extensions.Localization.LocalizedString,int,object[]).args'></a>
+<a name='Xecrets.Texts.Extensions.PluralFormatUi(thisstring,int,object[]).args'></a>
 
 `args` [System.Object](https://learn.microsoft.com/en-us/dotnet/api/system.object 'System.Object')[[]](https://learn.microsoft.com/en-us/dotnet/api/system.array 'System.Array')
 
@@ -168,23 +168,23 @@ Additional format arguments.
 
 #### Returns
 [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')  
-The formatted plural string, or [System.String.Empty](https://learn.microsoft.com/en-us/dotnet/api/system.string.empty 'System.String.Empty') when [n](Xecrets.Texts.Extensions.md#Xecrets.Texts.Extensions.PluralFormatUi(thisMicrosoft.Extensions.Localization.LocalizedString,int,object[]).n 'Xecrets.Texts.Extensions.PluralFormatUi(this Microsoft.Extensions.Localization.LocalizedString, int, object[]).n') is negative.
+The formatted plural string, or [System.String.Empty](https://learn.microsoft.com/en-us/dotnet/api/system.string.empty 'System.String.Empty') when [n](Xecrets.Texts.Extensions.md#Xecrets.Texts.Extensions.PluralFormatUi(thisstring,int,object[]).n 'Xecrets.Texts.Extensions.PluralFormatUi(this string, int, object[]).n') is negative.
 
-<a name='Xecrets.Texts.Extensions.StripAccelerator(thisMicrosoft.Extensions.Localization.LocalizedString)'></a>
+<a name='Xecrets.Texts.Extensions.StripAccelerator(thisstring)'></a>
 
-## Extensions.StripAccelerator(this LocalizedString) Method
+## Extensions.StripAccelerator(this string) Method
 
 Strips accelerator underscores from a localized menu string, keeping any ellipsis. Use for text that is
 displayed outside of a menu, but still triggers a dialog or a further selection, such as a tool bar button.
 
 ```csharp
-public static string StripAccelerator(this Microsoft.Extensions.Localization.LocalizedString format);
+public static string StripAccelerator(this string format);
 ```
 #### Parameters
 
-<a name='Xecrets.Texts.Extensions.StripAccelerator(thisMicrosoft.Extensions.Localization.LocalizedString).format'></a>
+<a name='Xecrets.Texts.Extensions.StripAccelerator(thisstring).format'></a>
 
-`format` [Microsoft.Extensions.Localization.LocalizedString](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.localization.localizedstring 'Microsoft.Extensions.Localization.LocalizedString')
+`format` [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')
 
 The raw localized menu string.
 
@@ -213,7 +213,7 @@ public static string StripEllipsis(this string text);
 
 `text` [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')
 
-The text to strip the ellipsis from, typically the result of [StripAccelerator(this LocalizedString)](Xecrets.Texts.Extensions.md#Xecrets.Texts.Extensions.StripAccelerator(thisMicrosoft.Extensions.Localization.LocalizedString) 'Xecrets.Texts.Extensions.StripAccelerator(this Microsoft.Extensions.Localization.LocalizedString)').
+The text to strip the ellipsis from, typically the result of [StripAccelerator(this string)](Xecrets.Texts.Extensions.md#Xecrets.Texts.Extensions.StripAccelerator(thisstring) 'Xecrets.Texts.Extensions.StripAccelerator(this string)').
 
 #### Returns
 [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')  
@@ -246,3 +246,30 @@ The full path to an optional destination folder. Set to empty string if same as 
 #### Returns
 [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')  
 The suggested name for it when encrypted.
+
+<a name='Xecrets.Texts.Extensions.ToSite(thisstring,bool)'></a>
+
+## Extensions.ToSite(this string, bool) Method
+
+Rewrites a production URL to point to either the production or test site.
+
+```csharp
+public static string ToSite(this string url, bool useTestSite);
+```
+#### Parameters
+
+<a name='Xecrets.Texts.Extensions.ToSite(thisstring,bool).url'></a>
+
+`url` [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')
+
+The URL, must be rooted at `https://www.axantum.com`.
+
+<a name='Xecrets.Texts.Extensions.ToSite(thisstring,bool).useTestSite'></a>
+
+`useTestSite` [System.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean 'System.Boolean')
+
+If [true](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool 'https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/bool'), rewrites to the test site; otherwise uses the production site.
+
+#### Returns
+[System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')  
+The rewritten URL.

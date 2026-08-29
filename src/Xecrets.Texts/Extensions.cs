@@ -1,4 +1,4 @@
-#region Copyright and License
+﻿#region Copyright and License
 
 /*
  * Xecrets Texts - Copyright © 2022-2026, Svante Seleborg, All Rights Reserved.
@@ -51,7 +51,7 @@ public static partial class Extensions
     [PublicAPI]
     public static string[] Encrypted(this IEnumerable<string> files)
     {
-        return files.Where(IsEncrypted).ToArray();
+        return [.. files.Where(IsEncrypted)];
     }
 
     /// <summary>
@@ -123,17 +123,20 @@ public static partial class Extensions
     private static partial Regex TrailingNumberInParenthesis();
 
     /// <summary>
-    /// Formats a <see cref="LocalizedString"/> using <see cref="CultureInfo.CurrentCulture"/>.
+    /// Formats a string using <see cref="CultureInfo.CurrentCulture"/>.
     /// </summary>
     /// <param name="args">Format arguments passed to <see cref="string.Format(IFormatProvider, string, object[])"/>.</param>
     /// <param name="format">The raw localized menu string.</param>
     /// <returns>The formatted string.</returns>
     [PublicAPI]
-    public static string FormatUi(this LocalizedString format, params object[] args) =>
-        string.Format(CultureInfo.CurrentCulture, format.Value, args);
+    public static string FormatUi(this string format, params object[] args) =>
+        string.Format(CultureInfo.CurrentCulture, format, args);
+
+    internal static string FormatUi(this LocalizedString format, params object[] args) =>
+        format.Value.FormatUi(args);
 
     /// <summary>
-    /// Formats a pipe-delimited plural <see cref="LocalizedString"/> by selecting the segment matching <paramref name="n">,
+    /// Formats a pipe-delimited plural string by selecting the segment matching <paramref name="n">,
     /// typically 0, 1 or 2. If n > number of segments, the last one is chosen.</paramref>/>.
     /// </summary>
     /// <param name="n">The count that selects the plural form. Negative values return an empty string.</param>
@@ -141,17 +144,20 @@ public static partial class Extensions
     /// <param name="format">The raw localized menu string.</param>
     /// <returns>The formatted plural string, or <see cref="string.Empty"/> when <paramref name="n"/> is negative.</returns>
     [PublicAPI]
-    public static string PluralFormatUi(this LocalizedString format, int n, params object[] args)
+    public static string PluralFormatUi(this string format, int n, params object[] args)
     {
         if (n < 0)
         {
             return string.Empty;
         }
 
-        string[] formats = format.Value.Split('|');
+        string[] formats = format.Split('|');
         return string.Format(CultureInfo.CurrentCulture, formats[n < formats.Length ? n : formats.Length - 1], n,
             args);
     }
+
+    internal static string PluralFormatUi(this LocalizedString format, int n, params object[] args) =>
+        format.Value.PluralFormatUi(n, args);
 
     /// <summary>
     /// Strips accelerator underscores from a localized menu string, keeping any ellipsis. Use for text that is
@@ -164,7 +170,9 @@ public static partial class Extensions
     /// that is carried out immediately, i.e. where nothing further follows.
     /// </remarks>
     [PublicAPI]
-    public static string StripAccelerator(this LocalizedString format) => format.Value.Replace("_", string.Empty);
+    public static string StripAccelerator(this string format) => format.Replace("_", string.Empty);
+
+    internal static string StripAccelerator(this LocalizedString format) => format.Value.StripAccelerator();
 
     /// <summary>
     /// Strips ellipsis, both the single character and the three period variant, from a text. Use for text that is
@@ -172,7 +180,7 @@ public static partial class Extensions
     /// dialog or a further selection follows.
     /// </summary>
     /// <param name="text">The text to strip the ellipsis from, typically the result of <see
-    /// cref="StripAccelerator(LocalizedString)"/>.</param>
+    /// cref="StripAccelerator(string)"/>.</param>
     /// <returns>The text without any ellipsis.</returns>
     [PublicAPI]
     public static string StripEllipsis(this string text) =>
@@ -192,10 +200,22 @@ public static partial class Extensions
                                 DebugDevServer.IsDevServerRunning
                 ? "http://localhost:3000"
                 : "https://test.axantum.com";
-            return url.Replace("https://www.axantum.com", testServer);
+            return WebsiteUrlMapper.ToSite(url, testServer);
         }
 
         return url;
+    }
+
+    /// <summary>
+    /// Rewrites a production URL to point to either the production or test site.
+    /// </summary>
+    /// <param name="url">The URL, must be rooted at <c>https://www.axantum.com</c>.</param>
+    /// <param name="useTestSite">If <see langword="true"/>, rewrites to the test site; otherwise uses the production site.</param>
+    /// <returns>The rewritten URL.</returns>
+    [PublicAPI]
+    public static string ToSite(this string url, bool useTestSite)
+    {
+        return WebsiteUrlMapper.ToSite(url, useTestSite);
     }
 
     /// <summary>

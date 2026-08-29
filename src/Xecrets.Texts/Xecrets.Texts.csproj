@@ -37,6 +37,7 @@
     <IsAotCompatible>true</IsAotCompatible>
     <LangVersion>default</LangVersion>
     <Platforms>AnyCPU;x64;ARM64</Platforms>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
@@ -50,14 +51,12 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <WarningLevel>9999</WarningLevel>
     <IsTrimmable>True</IsTrimmable>
-    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <WarningLevel>9999</WarningLevel>
     <IsTrimmable>True</IsTrimmable>
-    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
