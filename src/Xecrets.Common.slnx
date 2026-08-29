@@ -1,0 +1,21 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path="../.gitignore" />
+    <File Path="../extract-en-us-source-po.ps1" />
+    <File Path="../extract-po-files.cmd" />
+    <File Path="../LICENSE" />
+    <File Path="global.json" />
+  </Folder>
+  <Project Path="../../xecrets-localization/src/Xecrets.Localization/Xecrets.Localization.csproj" />
+  <Project Path="Xecrets.Common.Test/Xecrets.Common.Test.csproj" />
+  <Project Path="Xecrets.Common/Xecrets.Common.csproj" />
+  <Project Path="Xecrets.Texts/Xecrets.Texts.csproj">
+    <Platform Solution="*|ARM64" Project="ARM64" />
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+</Solution>
