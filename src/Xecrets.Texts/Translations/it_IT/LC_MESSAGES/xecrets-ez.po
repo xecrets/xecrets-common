@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Xecrets Ez\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-08 08:19+0200\n"
-"PO-Revision-Date: 2026-08-29 10:05+0200\n"
+"PO-Revision-Date: 2026-08-29 14:11+0200\n"
 "Last-Translator: Svante Seleborg\n"
 "Language-Team: Italian (Italy)\n"
 "Language: it-IT\n"
@@ -14,7 +14,6 @@ msgstr ""
 "X-Generator: Loco https://localise.biz\n"
 "X-Loco-Source-Locale: en-US\n"
 "X-Loco-Project-Id: 158107\n"
-"X-Loco-Tagged: updated\n"
 "X-Loco-Lookup: id\n"
 "X-Loco-Api-Version: 1.0.29 20260822-1"
 
@@ -66,13 +65,13 @@ msgstr "Vai!"
 msgid "ButtonLicense"
 msgstr "Licenza"
 
-#. The text in a button that causes a 'No'-response, i.e. "No". [ButtonNo]
+#. The text in a button that causes a "No"-response, i.e. "No". [ButtonNo]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3c8
 #| msgid "_No"
 msgid "ButtonNo"
 msgstr "_No"
 
-#. The text in a button that says 'OK', i.e. "Ok". [ButtonOk]
+#. The text in a button that says "OK", i.e. "Ok". [ButtonOk]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3c9
 #| msgid "_Ok"
 msgid "ButtonOk"
@@ -102,7 +101,7 @@ msgstr "_Riprova"
 msgid "ButtonSaveAs"
 msgstr "Salva con nome…"
 
-#. The text in a button that causes a 'Yes'-response, i.e. "Yes". [ButtonYes]
+#. The text in a button that causes a "Yes"-response, i.e. "Yes". [ButtonYes]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3cd
 #| msgid "_Yes"
 msgid "ButtonYes"
@@ -112,15 +111,15 @@ msgstr "_Sì"
 #: Resources.resx loco:69f7310c4779aa23dc088c42
 #, icu-format
 #| msgid ""
-#| "Warning! Version {0} of Xecrets Cli found at '{1}' does not match the "
+#| "Warning! Version {0} of Xecrets Cli found at \"{1}\" does not match the "
 #| "version {2} of Xecrets Ez. This is not recommended since it may cause "
 #| "problems.\n"
 #| "\n"
 #| "Would you like to view a help page with more information?"
 msgid "CliVersionMismatchWarning"
 msgstr ""
-"Avviso! La versione {0} di Xecrets Cli trovata in '{1}' non corrisponde alla "
-"versione {2} di Xecrets Ez. Non è consigliato, poiché potrebbe causare "
+"Avviso! La versione {0} di Xecrets Cli trovata in \"{1}\" non corrisponde "
+"alla versione {2} di Xecrets Ez. Non è consigliato, poiché potrebbe causare "
 "problemi.\n"
 "\n"
 "Vuoi visualizzare una pagina della guida con ulteriori informazioni?"
@@ -195,7 +194,7 @@ msgstr "Salva nelle impostazioni"
 msgid "DialogTextAddPassword"
 msgstr "Aggiungi password di decrittazione"
 
-#. A text used in a file selection dialog for the file pattern '*'. [DialogTextAllFiles]
+#. A text used in a file selection dialog for the file pattern "*". [DialogTextAllFiles]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3d4
 #| msgid "All files"
 msgid "DialogTextAllFiles"
@@ -205,12 +204,12 @@ msgstr "Tutti i file"
 #: Resources.resx loco:670e1cf615d80a27bc0eb3d5
 #, icu-format
 #| msgid ""
-#| "Incompatible Xecrets Cli found at '{0}' with API version {1}, but version "
-#| "{2}.[>={3}] is required.\\n\\nUpdate Xecrets Cli, or remove it and use "
-#| "the one included in the app."
+#| "Incompatible Xecrets Cli found at \"{0}\" with API version {1}, but "
+#| "version {2}.[>={3}] is required.\\n\\nUpdate Xecrets Cli, or remove it "
+#| "and use the one included in the app."
 msgid "DialogTextCliApiVersionError"
 msgstr ""
-"Trovato Xecrets Cli incompatibile in '{0}' con la versione API {1}, ma è "
+"Trovato Xecrets Cli incompatibile in \"{0}\" con la versione API {1}, ma è "
 "richiesta la versione {2}.[>={3}].\\n\\nAggiorna Xecrets Cli, oppure "
 "rimuovilo e utilizza la versione inclusa nell'app."
 
@@ -243,7 +242,7 @@ msgstr ""
 "Utilizza il tasto {0} per decrittografare un singolo file, altrimenti verrà "
 "aperto."
 
-#. A text used in a file selection dialog for the file pattern '*.axx'. [DialogTextEncryptedFiles]
+#. A text used in a file selection dialog for the file pattern "*.axx". [DialogTextEncryptedFiles]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3d8
 #| msgid "Encrypted files"
 msgid "DialogTextEncryptedFiles"
@@ -406,19 +405,19 @@ msgstr "In esecuzione da unità rimovibile!"
 msgid "DialogTitleSelectDestinationFolder"
 msgstr "Seleziona cartella di destinazione"
 
-#. The title of a file selection dialog for selecting a file to open, i.e. 'Select files to open'. [DialogTitleSelectFileToOpen]
+#. The title of a file selection dialog for selecting a file to open, i.e. "Select files to open". [DialogTitleSelectFileToOpen]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3e5
 #| msgid "Select file to open"
 msgid "DialogTitleSelectFileToOpen"
 msgstr "Seleziona file da aprire"
 
-#. The title of a file selection dialog for selecting files to decrypt, i.e. 'Select files to decrypt'. [DialogTitleSelectFilesToDecrypt]
+#. The title of a file selection dialog for selecting files to decrypt, i.e. "Select files to decrypt". [DialogTitleSelectFilesToDecrypt]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3e6
 #| msgid "Select files to decrypt"
 msgid "DialogTitleSelectFilesToDecrypt"
 msgstr "Seleziona i file da decrittografare"
 
-#. The title of a file selection dialog for selecting files to encrypt, i.e. 'Select files to encrypt'. [DialogTitleSelectFilesToEncrypt]
+#. The title of a file selection dialog for selecting files to encrypt, i.e. "Select files to encrypt". [DialogTitleSelectFilesToEncrypt]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3e7
 #| msgid "Select files to encrypt"
 msgid "DialogTitleSelectFilesToEncrypt"
@@ -430,7 +429,7 @@ msgstr "Seleziona i file da crittografare"
 msgid "DialogTitleSelectFilesToReEncrypt"
 msgstr "Seleziona i file da ricriptare"
 
-#. The title of a file selection dialog for selecting files to wipe, i.e. 'Select files to wipe'. [DialogTitleSelectFilesToWipe]
+#. The title of a file selection dialog for selecting files to wipe, i.e. "Select files to wipe". [DialogTitleSelectFilesToWipe]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3e9
 #| msgid "Select files to wipe"
 msgid "DialogTitleSelectFilesToWipe"
@@ -609,7 +608,7 @@ msgstr "Il PIN PIV ha il valore predefinito 123456, dovrebbe essere cambiato!"
 msgid "DialogYubiKeyPinRequired"
 msgstr "Questo YubiKey e il PIN sono necessari per accedere."
 
-#. An informational message displayed about what slot will be used. '{0}' will be filled with the actual slot in question. [DialogYubiKeyPivSlotUsedFormat]
+#. An informational message displayed about what slot will be used. "{0}" will be filled with the actual slot in question. [DialogYubiKeyPivSlotUsedFormat]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3ff
 #, icu-format
 #| msgid "PIV slot {0} is currently used or possible to use."
@@ -815,11 +814,11 @@ msgstr "Il segreto"
 #: Resources.resx loco:670e1cf615d80a27bc0eb411
 #, icu-format
 #| msgid ""
-#| "License '{product}' for {licensee} is not valid for this software. Free "
+#| "License \"{product}\" for {licensee} is not valid for this software. Free "
 #| "version, some features unavailable.\\nSee https://www.axantum.com/ ."
 msgid "LicenseNotValidForProductBlurb"
 msgstr ""
-"La licenza '{product}' per {licensee} non è valida per questo software. "
+"La licenza \"{product}\" per {licensee} non è valida per questo software. "
 "Versione gratuita, alcune funzionalità non disponibili. Vedi https://www."
 "axantum.com/ ."
 
@@ -1015,7 +1014,7 @@ msgstr "_Guide video…"
 msgid "MenuInactivityExit"
 msgstr "_Esci dopo inattività…"
 
-#. A menu entry for selecting 'Never' as the choice for inactivity timeout [MenuInactivityNever]
+#. A menu entry for selecting "Never" as the choice for inactivity timeout [MenuInactivityNever]
 #: Resources.resx loco:671258cbbd9b193153086463
 #| msgid "Never"
 msgid "MenuInactivityNever"
@@ -1197,11 +1196,12 @@ msgstr "I file non possono essere chiusi e rimangono aperti!"
 #. A message displayed when a multi-file operation was canceled, {0} is the full name of the file that was interrupted. [OperationCanceledFormat]
 #: Resources.resx loco:670e1cf615d80a27bc0eb43c
 #, icu-format
-#| msgid "Operation was canceled during processing of '{0}'. Check and verify!"
+#| msgid ""
+#| "Operation was canceled during processing of \"{0}\". Check and verify!"
 msgid "OperationCanceledFormat"
 msgstr ""
-"L'operazione è stata annullata durante l'elaborazione di '{0}'. Controlla e "
-"verifica!"
+"L'operazione è stata annullata durante l'elaborazione di \"{0}\". Controlla "
+"e verifica!"
 
 #. A text shown as a placeholder when loading things takes time in a window, i.e. "Loading…". [PlaceholderLoading]
 #: Resources.resx loco:670e1cf615d80a27bc0eb43d

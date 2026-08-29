@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-29 09:49+0200\n"
+"POT-Creation-Date: 2026-08-29 01:56+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -57,13 +57,13 @@ msgstr "Go!"
 msgid "ButtonLicense"
 msgstr "License"
 
-#. The text in a button that causes a 'No'-response, i.e. "No". [ButtonNo]
+#. The text in a button that causes a "No"-response, i.e. "No". [ButtonNo]
 #: Resources.resx
 #, new
 msgid "ButtonNo"
 msgstr "_No"
 
-#. The text in a button that says 'OK', i.e. "Ok". [ButtonOk]
+#. The text in a button that says "OK", i.e. "Ok". [ButtonOk]
 #: Resources.resx
 #, new
 msgid "ButtonOk"
@@ -93,7 +93,7 @@ msgstr "_Retry"
 msgid "ButtonSaveAs"
 msgstr "Save As…"
 
-#. The text in a button that causes a 'Yes'-response, i.e. "Yes". [ButtonYes]
+#. The text in a button that causes a "Yes"-response, i.e. "Yes". [ButtonYes]
 #: Resources.resx
 #, new
 msgid "ButtonYes"
@@ -104,8 +104,8 @@ msgstr "_Yes"
 #, new
 msgid "CliVersionMismatchWarning"
 msgstr ""
-"Warning! Version {0} of Xecrets Cli found at '{1}' does not match the version "
-"{2} of Xecrets Ez. This is not recommended since it may cause "
+"Warning! Version {0} of Xecrets Cli found at \"{1}\" does not match the "
+"version {2} of Xecrets Ez. This is not recommended since it may cause "
 "problems.\n"
 "\n"
 "Would you like to view a help page with more information?"
@@ -174,7 +174,7 @@ msgstr "Save in settings"
 msgid "DialogTextAddPassword"
 msgstr "Add a decryption password"
 
-#. A text used in a file selection dialog for the file pattern '*'. [DialogTextAllFiles]
+#. A text used in a file selection dialog for the file pattern "*". [DialogTextAllFiles]
 #: Resources.resx
 #, new
 msgid "DialogTextAllFiles"
@@ -185,7 +185,7 @@ msgstr "All files"
 #, new
 msgid "DialogTextCliApiVersionError"
 msgstr ""
-"Incompatible Xecrets Cli found at '{0}' with API version {1}, but version "
+"Incompatible Xecrets Cli found at \"{0}\" with API version {1}, but version "
 "{2}.[>={3}] is required.\\n\\nUpdate Xecrets Cli, or remove it and use the "
 "one included in the app."
 
@@ -211,7 +211,7 @@ msgstr ""
 "Drop or paste files here to encrypt or decrypt them. Use keyboard {0} button "
 "to decrypt a single file, otherwise it opens."
 
-#. A text used in a file selection dialog for the file pattern '*.axx'. [DialogTextEncryptedFiles]
+#. A text used in a file selection dialog for the file pattern "*.axx". [DialogTextEncryptedFiles]
 #: Resources.resx
 #, new
 msgid "DialogTextEncryptedFiles"
@@ -348,19 +348,19 @@ msgstr "Running from removable drive!"
 msgid "DialogTitleSelectDestinationFolder"
 msgstr "Select destination folder"
 
-#. The title of a file selection dialog for selecting a file to open, i.e. 'Select files to open'. [DialogTitleSelectFileToOpen]
+#. The title of a file selection dialog for selecting a file to open, i.e. "Select files to open". [DialogTitleSelectFileToOpen]
 #: Resources.resx
 #, new
 msgid "DialogTitleSelectFileToOpen"
 msgstr "Select file to open"
 
-#. The title of a file selection dialog for selecting files to decrypt, i.e. 'Select files to decrypt'. [DialogTitleSelectFilesToDecrypt]
+#. The title of a file selection dialog for selecting files to decrypt, i.e. "Select files to decrypt". [DialogTitleSelectFilesToDecrypt]
 #: Resources.resx
 #, new
 msgid "DialogTitleSelectFilesToDecrypt"
 msgstr "Select files to decrypt"
 
-#. The title of a file selection dialog for selecting files to encrypt, i.e. 'Select files to encrypt'. [DialogTitleSelectFilesToEncrypt]
+#. The title of a file selection dialog for selecting files to encrypt, i.e. "Select files to encrypt". [DialogTitleSelectFilesToEncrypt]
 #: Resources.resx
 #, new
 msgid "DialogTitleSelectFilesToEncrypt"
@@ -372,7 +372,7 @@ msgstr "Select files to encrypt"
 msgid "DialogTitleSelectFilesToReEncrypt"
 msgstr "Select files to re-encrypt"
 
-#. The title of a file selection dialog for selecting files to wipe, i.e. 'Select files to wipe'. [DialogTitleSelectFilesToWipe]
+#. The title of a file selection dialog for selecting files to wipe, i.e. "Select files to wipe". [DialogTitleSelectFilesToWipe]
 #: Resources.resx
 #, new
 msgid "DialogTitleSelectFilesToWipe"
@@ -534,7 +534,7 @@ msgstr "The PIV PIN has it's default value 123456, it should be changed!"
 msgid "DialogYubiKeyPinRequired"
 msgstr "This YubiKey and the PIN is required to sign in."
 
-#. An informational message displayed about what slot will be used. '{0}' will be filled with the actual slot in question. [DialogYubiKeyPivSlotUsedFormat]
+#. An informational message displayed about what slot will be used. "{0}" will be filled with the actual slot in question. [DialogYubiKeyPivSlotUsedFormat]
 #: Resources.resx
 #, new
 msgid "DialogYubiKeyPivSlotUsedFormat"
@@ -711,7 +711,7 @@ msgstr "The secret"
 #, new
 msgid "LicenseNotValidForProductBlurb"
 msgstr ""
-"License '{product}' for {licensee} is not valid for this software. Free "
+"License \"{product}\" for {licensee} is not valid for this software. Free "
 "version, some features unavailable.\\nSee https://www.axantum.com/ ."
 
 #. A text fragment appearing in the about window, informing that there is a currently valid license. [LicensedBlurb]
@@ -902,7 +902,7 @@ msgstr "_Video guides…"
 msgid "MenuInactivityExit"
 msgstr "_Exit after inactivity…"
 
-#. A menu entry for selecting 'Never' as the choice for inactivity timeout [MenuInactivityNever]
+#. A menu entry for selecting "Never" as the choice for inactivity timeout [MenuInactivityNever]
 #: Resources.resx
 #, new
 msgid "MenuInactivityNever"
@@ -1078,7 +1078,7 @@ msgstr "File(s) couldn't be closed and remain open!"
 #: Resources.resx
 #, new
 msgid "OperationCanceledFormat"
-msgstr "Operation was canceled during processing of '{0}'. Check and verify!"
+msgstr "Operation was canceled during processing of \"{0}\". Check and verify!"
 
 #. A text shown as a placeholder when loading things takes time in a window, i.e. "Loading…". [PlaceholderLoading]
 #: Resources.resx

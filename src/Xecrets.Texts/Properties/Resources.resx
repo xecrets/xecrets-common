@@ -211,11 +211,11 @@
   </data>
   <data name="ButtonOk" xml:space="preserve">
     <value>_Ok</value>
-    <comment>The text in a button that says 'OK', i.e. "Ok".</comment>
+    <comment>The text in a button that says "OK", i.e. "Ok".</comment>
   </data>
   <data name="DialogTextAllFiles" xml:space="preserve">
     <value>All files</value>
-    <comment>A text used in a file selection dialog for the file pattern '*'.</comment>
+    <comment>A text used in a file selection dialog for the file pattern "*".</comment>
   </data>
   <data name="DialogTextDowngradedVersionWarning" xml:space="preserve">
     <value>You seem to have downgraded to an older version. This can happen if multiple versions are installed. Do you really want to continue with this version?</value>
@@ -223,7 +223,7 @@
   </data>
   <data name="DialogTextEncryptedFiles" xml:space="preserve">
     <value>Encrypted files</value>
-    <comment>A text used in a file selection dialog for the file pattern '*.axx'.</comment>
+    <comment>A text used in a file selection dialog for the file pattern "*.axx".</comment>
   </data>
   <data name="DialogValidationConfirmPassword" xml:space="preserve">
     <value>Please confirm the password again</value>
@@ -239,15 +239,15 @@
   </data>
   <data name="DialogTitleSelectFilesToDecrypt" xml:space="preserve">
     <value>Select files to decrypt</value>
-    <comment>The title of a file selection dialog for selecting files to decrypt, i.e. 'Select files to decrypt'.</comment>
+    <comment>The title of a file selection dialog for selecting files to decrypt, i.e. "Select files to decrypt".</comment>
   </data>
   <data name="DialogTitleSelectFilesToEncrypt" xml:space="preserve">
     <value>Select files to encrypt</value>
-    <comment>The title of a file selection dialog for selecting files to encrypt, i.e. 'Select files to encrypt'.</comment>
+    <comment>The title of a file selection dialog for selecting files to encrypt, i.e. "Select files to encrypt".</comment>
   </data>
   <data name="DialogTitleSelectFileToOpen" xml:space="preserve">
     <value>Select file to open</value>
-    <comment>The title of a file selection dialog for selecting a file to open, i.e. 'Select files to open'.</comment>
+    <comment>The title of a file selection dialog for selecting a file to open, i.e. "Select files to open".</comment>
   </data>
   <data name="MenuClose" xml:space="preserve">
     <value>_Close all</value>
@@ -283,11 +283,11 @@
   </data>
   <data name="ButtonNo" xml:space="preserve">
     <value>_No</value>
-    <comment>The text in a button that causes a 'No'-response, i.e. "No".</comment>
+    <comment>The text in a button that causes a "No"-response, i.e. "No".</comment>
   </data>
   <data name="ButtonYes" xml:space="preserve">
     <value>_Yes</value>
-    <comment>The text in a button that causes a 'Yes'-response, i.e. "Yes".</comment>
+    <comment>The text in a button that causes a "Yes"-response, i.e. "Yes".</comment>
   </data>
   <data name="LicensedBlurb" xml:space="preserve">
     <value>License for {licensee} valid to {expiration}, thank you!</value>
@@ -298,7 +298,7 @@
     <comment>A text fragment appearing in the about window, informing that there is a previously valid license, now expired.</comment>
   </data>
   <data name="LicenseNotValidForProductBlurb" xml:space="preserve">
-    <value>License '{product}' for {licensee} is not valid for this software. Free version, some features unavailable.\nSee https://www.axantum.com/ .</value>
+    <value>License "{product}" for {licensee} is not valid for this software. Free version, some features unavailable.\nSee https://www.axantum.com/ .</value>
     <comment>A text fragment appearing in the about window, informing that the license is not valid for Ez.</comment>
   </data>
   <data name="UnlicensedBlurb" xml:space="preserve">
@@ -369,7 +369,7 @@ Please buy a license. See https://www.axantum.com/ .</value>
   </data>
   <data name="DialogTitleSelectFilesToWipe" xml:space="preserve">
     <value>Select files to wipe</value>
-    <comment>The title of a file selection dialog for selecting files to wipe, i.e. 'Select files to wipe'.</comment>
+    <comment>The title of a file selection dialog for selecting files to wipe, i.e. "Select files to wipe".</comment>
   </data>
   <data name="MenuWipe" xml:space="preserve">
     <value>_Delete securely…</value>
@@ -626,7 +626,7 @@ It's not free, but it's not expensive either and totally worth it we think!</val
   </data>
   <data name="DialogYubiKeyPivSlotUsedFormat" xml:space="preserve">
     <value>PIV slot {0} is currently used or possible to use.</value>
-    <comment>An informational message displayed about what slot will be used. '{0}' will be filled with the actual slot in question.</comment>
+    <comment>An informational message displayed about what slot will be used. "{0}" will be filled with the actual slot in question.</comment>
   </data>
   <data name="DialogYubiKeyTouchPrompt" xml:space="preserve">
     <value>Please touch the YubiKey…</value>
@@ -733,7 +733,7 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>A watermark for entering sharing passwords</comment>
   </data>
   <data name="DialogTextCliApiVersionError" xml:space="preserve">
-    <value>Incompatible Xecrets Cli found at '{0}' with API version {1}, but version {2}.[&gt;={3}] is required.\n\nUpdate Xecrets Cli, or remove it and use the one included in the app.</value>
+    <value>Incompatible Xecrets Cli found at "{0}" with API version {1}, but version {2}.[&gt;={3}] is required.\n\nUpdate Xecrets Cli, or remove it and use the one included in the app.</value>
     <comment>Error message for incompatible Cli API. {0} is the full path to the Cli Tool, {1} is the Cli Tool API version, {2} is the SDK API Major version, and {3} is the minor version.</comment>
   </data>
   <data name="ExpirationCheckPurchaseWarning" xml:space="preserve">
@@ -761,7 +761,7 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>A message displayed as user feedback when an operation was canceled.</comment>
   </data>
   <data name="OperationCanceledFormat" xml:space="preserve">
-    <value>Operation was canceled during processing of '{0}'. Check and verify!</value>
+    <value>Operation was canceled during processing of "{0}". Check and verify!</value>
     <comment>A message displayed when a multi-file operation was canceled, {0} is the full name of the file that was interrupted.</comment>
   </data>
   <data name="ToolTipGetLicenseNoCard" xml:space="preserve">
@@ -794,7 +794,7 @@ It's not free, but it's not expensive either and totally worth it we think!</val
   </data>
   <data name="MenuInactivityNever" xml:space="preserve">
     <value>Never</value>
-    <comment>A menu entry for selecting 'Never' as the choice for inactivity timeout</comment>
+    <comment>A menu entry for selecting "Never" as the choice for inactivity timeout</comment>
   </data>
   <data name="MenuInactivityTimeoutValueFormat" xml:space="preserve">
     <value>{0} minutes</value>
@@ -1015,7 +1015,7 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <comment>A warning message stating that the VC++ redistributable is missing, and providing a link to download it.</comment>
   </data>
   <data name="CliVersionMismatchWarning" xml:space="preserve">
-    <value>Warning! Version {0} of Xecrets Cli found at '{1}' does not match the version {2} of Xecrets Ez. This is not recommended since it may cause problems.
+    <value>Warning! Version {0} of Xecrets Cli found at "{1}" does not match the version {2} of Xecrets Ez. This is not recommended since it may cause problems.
 
 Would you like to view a help page with more information?</value>
     <comment>A warning shown when the discovered Cli version does not exactly match Ez. {0} is Cli version, {1} is full Cli path, {2} is Ez version.</comment>
