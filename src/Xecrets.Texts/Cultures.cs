@@ -34,7 +34,6 @@ public sealed class Cultures
 {
     private readonly Dictionary<string, string> _cultures = new()
     {
-        ["zh-CN"] = Texts.MenuSimplifiedChinese,
         ["en-US"] = Texts.MenuEnglish,
         ["de-DE"] = Texts.MenuGerman,
         ["es-ES"] = Texts.MenuSpanish,
@@ -43,6 +42,7 @@ public sealed class Cultures
         ["pl-PL"] = Texts.MenuPolish,
         ["pt-BR"] = Texts.MenuPortugueseBrasil,
         ["sv-SE"] = Texts.MenuSwedish,
+        ["zh-CN"] = Texts.MenuSimplifiedChinese,
     };
 
     private readonly Func<string> _formattingCultureName;
