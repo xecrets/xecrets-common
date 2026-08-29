@@ -30,7 +30,7 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <DefaultDocumentationGeneratedAccessModifiers>Public</DefaultDocumentationGeneratedAccessModifiers>
     <Nullable>enable</Nullable>
-    <RepositoryUrl>https://github.com/xecrets/xecrets-texts</RepositoryUrl>
+    <RepositoryUrl>https://github.com/xecrets/xecrets-common</RepositoryUrl>
     <LangVersion>default</LangVersion>
     <Platforms>AnyCPU;x64;ARM64</Platforms>
     <GenerateAssemblyInfo>False</GenerateAssemblyInfo>

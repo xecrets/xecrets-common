@@ -31,7 +31,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/xecrets/xecrets-texts</RepositoryUrl>
+    <RepositoryUrl>https://github.com/xecrets/xecrets-common</RepositoryUrl>
     <PackageIcon>icon_128x128.png</PackageIcon>
     <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
     <IsAotCompatible>true</IsAotCompatible>

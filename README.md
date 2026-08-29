@@ -1,4 +1,4 @@
-﻿# README
+# README
 
 Xecrets Texts - a library containing user interface texts and localization
 for the Xecrets family of apps.
@@ -18,7 +18,7 @@ how this works, https://www.gnu.org/licenses/ .
 
 ### How To Build?
 
-Download the [xecrets-texts](https://github.com/xecrets/xecrets-texts)
+Download the [xecrets-common](https://github.com/xecrets/xecrets-common)
 repository. Open the solution in Visual Studio or the workspace in Visual Studio
 Code and build. There are no external dependencies that are not resolved with
 Nuget.

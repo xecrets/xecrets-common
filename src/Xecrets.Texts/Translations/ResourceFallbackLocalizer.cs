@@ -1,4 +1,4 @@
-﻿#region Copyright and License
+#region Copyright and License
 
 /*
  * Xecrets Texts - Copyright © 2022-2026, Svante Seleborg, All Rights Reserved.
@@ -16,7 +16,7 @@
  * You should have received a copy of the GNU General Public License along with Xecrets Texts.  If not, see
  * <https://www.gnu.org/licenses/>.
  *
- * The source repository can be found at https://github.com/xecrets/xecrets-texts please go there for more
+ * The source repository can be found at https://github.com/xecrets/xecrets-common please go there for more
  * information, suggestions and contributions. You may also visit https://www.axantum.com for more information about the
  * author, or submit support requests at https://www.axantum.com/support .
 */
