@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Xecrets Ez\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-08 08:19+0200\n"
-"PO-Revision-Date: 2026-08-07 21:33+0200\n"
+"PO-Revision-Date: 2026-08-29 10:05+0200\n"
 "Last-Translator: Svante Seleborg\n"
 "Language-Team: French (France)\n"
 "Language: fr-FR\n"
@@ -14,8 +14,9 @@ msgstr ""
 "X-Generator: Loco https://localise.biz\n"
 "X-Loco-Source-Locale: en-US\n"
 "X-Loco-Project-Id: 158107\n"
+"X-Loco-Tagged: updated\n"
 "X-Loco-Lookup: id\n"
-"X-Loco-Api-Version: 1.0.29 20260704-1"
+"X-Loco-Api-Version: 1.0.29 20260822-1"
 
 #. The warning text displayed in the main window when the program does not have a valid license. [BannerUnlicensedWarning]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3c2
@@ -995,7 +996,6 @@ msgstr "Chiffrer fichiers du _répertoire…"
 
 #. The menu entry for opening a window where the license can be pasted. [MenuEnterLicense]
 #: Resources.resx loco:68c58fbe8a59c0d4460a2604
-#, fuzzy
 #| msgid "Activate _Premium…"
 msgid "MenuEnterLicense"
 msgstr "Activer _Premium…"
@@ -1548,7 +1548,6 @@ msgstr "Courriel"
 
 #. A watermark helping guide users where to paste the license string [WatermarkEnterLicenseHere]
 #: Resources.resx loco:68c58fbe8a59c0d4460a2605
-#, fuzzy
 #| msgid "The license key goes here: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ…"
 msgid "WatermarkEnterLicenseHere"
 msgstr ""

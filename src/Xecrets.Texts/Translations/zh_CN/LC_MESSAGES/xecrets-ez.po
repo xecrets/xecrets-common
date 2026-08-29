@@ -5,9 +5,9 @@ msgstr ""
 "POT-Creation-Date: 2024-05-08 08:19+0200\n"
 "PO-Revision-Date: 2026-08-29 10:05+0200\n"
 "Last-Translator: Svante Seleborg\n"
-"Language-Team: Spanish (Spain)\n"
-"Language: es-ES\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language-Team: Simplified Chinese\n"
+"Language: zh-CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,61 +22,61 @@ msgstr ""
 #: Resources.resx loco:670e1cf615d80a27bc0eb3c2
 #| msgid "Free version!"
 msgid "BannerUnlicensedWarning"
-msgstr "¡Versión gratuita!"
+msgstr "免费版！"
 
 #. The text in a button that causes an action to be canceled, i.e. "Cancel". [ButtonCancel]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3c3
 #| msgid "_Cancel"
 msgid "ButtonCancel"
-msgstr "_Cancelar"
+msgstr "_取消"
 
 #. A button to copy something to the clipboard [ButtonCopy]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3c4
 #| msgid "_Copy"
 msgid "ButtonCopy"
-msgstr "_Copiar"
+msgstr "_复制"
 
 #. Button text for a "Copy All" button. [ButtonCopyAll]
 #: Resources.resx loco:68396d06ff6b3f753f0e72d2
 #| msgid "Copy All"
 msgid "ButtonCopyAll"
-msgstr "Copiar todo"
+msgstr "全部复制"
 
 #. The text in a button to create a user, i.e. "Create". [ButtonCreate]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3c5
 #| msgid "_Create"
 msgid "ButtonCreate"
-msgstr "_Crear"
+msgstr "_创建"
 
 #. The label for the hide Premium features button. [ButtonFree]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3c6
 #| msgid "Free"
 msgid "ButtonFree"
-msgstr "Gratis"
+msgstr "免费版"
 
 #. The button prompt for windows offering to open a web browser. [ButtonGo]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3c7
 #| msgid "Go!"
 msgid "ButtonGo"
-msgstr "¡Vamos!"
+msgstr "打开！"
 
 #. A label for a button to paste the license [ButtonLicense]
 #: Resources.resx loco:6745a304c4fd5b3bae0bcef2
 #| msgid "License"
 msgid "ButtonLicense"
-msgstr "Licencia"
+msgstr "许可证"
 
 #. The text in a button that causes a 'No'-response, i.e. "No". [ButtonNo]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3c8
 #| msgid "_No"
 msgid "ButtonNo"
-msgstr "_No"
+msgstr "_否"
 
 #. The text in a button that says 'OK', i.e. "Ok". [ButtonOk]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3c9
 #| msgid "_Ok"
 msgid "ButtonOk"
-msgstr "_Aceptar"
+msgstr "_确定"
 
 #. The label for the show Premium features button. [ButtonPremium]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3ca
@@ -88,25 +88,25 @@ msgstr "Premium"
 #: Resources.resx loco:670e1cf615d80a27bc0eb3cb
 #| msgid "Reset!"
 msgid "ButtonReset"
-msgstr "Restablecer!"
+msgstr "重置！"
 
 #. A button to retry something. [ButtonRetry]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3cc
 #| msgid "_Retry"
 msgid "ButtonRetry"
-msgstr "_Reintentar"
+msgstr "_重试"
 
 #. Button text for a "Save As…" button. [ButtonSaveAs]
 #: Resources.resx loco:68396d06ff6b3f753f0e72d3
 #| msgid "Save As…"
 msgid "ButtonSaveAs"
-msgstr "Guardar como…"
+msgstr "另存为…"
 
 #. The text in a button that causes a 'Yes'-response, i.e. "Yes". [ButtonYes]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3cd
 #| msgid "_Yes"
 msgid "ButtonYes"
-msgstr "_Sí"
+msgstr "_是"
 
 #. A warning shown when the discovered Cli version does not exactly match Ez. {0} is Cli version, {1} is full Cli path, {2} is Ez version. [CliVersionMismatchWarning]
 #: Resources.resx loco:69f7310c4779aa23dc088c42
@@ -119,30 +119,29 @@ msgstr "_Sí"
 #| "Would you like to view a help page with more information?"
 msgid "CliVersionMismatchWarning"
 msgstr ""
-"¡Advertencia! La versión {0} de Xecrets Cli encontrada en '{1}' no coincide "
-"con la versión {2} de Xecrets Ez. No se recomienda, ya que puede causar "
-"problemas.\n"
+"警告！在'{1}'中找到的 Xecrets Cli 版本 {0} 与 Xecrets Ez 版本 {2} "
+"不匹配。不建议继续使用，因为这可能会导致问题。\n"
 "\n"
-"¿Desea ver una página de ayuda con más información?"
+"是否要查看帮助页面以了解更多信息？"
 
 #. Appeneded after a statement, in a confirmation dialog. [ConfirmationQuestion]
 #: Resources.resx loco:67572ea92257d74f5c003652
 #| msgid "Are you sure?"
 msgid "ConfirmationQuestion"
-msgstr "¿Estás seguro?"
+msgstr "确定吗？"
 
 #. A text in the about box, telling how many decryption passwords are known. [DecryptionPasswordsAboutFormat]
 #: Resources.resx loco:6745a304c4fd5b3bae0bcef3
 #, icu-format
 #| msgid "Extra decryption passwords: {0}."
 msgid "DecryptionPasswordsAboutFormat"
-msgstr "Contraseñas de descifrado adicionales: {0}."
+msgstr "额外解密密码：{0} 个。"
 
 #. An error message when an input value is not in the expected format. [DialogInputValidationError]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3ce
 #| msgid "The value is not in the correct format!"
 msgid "DialogInputValidationError"
-msgstr "¡El valor no está en el formato correcto!"
+msgstr "该值格式不正确！"
 
 #. A longer explanation of how to get and enter a license. {0} is replaced by the URL of the customer portal page. [DialogInstructionEnterLicenseFormat]
 #: Resources.resx loco:68c58fbe8a59c0d4460a2602
@@ -154,52 +153,50 @@ msgstr "¡El valor no está en el formato correcto!"
 #| "instructions to get the correct link."
 msgid "DialogInstructionEnterLicenseFormat"
 msgstr ""
-"Copia la clave de licencia de nuestra página de licencias (el enlace se ve "
-"así: {1}/license?s=2Rl7q1Gr…), luego regresa aquí. Si ya tienes el enlace, "
-"ábrelo ahora en tu navegador. De lo contrario, visita {0} y sigue las "
-"instrucciones para obtener el enlace correcto."
+"从许可证页面复制许可证密钥（链接类似 {1}/license?s=2Rl7q1Gr…），然后返回此处。如果已有该链接，请在浏览器中打开。否则，请访问 "
+"{0} 并按照说明获取正确的链接。"
 
 #. A label in the about box for the directory where all settings are stored. [DialogLabelAppSettingsDirectory]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3cf
 #| msgid "Settings directory:"
 msgid "DialogLabelAppSettingsDirectory"
-msgstr "Directorio de configuración:"
+msgstr "设置目录："
 
 #. The About Window label for the info about the current directory. [DialogLabelCurrentDirectory]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3d0
 #| msgid "Current directory:"
 msgid "DialogLabelCurrentDirectory"
-msgstr "Directorio actual:"
+msgstr "当前目录："
 
 #. A label in the about box, for the real user-visible start folder, before the OS maybe moved it. [DialogLabelRealStartFolder]
 #: Resources.resx loco:682199e78d3ada6cc1059402
 #| msgid "Original start folder:"
 msgid "DialogLabelRealStartFolder"
-msgstr "Carpeta de inicio original:"
+msgstr "原始启动文件夹："
 
 #. The About Window label for the info about the full start command. [DialogLabelStartCommand]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3d1
 #| msgid "Start command:"
 msgid "DialogLabelStartCommand"
-msgstr "Comando de inicio:"
+msgstr "启动命令："
 
 #. A text next to a check box, indicating whether an added password should be saved permanently for use, or just for this session. [DialogSavePasswordPermanently]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3d2
 #| msgid "Save in settings"
 msgid "DialogSavePasswordPermanently"
-msgstr "Guardar en configuración"
+msgstr "保存到设置中"
 
 #. The text displayed as heading in the dialog to enter an extra alternate password. [DialogTextAddPassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3d3
 #| msgid "Add a decryption password"
 msgid "DialogTextAddPassword"
-msgstr "Agregar contraseña de descifrado"
+msgstr "添加解密密码"
 
 #. A text used in a file selection dialog for the file pattern '*'. [DialogTextAllFiles]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3d4
 #| msgid "All files"
 msgid "DialogTextAllFiles"
-msgstr "Todos los archivos"
+msgstr "所有文件"
 
 #. Error message for incompatible Cli API. {0} is the full path to the Cli Tool, {1} is the Cli Tool API version, {2} is the SDK API Major version, and {3} is the minor version. [DialogTextCliApiVersionError]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3d5
@@ -210,9 +207,8 @@ msgstr "Todos los archivos"
 #| "the one included in the app."
 msgid "DialogTextCliApiVersionError"
 msgstr ""
-"Se encontró un Xecrets Cli incompatible en '{0}' con la versión API {1}, "
-"pero se requiere la versión {2}.[>={3}].\\n\\nActualice Xecrets Cli o "
-"elimínelo y utilice la versión incluida en la aplicación."
+"在'{0}'中找到的 Xecrets Cli API 版本为 {1}，与本应用不兼容。本应用要求版本 {2}.[>={3}]。\\n\\n请更新 "
+"Xecrets Cli，或将其删除并使用应用随附的版本。"
 
 #. Warning shown at startup when this executable version appears older than the most recently used version, asking whether to continue. [DialogTextDowngradedVersionWarning]
 #: Resources.resx loco:6a11e94a21b5c894ec094902
@@ -221,15 +217,13 @@ msgstr ""
 #| "multiple versions are installed. Do you really want to continue with this "
 #| "version?"
 msgid "DialogTextDowngradedVersionWarning"
-msgstr ""
-"Parece que ha vuelto a una versión anterior. Esto puede ocurrir si hay "
-"varias versiones instaladas. ¿Realmente quiere continuar con esta versión?"
+msgstr "当前版本可能早于您最近使用的版本。如果安装了多个版本，可能会出现这种情况。是否继续使用当前版本？"
 
 #. Text for the middle of the window, where files can be dropped or pasted. Not all OS's support drag and drop. [DialogTextDropOrPasteTitle]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3d6
 #| msgid "Drop or paste files here…"
 msgid "DialogTextDropOrPasteTitle"
-msgstr "Suelta o pega archivos aquí…"
+msgstr "将文件拖放或粘贴到此处…"
 
 #. The tooltip for the paste and drag and drop area, giving a little bit more information. Not all OS's support drag and drop. [DialogTextDropOrPasteToolTip]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3d7
@@ -238,21 +232,19 @@ msgstr "Suelta o pega archivos aquí…"
 #| "Drop or paste files here to encrypt or decrypt them. Use keyboard {0} "
 #| "button to decrypt a single file, otherwise it opens."
 msgid "DialogTextDropOrPasteToolTip"
-msgstr ""
-"Suelta o pega archivos aquí para cifrarlos o descifrarlos. Usa el botón {0} "
-"del teclado para descifrar un archivo único, de lo contrario se abrirá."
+msgstr "将文件拖放或粘贴到此处进行加密或解密。处理单个文件时，按 {0} 键可直接解密；否则将打开该文件。"
 
 #. A text used in a file selection dialog for the file pattern '*.axx'. [DialogTextEncryptedFiles]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3d8
 #| msgid "Encrypted files"
 msgid "DialogTextEncryptedFiles"
-msgstr "Archivos cifrados"
+msgstr "加密文件"
 
 #. The title of the dialog to enter or paste a license string [DialogTextEnterLicense]
 #: Resources.resx loco:68c58fbe8a59c0d4460a2603
 #| msgid "Activate Premium license"
 msgid "DialogTextEnterLicense"
-msgstr "Activar licencia Premium"
+msgstr "激活 Premium 许可证"
 
 #. An informational message when a license is about to expire. [DialogTextExpiresSoonInfoFormat]
 #: Resources.resx loco:6822e2b30e5cfb56550bc502
@@ -261,15 +253,13 @@ msgstr "Activar licencia Premium"
 #| "Your premium license will expire on {0}. To keep using premium features, "
 #| "please renew your license in the app after it expires."
 msgid "DialogTextExpiresSoonInfoFormat"
-msgstr ""
-"Tu licencia premium vencerá el {0}. Para seguir usando las funciones premium,"
-" renueva tu licencia en la aplicación después de que expire."
+msgstr "您的 Premium 许可证将于 {0} 到期。若要继续使用 Premium 功能，请在许可证到期后通过应用续订。"
 
 #. An error message displayed when encrypting, decrypting or wiping could not proceed because one or more files simply were not not found and the operation is canceled. A list of files may be appended. [DialogTextFileDoesNotExist]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3d9
 #| msgid "File(s) do not exist, the action was canceled."
 msgid "DialogTextFileDoesNotExist"
-msgstr "Los archivo(s) no existen, la acción fue cancelada."
+msgstr "文件不存在，操作已取消。"
 
 #. An error message displayed when encrypting, decrypting or wiping could not proceed because one or more files were read-only or the user does not have sufficient permissions and the operation is canceled. A list of files may be appended. [DialogTextInsufficientRights]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3da
@@ -277,27 +267,25 @@ msgstr "Los archivo(s) no existen, la acción fue cancelada."
 #| "File(s) are read-only, the destination directory is not writeable or you "
 #| "do not have sufficient permissions. The action was canceled."
 msgid "DialogTextInsufficientRights"
-msgstr ""
-"Los archivos son de solo lectura, el directorio de destino no es escribible "
-"o no tienes permisos suficientes. La acción fue cancelada."
+msgstr "文件为只读、目标目录不可写，或您没有足够的权限。操作已取消。"
 
 #. Text displayed when for some unknown and unspecified reason a file was not properly decrypted and opened. [DialogTextOpenFailed]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3db
 #| msgid "Decrypt and open failed"
 msgid "DialogTextOpenFailed"
-msgstr "Descifrar y abrir fallido"
+msgstr "解密并打开失败"
 
 #. A warning message at program exit. A new line separated list of these filesmay be appended. [DialogTextOrphanedDocumentsFiles]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3dc
 #| msgid "Unrecognized temporary files remain."
 msgid "DialogTextOrphanedDocumentsFiles"
-msgstr "Quedan archivos temporales no reconocidos."
+msgstr "仍有无法识别的临时文件。"
 
 #. Text for the middle of the window, where files can be (only) pasted, as some OS's don't support drag and drop. [DialogTextPasteOnlyTitle]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3dd
 #| msgid "Paste files here…"
 msgid "DialogTextPasteOnlyTitle"
-msgstr "Pegar archivos aquí…"
+msgstr "将文件粘贴到此处…"
 
 #. The tooltip for the paste (only) area, giving a little bit more information. Not all OS's support drag and drop. [DialogTextPasteOnlyToolTip]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3de
@@ -306,9 +294,7 @@ msgstr "Pegar archivos aquí…"
 #| "Paste files here to encrypt or decrypt them. Use keyboard {0} to decrypt "
 #| "a single file, otherwise it opens."
 msgid "DialogTextPasteOnlyToolTip"
-msgstr ""
-"Pegue aquí los archivos para cifrarlos o descifrarlos. Utilice el teclado {0}"
-" botón para descifrar un solo archivo, de lo contrario se abre."
+msgstr "将文件粘贴到此处进行加密或解密。处理单个文件时，按 {0} 键可直接解密；否则将打开该文件。"
 
 #. A pop-up message displayed after importing AxCrypt account keys. [DialogTextPrivateKeysImported]
 #: Resources.resx loco:6745a304c4fd5b3bae0bcef4
@@ -318,10 +304,8 @@ msgstr ""
 #| "password was reset, changed or is different from the Xecrets Ez password."
 msgid "DialogTextPrivateKeysImported"
 msgstr ""
-"Hemos encontrado e importado claves de cuenta de AxCrypt. Aún puede ser "
-"necesario proporcionar la contraseña original con la que se cifró el archivo "
-"si la contraseña de AxCrypt se restableció, cambió o es diferente de la "
-"contraseña Xecrets Ez."
+"我们发现并导入了 AxCrypt 账户密钥。如果 AxCrypt 密码曾被重置或更改，或者与 Xecrets Ez "
+"密码不同，您可能仍需输入加密该文件时使用的原始密码。"
 
 #. A message displayed when an attempt is made to encrypt, decrypt, rename or wipe a file where sandboxing prevents creating a related sibling file. {0} is a help page URL. It may be followed by a list of affected file names only. This will abort the entire operation and nothing happens. [DialogTextRelatedAccess]
 #: Resources.resx loco:6a2591b58d8a3eb6db0f80b2
@@ -330,10 +314,7 @@ msgstr ""
 #| "File(s) require sandbox folder access to encrypt, decrypt, wipe or rename."
 #| " The action was canceled. See {0}."
 msgid "DialogTextRelatedAccess"
-msgstr ""
-"Los archivos requieren acceso a la carpeta de entorno aislado para cifrar, "
-"descifrar, borrar de forma segura o cambiar el nombre. La acción se canceló. "
-"Consulte {0}"
+msgstr "需要获得沙盒文件夹的访问权限，才能加密、解密、安全删除或重命名文件。操作已取消。请参阅 {0}。"
 
 #. A warning text when a removable drive is first used, information that all settings etc will be stored on it. [DialogTextRemovableDriveFirstWarning]
 #: Resources.resx loco:681f897716bfcd2acb006662
@@ -341,9 +322,7 @@ msgstr ""
 #| "Settings and temp files will be stored on a removable drive, not your "
 #| "main drive. Continue?"
 msgid "DialogTextRemovableDriveFirstWarning"
-msgstr ""
-"La configuración y los archivos temporales se guardarán en una unidad "
-"extraíble, no en la unidad principal. ¿Desea continuar?"
+msgstr "设置和临时文件将存储在可移动驱动器上，而不是主驱动器上。是否继续？"
 
 #. A warning text informing that a removable drive must be unplugged safely when running from it. [DialogTextRemovableDriveUnplugWarning]
 #: Resources.resx loco:681f897716bfcd2acb006663
@@ -351,32 +330,25 @@ msgstr ""
 #| "Before unplugging it, make sure to exit the app and eject the drive "
 #| "safely to avoid data loss."
 msgid "DialogTextRemovableDriveUnplugWarning"
-msgstr ""
-"Antes de desconectarla, asegúrese de cerrar la aplicación y expulsar la "
-"unidad de forma segura para evitar la pérdida de datos."
+msgstr "拔出驱动器前，请务必退出应用并安全弹出驱动器以免数据丢失。"
 
 #. A message displayed when an attempt is made to encrypt or wipe a file located in a system protected location. It may be followed by a list of affected files. This will abort the entire operation and nothing happens. [DialogTextSystemProtected]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3df
 #| msgid "File(s) are system protected, the action was canceled."
 msgid "DialogTextSystemProtected"
-msgstr ""
-"Los archivo(s) están protegidos por el sistema, la acción fue cancelada."
+msgstr "文件受系统保护，操作已取消。"
 
 #. Informing that one or more files could not be encrypted due to licensing restrictions. A list of files may be appended. [DialogTextTooLargeForLicense]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3e0
 #| msgid "File(s) were not encrypted. Encryption limit is 1 MB. See About."
 msgid "DialogTextTooLargeForLicense"
-msgstr ""
-" Los archivo(s) no fueron cifrados. El límite de cifrado es de 1 MB. Ver "
-"Acerca de."
+msgstr "文件未加密。加密大小限制为 1 MB。请参阅“关于”。"
 
 #. The text shown when a decryption fails because of unknown password. [DialogTextUnknownPassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3e1
 #| msgid "File(s) could not be decrypted. Try adding an alternative password."
 msgid "DialogTextUnknownPassword"
-msgstr ""
-"No se pudieron descifrar los archivo(s). Intenta agregar una contraseña "
-"alternativa."
+msgstr "无法解密文件。请尝试添加备用解密密码。"
 
 #. Text displayed when an attempt to open a file for editing fails due to wrong password, hinting that perhaps it has to be decrypted first using an alternative password. [DialogTextWrongPasswordOpen]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3e2
@@ -384,63 +356,61 @@ msgstr ""
 #| "The file could not be opened. Try decrypting with an alternative password "
 #| "first."
 msgid "DialogTextWrongPasswordOpen"
-msgstr ""
-"No se ha podido abrir el archivo. Intenta descifrarlo primero con una "
-"contraseña alternativa."
+msgstr "无法打开该文件。请先尝试使用备用密码解密。"
 
 #. Dialog title of the dialog where a user can request a purchased license using an email and the last 4 digits of the card used. [DialogTitleFetchLicense]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3e3
 #| msgid "Get subscription license"
 msgid "DialogTitleFetchLicense"
-msgstr "Obtener licencia de suscripción"
+msgstr "获取订阅许可证"
 
 #. A title for dialogs warning about the situation where we're running from a removable drive. [DialogTitleRemovableDrive]
 #: Resources.resx loco:681f897716bfcd2acb006664
 #| msgid "Running from removable drive!"
 msgid "DialogTitleRemovableDrive"
-msgstr "¡Ejecutándose desde unidad extraíble!"
+msgstr "正在从可移动驱动器运行！"
 
 #. The dialog title when selecting a destination folder. [DialogTitleSelectDestinationFolder]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3e4
 #| msgid "Select destination folder"
 msgid "DialogTitleSelectDestinationFolder"
-msgstr "Seleccione la carpeta de destino"
+msgstr "选择目标文件夹"
 
 #. The title of a file selection dialog for selecting a file to open, i.e. 'Select files to open'. [DialogTitleSelectFileToOpen]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3e5
 #| msgid "Select file to open"
 msgid "DialogTitleSelectFileToOpen"
-msgstr "Seleccione el archivo que desea abrir"
+msgstr "选择要打开的文件"
 
 #. The title of a file selection dialog for selecting files to decrypt, i.e. 'Select files to decrypt'. [DialogTitleSelectFilesToDecrypt]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3e6
 #| msgid "Select files to decrypt"
 msgid "DialogTitleSelectFilesToDecrypt"
-msgstr "Seleccionar archivos para descifrar"
+msgstr "选择要解密的文件"
 
 #. The title of a file selection dialog for selecting files to encrypt, i.e. 'Select files to encrypt'. [DialogTitleSelectFilesToEncrypt]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3e7
 #| msgid "Select files to encrypt"
 msgid "DialogTitleSelectFilesToEncrypt"
-msgstr "Seleccionar archivos para cifrar"
+msgstr "选择要加密的文件"
 
 #. This is the title for the open dialog to select files to re-encrypt [DialogTitleSelectFilesToReEncrypt]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3e8
 #| msgid "Select files to re-encrypt"
 msgid "DialogTitleSelectFilesToReEncrypt"
-msgstr "Seleccione los archivos para reencriptar"
+msgstr "选择要重新加密的文件"
 
 #. The title of a file selection dialog for selecting files to wipe, i.e. 'Select files to wipe'. [DialogTitleSelectFilesToWipe]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3e9
 #| msgid "Select files to wipe"
 msgid "DialogTitleSelectFilesToWipe"
-msgstr "Seleccionar archivos para borrar"
+msgstr "选择要安全删除的文件"
 
 #. A title for a generic select folder picker, used for both encrypt and decrypt folder etc. [DialogTitleSelectFolder]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3ea
 #| msgid "Select folder"
 msgid "DialogTitleSelectFolder"
-msgstr "Seleccionar carpeta"
+msgstr "选择文件夹"
 
 #. An error text displayed when an attempt is made to sign in twice with the same profile email. [DialogValidationAlreadySignedIn]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3eb
@@ -449,34 +419,31 @@ msgstr "Seleccionar carpeta"
 #| "another screen, among minimized apps or in the system tray and show the "
 #| "window from there."
 msgid "DialogValidationAlreadySignedIn"
-msgstr ""
-"Ya has iniciado sesión. Busca la aplicación detrás de otra ventana, en otra "
-"pantalla, entre las aplicaciones minimizadas o en la bandeja del sistema y "
-"muestra la ventana desde allí."
+msgstr "您已登录。请检查其他窗口后面、其他显示器、已最小化的应用或系统托盘，找到本应用后将其窗口显示出来。"
 
 #. An error text displayed when no password confirmation was entered. [DialogValidationConfirmPassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3ec
 #| msgid "Please confirm the password again"
 msgid "DialogValidationConfirmPassword"
-msgstr "Confirme de nuevo la contraseña"
+msgstr "请再次确认密码"
 
 #. An error text displayed when validation of email format fails. [DialogValidationInvalidEmail]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3ed
 #| msgid "Please enter a valid email address"
 msgid "DialogValidationInvalidEmail"
-msgstr "Introduzca una dirección de correo electrónico válida"
+msgstr "请输入有效的电子邮件地址"
 
 #. An error text displayed when no password is entered although required. [DialogValidationPasswordRequired]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3ee
 #| msgid "Please enter a password"
 msgid "DialogValidationPasswordRequired"
-msgstr "Introduzca una contraseña"
+msgstr "请输入密码"
 
 #. An error message displayed in a dialog when the users enters the wrong password. [DialogValidationWrongPassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3ef
 #| msgid "Wrong password!"
 msgid "DialogValidationWrongPassword"
-msgstr "¡Contraseña incorrecta!"
+msgstr "密码错误！"
 
 #. An information message giving a hint that to change the configuration, you first need to remove the current configuration. [DialogYubiKeyChangeConfiguration]
 #: Resources.resx loco:682308272f4e99990a0fc732
@@ -484,9 +451,7 @@ msgstr "¡Contraseña incorrecta!"
 #| "To change the YubiKey configuration, you must first remove the existing "
 #| "configuration."
 msgid "DialogYubiKeyChangeConfiguration"
-msgstr ""
-"Para cambiar la configuración del YubiKey, primero debes eliminar la "
-"configuración existente."
+msgstr "若要更改 YubiKey 配置，必须先移除现有配置。"
 
 #. An information message giving hints on how to change YubiKey defaults, and referring to help for more info where actual links etc are. [DialogYubiKeyDefaultChangeInfo]
 #: Resources.resx loco:682308272f4e99990a0fc733
@@ -494,22 +459,19 @@ msgstr ""
 #| "To change the PIN, PUK, or Management Key, get the Yubico Authenticator "
 #| "app and go to Certificates settings. For details, click the help icon."
 msgid "DialogYubiKeyDefaultChangeInfo"
-msgstr ""
-"Para cambiar el PIN, el PUK o la Management Key, consigue la aplicación "
-"Yubico Authenticator y ve a la configuración de Certificados. Para más "
-"detalles, haz clic en el ícono de ayuda."
+msgstr "若要更改 PIN、PUK 或管理密钥，请安装 Yubico Authenticator 应用并进入证书设置。有关详细信息，请单击帮助图标。"
 
 #. Dialog title for the YubiKey disabling setup dialog. [DialogYubiKeyDisable]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3f0
 #| msgid "Do you want to remove the YubiKey configuration?"
 msgid "DialogYubiKeyDisable"
-msgstr "¿Deseas eliminar la configuración de YubiKey?"
+msgstr "是否要移除 YubiKey 配置？"
 
 #. Dialog title for the YubiKey enabling setup dialog. [DialogYubiKeyEnable]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3f1
 #| msgid "Do you want to enable this YubiKey for signing in?"
 msgid "DialogYubiKeyEnable"
-msgstr "¿Quieres habilitar esta YubiKey para iniciar sesión?"
+msgstr "是否要启用此 YubiKey 用于登录？"
 
 #. Error message when enabling fails, typically because there are no slots. [DialogYubiKeyEnabledFailed]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3f2
@@ -517,26 +479,25 @@ msgstr "¿Quieres habilitar esta YubiKey para iniciar sesión?"
 #| "It is not possible to use this YubiKey. There may not be any slots "
 #| "available."
 msgid "DialogYubiKeyEnabledFailed"
-msgstr ""
-"No es posible usar esta YubiKey. Puede que no haya ranuras disponibles."
+msgstr "无法使用此 YubiKey。可能没有可用的槽位。"
 
 #. A dialog title used when asking for PIV management key authentication [DialogYubiKeyEnterKeyTitle]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3f3
 #| msgid "Please enter YubiKey PIV hex management key:"
 msgid "DialogYubiKeyEnterKeyTitle"
-msgstr "Por favor, ingrese la clave de gestión hexadecimal PIV de YubiKey:"
+msgstr "请输入 YubiKey PIV 十六进制管理密钥："
 
 #. A dialog title used when asking for the PIN [DialogYubiKeyEnterPinTitle]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3f4
 #| msgid "Please enter YubiKey PIV PIN:"
 msgid "DialogYubiKeyEnterPinTitle"
-msgstr "Por favor, ingrese el PIN PIV de YubiKey:"
+msgstr "请输入 YubiKey PIV PIN："
 
 #. Dialog title displayed when we're checking for a YubiKey during setup [DialogYubiKeyLooking]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3f5
 #| msgid "Waiting for YubiKey…"
 msgid "DialogYubiKeyLooking"
-msgstr "Esperando por YubiKey…"
+msgstr "正在等待 YubiKey…"
 
 #. A warning message stating that the PIV management key still has it's default value. [DialogYubiKeyManagementKeyDefault]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3f6
@@ -544,45 +505,43 @@ msgstr "Esperando por YubiKey…"
 #| "The PIV management key has it's default value 3 x 0102030405060708, it "
 #| "should be changed!"
 msgid "DialogYubiKeyManagementKeyDefault"
-msgstr ""
-"La clave de gestión PIV tiene su valor predeterminado 3 x 0102030405060708, "
-"¡debe ser cambiada!"
+msgstr "PIV 管理密钥仍为默认值 3 x 0102030405060708，请修改！"
 
 #. An error message displayed when a non-conforming YubiKey is connected. [DialogYubiKeyMissingFeatures]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3f7
 #| msgid "Required features are missing from this YubiKey."
 msgid "DialogYubiKeyMissingFeatures"
-msgstr "Faltan características requeridas en esta YubiKey."
+msgstr "此 YubiKey 缺少所需功能。"
 
 #. Dialog title for the YubiKey setup dialog when there is no yubikey connected and no configuration. [DialogYubiKeyNotConnected]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3f8
 #| msgid "There is no YubiKey connected!"
 msgid "DialogYubiKeyNotConnected"
-msgstr "¡No hay ninguna YubiKey conectada!"
+msgstr "未连接 YubiKey！"
 
 #. An informational message displayed when the connected YubiKey is not initialized. [DialogYubiKeyNotInitialized]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3f9
 #| msgid "This YubiKey is not yet initialized for use."
 msgid "DialogYubiKeyNotInitialized"
-msgstr "Esta YubiKey aún no está inicializada para su uso."
+msgstr "此 YubiKey 尚未初始化，无法使用。"
 
 #. A title dialog text displayed when a YubiKey is detected, but it doesn't have sufficient capabilities. [DialogYubiKeyNotSupported]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3fa
 #| msgid "This YubiKey is not supported!"
 msgid "DialogYubiKeyNotSupported"
-msgstr "¡Esta YubiKey no es compatible!"
+msgstr "此 YubiKey 不受支持！"
 
 #. An info message stating that it's enough to touch the YubiKey to sign in. [DialogYubiKeyOnlyTouch]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3fb
 #| msgid "Only this YubiKey and a touch is required to sign in."
 msgid "DialogYubiKeyOnlyTouch"
-msgstr "Solo se necesita esta YubiKey y un toque para iniciar sesión."
+msgstr "登录时只需轻触此 YubiKey 一次。"
 
 #. A description of how the Open security mode works. [DialogYubiKeyOpenSecurity]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3fc
 #| msgid "Only this YubiKey is required to sign in."
 msgid "DialogYubiKeyOpenSecurity"
-msgstr "Solo se necesita esta YubiKey para iniciar sesión."
+msgstr "登录时只需使用此 YubiKey。"
 
 #. [DialogYubiKeyPcscMissing]
 #: Resources.resx loco:693f231ccf5d7131280ef9f2
@@ -591,35 +550,32 @@ msgstr "Solo se necesita esta YubiKey para iniciar sesión."
 #| "Please ensure that pcscd / pcsc-lite is installed and the daemon is "
 #| "running. Click the help icon for more information about YubiKey and Linux."
 msgid "DialogYubiKeyPcscMissing"
-msgstr ""
-"Asegúrese de que pcscd / pcsc-lite esté instalado y que el demonio se esté "
-"ejecutando. Haga clic en el icono de ayuda para obtener más información "
-"sobre YubiKey y Linux."
+msgstr "请确保已安装 pcscd / pcsc-lite 且守护进程正在运行。单击帮助图标可了解有关 YubiKey 和 Linux 的更多信息。"
 
 #. A warning message saying that the PIV PIN still has it's default value. [DialogYubiKeyPinDefault]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3fd
 #| msgid "The PIV PIN has it's default value 123456, it should be changed!"
 msgid "DialogYubiKeyPinDefault"
-msgstr "El PIN PIV tiene su valor predeterminado 123456, ¡debe ser cambiado!"
+msgstr "PIV PIN 仍为默认值 123456，请修改！"
 
 #. An info message stating that the PIN is required to sign in. [DialogYubiKeyPinRequired]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3fe
 #| msgid "This YubiKey and the PIN is required to sign in."
 msgid "DialogYubiKeyPinRequired"
-msgstr "Esta YubiKey y el PIN son necesarios para iniciar sesión."
+msgstr "登录时需要此 YubiKey 和 PIN。"
 
 #. An informational message displayed about what slot will be used. '{0}' will be filled with the actual slot in question. [DialogYubiKeyPivSlotUsedFormat]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3ff
 #, icu-format
 #| msgid "PIV slot {0} is currently used or possible to use."
 msgid "DialogYubiKeyPivSlotUsedFormat"
-msgstr "La ranura PIV {0} está actualmente en uso o disponible para usar."
+msgstr "PIV 槽位 {0} 当前正在使用或可供使用。"
 
 #. A warning message stating that the PIV PUK still has it's default value. [DialogYubiKeyPukDefault]
 #: Resources.resx loco:670e1cf615d80a27bc0eb400
 #| msgid "The PIV PUK has it's default value 12345678, it should be changed!"
 msgid "DialogYubiKeyPukDefault"
-msgstr "El PUK PIV tiene su valor predeterminado 12345678, ¡debe ser cambiado!"
+msgstr "PIV PUK 仍为默认值 12345678，请修改！"
 
 #. A warning message stating that the VC++ redistributable is missing, and providing a link to download it. [DialogYubiKeyRedistributableMissing]
 #: Resources.resx loco:696293af0117ae82f0008ff2
@@ -630,56 +586,52 @@ msgstr "El PUK PIV tiene su valor predeterminado 12345678, ¡debe ser cambiado!"
 #| "application."
 msgid "DialogYubiKeyRedistributableMissing"
 msgstr ""
-"Para usar YubiKey, debe instalarse Microsoft Visual C++ Redistributable. "
-"Descárguelo desde {0}, ejecute el instalador y reinicie la aplicación."
+"使用 YubiKey 需要安装 Microsoft Visual C++ Redistributable。请从 {0} "
+"下载并运行安装程序，然后重新启动程序。"
 
 #. A sub-title in the dialog above a list of radio buttons where a choice of the security mode is made. [DialogYubiKeySelectMode]
 #: Resources.resx loco:670e1cf615d80a27bc0eb401
 #| msgid "Select how you want to use your YubiKey."
 msgid "DialogYubiKeySelectMode"
-msgstr "Selecciona cómo quieres usar tu YubiKey."
+msgstr "请选择 YubiKey 的使用方式。"
 
 #. [DialogYubiKeyServiceUnsupported]
 #: Resources.resx loco:690477ad184eb7fbf00ca4b2
 #| msgid "This app can’t use a YubiKey on this operating system."
 msgid "DialogYubiKeyServiceUnsupported"
-msgstr "Esta aplicación no puede usar una YubiKey en este sistema operativo."
+msgstr "此应用无法在当前操作系统上使用 YubiKey。"
 
 #. A modal disappearing prompt to touch the YubiKey when required. [DialogYubiKeyTouchPrompt]
 #: Resources.resx loco:670e1cf615d80a27bc0eb402
 #| msgid "Please touch the YubiKey…"
 msgid "DialogYubiKeyTouchPrompt"
-msgstr "Por favor, toque la YubiKey…"
+msgstr "请轻触 YubiKey…"
 
 #. Label for a checkbox to optionally hide a specific warning or other message. [DontShowAgain]
 #: Resources.resx loco:6789570564500fc900019cc2
 #| msgid "Don't show this again"
 msgid "DontShowAgain"
-msgstr "No mostrar de nuevo"
+msgstr "不再显示此消息"
 
 #. A dialog box text, asking the user if (s)he wants to download a free premium trial license. [DownloadFreeTrialQuestion]
 #: Resources.resx loco:670e1cf615d80a27bc0eb403
 #| msgid ""
 #| "Would you like to try premium free for 3 days? No credit card required."
 msgid "DownloadFreeTrialQuestion"
-msgstr ""
-"¿Quieres probar Premium gratis durante 3 días? No se requiere tarjeta de "
-"crédito."
+msgstr "是否免费试用 Premium 功能 3 天？无需信用卡。"
 
 #. An error text when shares can't be combined either because they are mismatched, or in the wrong format. [ErrorCombiningShares]
 #: Resources.resx loco:68396d06ff6b3f753f0e72d4
 #| msgid ""
 #| "The shares could not be combined. Please check the shares and try again."
 msgid "ErrorCombiningShares"
-msgstr ""
-"No se pudieron combinar las partes. Verifique las partes e inténtelo de "
-"nuevo."
+msgstr "无法合并这些分片。请检查分片是否匹配且格式正确，然后重试。"
 
 #. An error text when duplicate shares were entered and removed. [ErrorDuplicatesRemoved]
 #: Resources.resx loco:68396d06ff6b3f753f0e72d5
 #| msgid "Duplicate shares were removed."
 msgid "ErrorDuplicatesRemoved"
-msgstr "Se eliminaron partes duplicadas."
+msgstr "已移除重复分片。"
 
 #. A warning message displayed when a free, non-purchased, license has expired. [ExpirationCheckPurchaseWarning]
 #: Resources.resx loco:670e1cf615d80a27bc0eb404
@@ -687,22 +639,20 @@ msgstr "Se eliminaron partes duplicadas."
 #| "Your free trial license has expired. Do you want to view the subscription "
 #| "information web page?"
 msgid "ExpirationCheckPurchaseWarning"
-msgstr ""
-"Su licencia de prueba gratuita ha expirado. ¿Desea ver la página web de "
-"información de suscripción?"
+msgstr "您的免费试用许可证已到期。是否要查看订阅信息页面？"
 
 #. The text in a message box informing the user that the license is expired, and asking if the user wants to download an update. [ExpirationCheckWarning]
 #: Resources.resx loco:670e1cf615d80a27bc0eb405
 #| msgid ""
 #| "Your license has expired. Do you want to download an updated license?"
 msgid "ExpirationCheckWarning"
-msgstr "Su licencia ha expirado. ¿Desea descargar una licencia actualizada?"
+msgstr "您的许可证已到期。是否要下载更新后的许可证？"
 
 #. The question asked when an attempt is made to use a premium feature in the free version. [FeatureNotFreeHideQuestion]
 #: Resources.resx loco:689206499d45383ddb09dcf2
 #| msgid "Do you want to hide all premium features?"
 msgid "FeatureNotFreeHideQuestion"
-msgstr "¿Deseas ocultar todas las funciones premium?"
+msgstr "是否隐藏所有 Premium 功能？"
 
 #. The info text show when the user attempts to use a non-free feature. [FeatureNotFreeInformation]
 #: Resources.resx loco:670e1cf615d80a27bc0eb406
@@ -718,40 +668,38 @@ msgstr "¿Deseas ocultar todas las funciones premium?"
 #| "think!"
 msgid "FeatureNotFreeInformation"
 msgstr ""
-"¡El cifrado y descifrado estándar son, por supuesto, siempre gratuitos!\n"
+"标准加密和解密功能当然始终免费！\n"
 "\n"
-"Si le gusta el programa y desea activar todas las funciones, por favor, "
-"ayúdenos\n"
-"adquiriendo una suscripción en {0}.\n"
+"如果您喜欢本程序并希望启用全部功能，请支持我们：\n"
+"请在 {0} 购买订阅。\n"
 "\n"
-"No es gratis, pero tampoco es caro y creemos que merece la pena"
+"订阅并非免费，但价格并不高，我们相信物有所值。"
 
 #. The first short text specifying a feature is not free. [FeatureNotFreeShortInformation]
 #: Resources.resx loco:689206499d45383ddb09dcf3
 #| msgid "Sorry, this premium feature is not available in the free version."
 msgid "FeatureNotFreeShortInformation"
-msgstr ""
-"Lo sentimos, esta función premium no está disponible en la versión gratuita."
+msgstr "抱歉，此 Premium 功能在免费版中不可用。"
 
 #. The title of the text box to show when the user attempts to use a non-free feature. {0} is the program name, and should always be first in all translations. [FeatureNotFreeTitle]
 #: Resources.resx loco:670e1cf615d80a27bc0eb407
 #, icu-format
 #| msgid "{0} Feature not available"
 msgid "FeatureNotFreeTitle"
-msgstr "{0} Función no disponible"
+msgstr "{0} 功能不可用"
 
 #. A message displayed as user feedback when an operation was canceled. [FilesCanceledMessage]
 #: Resources.resx loco:670e1cf615d80a27bc0eb408
 #| msgid "Canceled"
 msgid "FilesCanceledMessage"
-msgstr "Cancelado"
+msgstr "已取消"
 
 #. The progress finished indicator. The {0} is replaced by the number of files, 0, 1 or many. [FilesProcessedMessageFormat]
 #: Resources.resx loco:670e1cf615d80a27bc0eb409
 #, icu-format
 #| msgid "No files|{0} file|{0} files"
 msgid "FilesProcessedMessageFormat"
-msgstr "Ningún archivo|{0} archivo|{0} archivos"
+msgstr "没有文件|{0} 个文件|{0} 个文件"
 
 #. A tooltip text explaining how getting the license works. [GetLicenseTooltip]
 #: Resources.resx loco:670e1cf615d80a27bc0eb40a
@@ -759,33 +707,31 @@ msgstr "Ningún archivo|{0} archivo|{0} archivos"
 #| "A browser window will open. Copy the license from there, return here and "
 #| "paste it."
 msgid "GetLicenseTooltip"
-msgstr ""
-"Se abrirá una ventana del navegador. Copia la licencia de allí, vuelve aquí "
-"y pégala."
+msgstr "将打开浏览器窗口。请从该页面复制许可证，然后返回此处并粘贴。"
 
 #. A heading in the create new user window, i.e. "Create New User". [HeadingCreateNewUser]
 #: Resources.resx loco:670e1cf615d80a27bc0eb40b
 #| msgid "Create new profile"
 msgid "HeadingCreateNewUser"
-msgstr "Crear nuevo perfil"
+msgstr "创建新配置文件"
 
 #. A heading in the create user window, i.e. "First Time Setup". [HeadingCreateUserFirstTimeSetup]
 #: Resources.resx loco:670e1cf615d80a27bc0eb40c
 #| msgid "Setup a local profile"
 msgid "HeadingCreateUserFirstTimeSetup"
-msgstr "Configurar un perfil local"
+msgstr "设置本地配置文件"
 
 #. The heading for the emergency reset password dialog [HeadingEmergencyReset]
 #: Resources.resx loco:670e1cf615d80a27bc0eb40d
 #| msgid "Reset password!"
 msgid "HeadingEmergencyReset"
-msgstr "Restablecer la contraseña!"
+msgstr "重置密码！"
 
 #. A text used to issue a warning to the user that an attempt was made to add an invalid or expired license. [InvalidLicenseIgnored]
 #: Resources.resx loco:670e1cf615d80a27bc0eb40e
 #| msgid "License is invalid or expired."
 msgid "InvalidLicenseIgnored"
-msgstr "La licencia no es válida o ha caducado."
+msgstr "许可证无效或已过期。"
 
 #. The text label describing the action for the clear passwords dialog. The {0} will be replaced by a number. This is a plural text, the first is for zero, then one, and then 2 or more separated by '|'. [LabelDecryptionPasswordCountFormat]
 #: Resources.resx loco:670e1cf615d80a27bc0eb40f
@@ -794,21 +740,19 @@ msgstr "La licencia no es válida o ha caducado."
 #| "There are no saved passwords to clear.|There is one saved password. Clear "
 #| "it?|There are {0} passwords saved. Clear them all?"
 msgid "LabelDecryptionPasswordCountFormat"
-msgstr ""
-"No hay contraseñas guardadas para borrar.|Hay una contraseña guardada. "
-"¿Quieres borrarla?|Hay {0} contraseñas guardadas. ¿Quieres borrarlas todas?"
+msgstr "没有已保存的解密密码可供清除。|已保存 1 个解密密码。是否清除？|已保存 {0} 个解密密码。是否全部清除？"
 
 #. A label displayed for the last 4 digits input field. [LabelLast4]
 #: Resources.resx loco:670e1cf615d80a27bc0eb410
 #| msgid "Last 4 digits of credit card, or empty."
 msgid "LabelLast4"
-msgstr "Últimos 4 dígitos de la tarjeta de crédito, o dejar en blanco."
+msgstr "信用卡号后 4 位，或留空。"
 
 #. A label for the textbox where a recovered secret is displayed. [LabelTheSecret]
 #: Resources.resx loco:68396d06ff6b3f753f0e72d6
 #| msgid "The secret"
 msgid "LabelTheSecret"
-msgstr "El secreto"
+msgstr "秘密值"
 
 #. A text fragment appearing in the about window, informing that the license is not valid for Ez. [LicenseNotValidForProductBlurb]
 #: Resources.resx loco:670e1cf615d80a27bc0eb411
@@ -818,16 +762,15 @@ msgstr "El secreto"
 #| "version, some features unavailable.\\nSee https://www.axantum.com/ ."
 msgid "LicenseNotValidForProductBlurb"
 msgstr ""
-"La licencia '{product}' para {licensee} no es válida para este software. "
-"Versión gratuita, algunas funciones no disponibles.\\nVer https://www."
-"axantum.com/ ."
+"颁发给 {licensee} 的\"{product}\"许可证不适用于本软件。当前使用免费版，部分功能不可用。\\n请参阅 https://www."
+"axantum.com/。"
 
 #. A text fragment appearing in the about window, informing that there is a currently valid license. [LicensedBlurb]
 #: Resources.resx loco:670e1cf615d80a27bc0eb412
 #, icu-format
 #| msgid "License for {licensee} valid to {expiration}, thank you!"
 msgid "LicensedBlurb"
-msgstr "Licencia para {licensee} válida hasta {expiration}, ¡gracias!"
+msgstr "{licensee} 的许可证有效期至 {expiration}，感谢您！"
 
 #. A text fragment appearing in the about window, informing that there is a previously valid license, now expired. [LicensedExpiredBlurb]
 #: Resources.resx loco:670e1cf615d80a27bc0eb413
@@ -837,297 +780,297 @@ msgstr "Licencia para {licensee} válida hasta {expiration}, ¡gracias!"
 #| "features unavailable.\\nSee https://www.axantum.com/ ."
 msgid "LicensedExpiredBlurb"
 msgstr ""
-"La licencia para {licensee} expiró en {expiration}.\\nVersión gratuita, "
-"algunas características no disponibles.\\nVer en https://www.axantum.com/."
+"{licensee} 的许可证已于 {expiration} 到期。\\n当前使用免费版，部分功能不可用。\\n请参阅 https://www."
+"axantum.com/。"
 
 #. The text in the menu to open a window with about information, i.e. "About". (_ indicates keyboard accelerator) [MenuAbout]
 #: Resources.resx loco:670e1cf615d80a27bc0eb414
 #| msgid "_About"
 msgid "MenuAbout"
-msgstr "_Acerca de"
+msgstr "_关于"
 
 #. The menu item under to add an extra alternate password. [MenuAddPassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb415
 #| msgid "_Add decryption password…"
 msgid "MenuAddPassword"
-msgstr "_Añadir contraseña de descifrado…"
+msgstr "_添加解密密码…"
 
 #. The menu text for a link to the purchase page. [MenuBuyNow]
 #: Resources.resx loco:670e1cf615d80a27bc0eb416
 #| msgid "Subscribe to _premium…"
 msgid "MenuBuyNow"
-msgstr "Suscribirse a _Premium…"
+msgstr "订阅_Premium…"
 
 #. The text used as a title in the change email dialog and the menu [MenuChangeEmail]
 #: Resources.resx loco:6789570564500fc900019cc3
 #| msgid "Change _email…"
 msgid "MenuChangeEmail"
-msgstr "Cambiar _correo electrónico…"
+msgstr "更改_电子邮件地址…"
 
 #. The text in the menu to open a dialog to change the password, i.e. "Change _Password…". (_ indicates keyboard accelerator) [MenuChangePassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb417
 #| msgid "Change _password…"
 msgid "MenuChangePassword"
-msgstr "Cambiar _contraseña…"
+msgstr "更改_密码…"
 
 #. A menu entry to clear previously hidden warnings [MenuClearDontShowAgain]
 #: Resources.resx loco:6789570564500fc900019cc4
 #| msgid "Show all _messages again"
 msgid "MenuClearDontShowAgain"
-msgstr "Mostrar todos los _mensajes de nuevo"
+msgstr "重新显示所有_消息"
 
 #. Menu title for the clear passwords function. Also used as the title of the dialog, edited to remove "…" and accelerators [MenuClearPasswords]
 #: Resources.resx loco:670e1cf615d80a27bc0eb418
 #| msgid "_Clear decryption passwords…"
 msgid "MenuClearPasswords"
-msgstr "_Borrar contraseñas de descifrado…"
+msgstr "_清除解密密码…"
 
 #. The  menu item to clear the recent files list [MenuClearRecent]
 #: Resources.resx loco:670e1cf615d80a27bc0eb419
 #| msgid "_Clear recent list…"
 msgid "MenuClearRecent"
-msgstr "_Borrar lista reciente…"
+msgstr "_清除最近使用的文件列表…"
 
 #. A menu text, also used as tooltip for license paste button [MenuClipboardLicense]
 #: Resources.resx loco:6745a304c4fd5b3bae0bcef5
 #| msgid "Paste license from _clipboard"
 msgid "MenuClipboardLicense"
-msgstr "Pegar licencia desde el _portapapeles"
+msgstr "从_剪贴板粘贴许可证"
 
 #. The text in the menu to close all possible currently opened files. (_ indicates the letter for a keyboard accelerator) [MenuClose]
 #: Resources.resx loco:670e1cf615d80a27bc0eb41a
 #| msgid "_Close all"
 msgid "MenuClose"
-msgstr "_Cerrar todo"
+msgstr "_全部关闭"
 
 #. Menu text for combining secret shares to recover the secret. [MenuCombineShares]
 #: Resources.resx loco:68396d06ff6b3f753f0e72d7
 #| msgid "C_ombine secret shares…"
 msgid "MenuCombineShares"
-msgstr "_Combinar partes del secreto…"
+msgstr "_合并秘密分片…"
 
 #. Menu text for creating secret shares. [MenuCreateShares]
 #: Resources.resx loco:68396d06ff6b3f753f0e72d8
 #| msgid "_Create secret shares…"
 msgid "MenuCreateShares"
-msgstr "_Crear partes del secreto…"
+msgstr "_创建秘密分片…"
 
 #. The text in the menu to open a dialog to create a new user, i.e. "Create New…". (_ indicates keyboard accelerator) [MenuCreateUser]
 #: Resources.resx loco:670e1cf615d80a27bc0eb41b
 #| msgid "_Create new profile…"
 msgid "MenuCreateUser"
-msgstr "_Crear nuevo perfil…"
+msgstr "_创建新配置文件…"
 
 #. The menu to open the customer portal [MenuCustomerPortal]
 #: Resources.resx loco:6745a304c4fd5b3bae0bcef6
 #| msgid "Customer _portal…"
 msgid "MenuCustomerPortal"
-msgstr "Portal_del_cliente…"
+msgstr "客户_门户…"
 
 #. The text in the menu to open a dialog to select files to decrypt, i.e. "Decrypt…". (_ indicates keyboard accelerator) [MenuDecrypt]
 #: Resources.resx loco:670e1cf615d80a27bc0eb41c
 #| msgid "_Decrypt…"
 msgid "MenuDecrypt"
-msgstr "_Descifrar…"
+msgstr "_解密…"
 
 #. A menu entry for the decrypt folder operation. [MenuDecryptFolder]
 #: Resources.resx loco:670e1cf615d80a27bc0eb41d
 #| msgid "Decrypt f_older files…"
 msgid "MenuDecryptFolder"
-msgstr "_Descifrar archivos de la carpeta…"
+msgstr "解密文件夹中的_文件…"
 
 #. The menu text for a link to the download page. [MenuDownload]
 #: Resources.resx loco:670e1cf615d80a27bc0eb41e
 #| msgid "Check for _update…"
 msgid "MenuDownload"
-msgstr "Buscar _actualización…"
+msgstr "检查_更新…"
 
 #. The text in a menu for the Edit operation, i.e. "Edit" [MenuEdit]
 #: Resources.resx loco:670e1cf615d80a27bc0eb41f
 #| msgid "_Edit"
 msgid "MenuEdit"
-msgstr "_Editar"
+msgstr "_编辑"
 
 #. The text in the menu to open a dialog to select files to encrypt, i.e. "Encrypt…". (_ indicates keyboard accelerator) [MenuEncrypt]
 #: Resources.resx loco:670e1cf615d80a27bc0eb420
 #| msgid "_Encrypt…"
 msgid "MenuEncrypt"
-msgstr "_Cifrar…"
+msgstr "_加密…"
 
 #. The text in the menu to select files to encrypt a copy of  a file in a different destination folder, i.e. "Encrypt Copy…". [MenuEncryptCopy]
 #: Resources.resx loco:670e1cf615d80a27bc0eb421
 #| msgid "Encrypt _copy…"
 msgid "MenuEncryptCopy"
-msgstr "Cifrar _copia…"
+msgstr "加密_副本…"
 
 #. The text in the menu to select files to encrypt a copy of  a file to another recipient in a different destination folder, i.e. "Encrypt Copy…". [MenuEncryptCopyFor]
 #: Resources.resx loco:670e1cf615d80a27bc0eb422
 #| msgid "Encrypt _copy to share…"
 msgid "MenuEncryptCopyFor"
-msgstr "_Cifrar copia para compartir…"
+msgstr "加密_副本以便共享…"
 
 #. The menu item to encrypt or decrypt text [MenuEncryptDecryptText]
 #: Resources.resx loco:670e1cf615d80a27bc0eb423
 #| msgid "Encrypt or decrypt _text…"
 msgid "MenuEncryptDecryptText"
-msgstr "Cifrar o descifrar _texto…"
+msgstr "加密或解密_文本…"
 
 #. A menu entry for the encrypt folder operation. [MenuEncryptFolder]
 #: Resources.resx loco:670e1cf615d80a27bc0eb424
 #| msgid "Encrypt _folder files…"
 msgid "MenuEncryptFolder"
-msgstr "_Cifrar archivos de la carpeta…"
+msgstr "加密_文件夹中的文件…"
 
 #. The menu entry for opening a window where the license can be pasted. [MenuEnterLicense]
 #: Resources.resx loco:68c58fbe8a59c0d4460a2604
 #| msgid "Activate _Premium…"
 msgid "MenuEnterLicense"
-msgstr "Activar _Premium…"
+msgstr "激活 _Premium…"
 
 #. The text in the menu to exit the program, i.e. "Exit". (_ indicates keyboard accelerator) [MenuExit]
 #: Resources.resx loco:670e1cf615d80a27bc0eb425
 #| msgid "E_xit"
 msgid "MenuExit"
-msgstr "_Salir"
+msgstr "_退出"
 
 #. The text in the menu to open the file submenu, i.e. "File". (_ indicates keyboard accelerator) [MenuFile]
 #: Resources.resx loco:670e1cf615d80a27bc0eb426
 #| msgid "_File"
 msgid "MenuFile"
-msgstr "_Archivo"
+msgstr "_文件"
 
 #. The text in the menu open the help submenu, i.e. "Help". (_ indicates keyboard accelerator) [MenuHelp]
 #: Resources.resx loco:670e1cf615d80a27bc0eb427
 #| msgid "_Help"
 msgid "MenuHelp"
-msgstr "_Ayuda"
+msgstr "_帮助"
 
 #. The menu to open a gallery of video instructions [MenuHelpVideos]
 #: Resources.resx loco:6745a304c4fd5b3bae0bcef7
 #| msgid "_Video guides…"
 msgid "MenuHelpVideos"
-msgstr "_Guías en video…"
+msgstr "_视频指南…"
 
 #. A menu entry for selecting an inactivty timeout exit [MenuInactivityExit]
 #: Resources.resx loco:671258cbbd9b193153086462
 #| msgid "_Exit after inactivity…"
 msgid "MenuInactivityExit"
-msgstr "Salir después de inactividad…"
+msgstr "无操作后_退出…"
 
 #. A menu entry for selecting 'Never' as the choice for inactivity timeout [MenuInactivityNever]
 #: Resources.resx loco:671258cbbd9b193153086463
 #| msgid "Never"
 msgid "MenuInactivityNever"
-msgstr "Nunca"
+msgstr "永不"
 
 #. The format for a timeout selection menu entry. [MenuInactivityTimeoutValueFormat]
 #: Resources.resx loco:671258cbbd9b193153086464
 #, icu-format
 #| msgid "{0} minutes"
 msgid "MenuInactivityTimeoutValueFormat"
-msgstr "{0} minutos"
+msgstr "{0} 分钟"
 
 #. The menu text for the function to retrieve a purchased license. [MenuLicense]
 #: Resources.resx loco:670e1cf615d80a27bc0eb428
 #| msgid "Get your subscription premium _license…"
 msgid "MenuLicense"
-msgstr "Obtener tu _licencia de suscripción Premium…"
+msgstr "获取 Premium 订阅_许可证…"
 
 #. Menu text for loading/viewing secret shares. [MenuLoadShares]
 #: Resources.resx loco:68396d06ff6b3f753f0e72d9
 #| msgid "_View secret shares…"
 msgid "MenuLoadShares"
-msgstr "_Ver partes del secreto…"
+msgstr "_查看秘密分片…"
 
 #. The text in the menu to open a dialog to select a file to open, i.e. "Open…". (_ indicates keyboard accelerator) [MenuOpen]
 #: Resources.resx loco:670e1cf615d80a27bc0eb429
 #| msgid "_Open…"
 msgid "MenuOpen"
-msgstr "_Abrir…"
+msgstr "_打开…"
 
 #. The text in the menu to display a list of recent files to open, i.e. "Open Recent…". (_ indicates keyboard accelerator) [MenuOpenRecent]
 #: Resources.resx loco:670e1cf615d80a27bc0eb42a
 #| msgid "Open _recent"
 msgid "MenuOpenRecent"
-msgstr "Abrir _reciente"
+msgstr "打开_最近使用的文件"
 
 #. The text in a menu or context menu for the Paste operation, i.e. Paste. [MenuPaste]
 #: Resources.resx loco:670e1cf615d80a27bc0eb42b
 #| msgid "_Paste"
 msgid "MenuPaste"
-msgstr "_Pegar"
+msgstr "_粘贴"
 
 #. A menu entry to further options to change preferences. [MenuPreferences]
 #: Resources.resx loco:670e1cf615d80a27bc0eb42c
 #| msgid "_Preferences…"
 msgid "MenuPreferences"
-msgstr "_Preferencias…"
+msgstr "_首选项…"
 
 #. The menu text for the random renaming of files. [MenuRandomRename]
 #: Resources.resx loco:670e1cf615d80a27bc0eb42d
 #| msgid "_Rename randomly…"
 msgid "MenuRandomRename"
-msgstr "_Renombrar aleatoriamente…"
+msgstr "_随机重命名…"
 
 #. Menu entry for re-encrypting already encrypted files. [MenuReEncryptFiles]
 #: Resources.resx loco:670e1cf615d80a27bc0eb42e
 #| msgid "_Re-encrypt…"
 msgid "MenuReEncryptFiles"
-msgstr "_Reencriptar…"
+msgstr "_重新加密…"
 
 #. The menu entry to select a folder and re-encrypt all files in it and subfolders [MenuReEncryptFolder]
 #: Resources.resx loco:670e1cf615d80a27bc0eb42f
 #| msgid "_Re-encrypt folder files"
 msgid "MenuReEncryptFolder"
-msgstr "_Reencriptar archivos de carpeta"
+msgstr "_重新加密文件夹中的文件"
 
 #. Text for a menu entry to show the program from a minimized state. [MenuShow]
 #: Resources.resx loco:670e1cf615d80a27bc0eb430
 #| msgid "_Show"
 msgid "MenuShow"
-msgstr "_Mostrar"
+msgstr "_显示"
 
 #. Menu entry that opens a dialog box with suggestions for passwords [MenuSuggestPassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb431
 #| msgid "_Suggest password…"
 msgid "MenuSuggestPassword"
-msgstr "_Sugerir contraseña…"
+msgstr "_随机生成的密码…"
 
 #. A menu entry to further options to change the visual theme, i.e. dark or light. [MenuTheme]
 #: Resources.resx loco:670e1cf615d80a27bc0eb432
 #| msgid "_Theme…"
 msgid "MenuTheme"
-msgstr "_Tema…"
+msgstr "_主题…"
 
 #. A menu entry to request a temporary trial license. [MenuTrialDownload]
 #: Resources.resx loco:670e1cf615d80a27bc0eb433
 #| msgid "Get your 3 day _free premium license…"
 msgid "MenuTrialDownload"
-msgstr "Obtener tu licencia Premium _gratuita de 3 días…"
+msgstr "获取 3 天_免费 Premium 许可证…"
 
 #. The text in the menu to open the User submenu, i.e. "User". (_ indicates keyboard accelerator) [MenuUser]
 #: Resources.resx loco:670e1cf615d80a27bc0eb434
 #| msgid "_User"
 msgid "MenuUser"
-msgstr "_Usuario"
+msgstr "_用户"
 
 #. The menu text to open a dialog asking for files to wipe. [MenuWipe]
 #: Resources.resx loco:670e1cf615d80a27bc0eb435
 #| msgid "_Delete securely…"
 msgid "MenuWipe"
-msgstr "_Eliminar de forma segura…"
+msgstr "_安全删除…"
 
 #. Menu title for configuration of a YubiKey. [MenuYubiKey]
 #: Resources.resx loco:670e1cf615d80a27bc0eb436
 #| msgid "_YubiKey configuration…"
 msgid "MenuYubiKey"
-msgstr "Configuración de _YubiKey…"
+msgstr "_YubiKey 配置…"
 
 #. Error message when decryption fails due to broken data. [MessageFileFormatError]
 #: Resources.resx loco:670e1cf615d80a27bc0eb437
 #| msgid "The encrypted data is not correctly formatted."
 msgid "MessageFileFormatError"
-msgstr "Los datos cifrados no están formateados correctamente."
+msgstr "加密数据格式不正确。"
 
 #. A message when decrypting a file that does not start with the magic guid. [MessageNotEncrypted]
 #: Resources.resx loco:680b8a0748ff58b5370e39d2
@@ -1135,46 +1078,44 @@ msgstr "Los datos cifrados no están formateados correctamente."
 #| "The initial 16 bytes are wrong, it is probably some other kind of data or "
 #| "severely damaged."
 msgid "MessageNotEncrypted"
-msgstr ""
-"Los primeros 16 bytes son incorrectos. Probablemente se trate de otro tipo "
-"de dato o esté gravemente dañado."
+msgstr "开头的 16 个字节不正确。这可能是其他类型的数据，也可能已严重损坏。"
 
 #. Error message when an improperly formatted license string is attempted to be used. [MessageTextBadLicenseString]
 #: Resources.resx loco:6745a304c4fd5b3bae0bcef8
 #| msgid "The license key is not in the correct format."
 msgid "MessageTextBadLicenseString"
-msgstr "La clave de licencia no tiene el formato correcto."
+msgstr "许可证密钥格式不正确。"
 
 #. A warning when the number of files requested for an operation is higher than a threshold. {0} will be filled with the exact number of files. [MessageTextConfirmManyFilesFormat]
 #: Resources.resx loco:670e1cf615d80a27bc0eb438
 #, icu-format
 #| msgid "That's {0} files!"
 msgid "MessageTextConfirmManyFilesFormat"
-msgstr "¡Son {0} archivos!"
+msgstr "共有 {0} 个文件！"
 
 #. A confirmation message prompt when pasting a directory. [MessageTextConfirmPasteDirectory]
 #: Resources.resx loco:67572ea92257d74f5c003653
 #| msgid "That includes a directory."
 msgid "MessageTextConfirmPasteDirectory"
-msgstr "Eso incluye un directorio."
+msgstr "其中包含一个目录。"
 
 #. A text asking a yes/no response confirmation for a dangerous irreversible operation, i.e. File Wipe. [MessageTextConfirmWipe]
 #: Resources.resx loco:670e1cf615d80a27bc0eb439
 #| msgid "This operation cannot be undone."
 msgid "MessageTextConfirmWipe"
-msgstr "Esta operación no se puede deshacer."
+msgstr "此操作无法撤销。"
 
 #. A short text shown as a hyperlink in the sign in dialog. [MessageTextForgotPassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb43a
 #| msgid "Forgot your password?"
 msgid "MessageTextForgotPassword"
-msgstr "¿Olvidaste tu contraseña?"
+msgstr "忘记密码？"
 
 #. A message when decrypting a file or text with exactly zero bytes. It is followed by one or more file names. [MessageZeroLength]
 #: Resources.resx loco:680b8a0748ff58b5370e39d3
 #| msgid "The data is damaged, the length is zero bytes."
 msgid "MessageZeroLength"
-msgstr "El dato está dañado, su tamaño es de cero bytes."
+msgstr "数据已损坏，长度为 0 字节。"
 
 #. A warning message displayed when an operation includes both encrypted an unencrypted files. [MixedFilesWarning]
 #: Resources.resx loco:678bf611545b8ded0e016fc2
@@ -1182,111 +1123,106 @@ msgstr "El dato está dañado, su tamaño es de cero bytes."
 #| "Both encrypted and plain files are included. The plain files will be "
 #| "encrypted, and the already encrypted will be unchanged."
 msgid "MixedFilesWarning"
-msgstr ""
-"Se incluyen archivos cifrados y sin cifrar. Los archivos sin cifrar serán "
-"cifrados, y los ya cifrados permanecerán sin cambios."
+msgstr "同时包含加密文件和明文文件。明文文件将被加密，已加密文件将保持不变。"
 
 #. A warning/info message stating that an attempt to close all files did not succeed completely and at least one file remain open. [OpenFilesRemainMessage]
 #: Resources.resx loco:670e1cf615d80a27bc0eb43b
 #| msgid "File(s) couldn't be closed and remain open!"
 msgid "OpenFilesRemainMessage"
-msgstr "¡No se pudieron cerrar los archivo(s) y permanecen abiertos!"
+msgstr "有文件无法关闭，仍处于打开状态！"
 
 #. A message displayed when a multi-file operation was canceled, {0} is the full name of the file that was interrupted. [OperationCanceledFormat]
 #: Resources.resx loco:670e1cf615d80a27bc0eb43c
 #, icu-format
 #| msgid "Operation was canceled during processing of '{0}'. Check and verify!"
 msgid "OperationCanceledFormat"
-msgstr ""
-"La operación fue cancelada durante el procesamiento de '{0}'. ¡Verifique y "
-"confirme!"
+msgstr "在处理\"{0}\"期间，操作已取消。请检查该文件！"
 
 #. A text shown as a placeholder when loading things takes time in a window, i.e. "Loading…". [PlaceholderLoading]
 #: Resources.resx loco:670e1cf615d80a27bc0eb43d
 #| msgid "Loading…"
 msgid "PlaceholderLoading"
-msgstr "Cargando…"
+msgstr "正在加载…"
 
 #. A text in the about box, telling how many private keys there are available. It will not be displayed if there are none at all. [PrivateKeysAboutFormat]
 #: Resources.resx loco:6745a304c4fd5b3bae0bcef9
 #, icu-format
 #| msgid "Extra private keys: {0} of {1} total."
 msgid "PrivateKeysAboutFormat"
-msgstr "Claves privadas adicionales: {0} de un total de {1}."
+msgstr "额外私钥：{0} 个（共 {1} 个）。"
 
 #. A prompt to enter a share (the first share) to combine. [PromptEnterFirstShare]
 #: Resources.resx loco:68396d06ff6b3f753f0e72da
 #| msgid "Enter a share"
 msgid "PromptEnterFirstShare"
-msgstr "Ingrese una parte"
+msgstr "输入一个分片"
 
 #. A prompt to enter the remaining shares to combine. [PromptEnterRemainingShares]
 #: Resources.resx loco:68396d06ff6b3f753f0e72db
 #| msgid "Enter the remaining required shares"
 msgid "PromptEnterRemainingShares"
-msgstr "Ingrese las partes restantes necesarias"
+msgstr "输入其余所需分片"
 
 #. Prompt for the required shares. [PromptRequiredShares]
 #: Resources.resx loco:68396d06ff6b3f753f0e72dc
 #| msgid "Required shares"
 msgid "PromptRequiredShares"
-msgstr "Partes requeridas"
+msgstr "所需分片数"
 
 #. Prompt for the total number of shares. [PromptTotalShares]
 #: Resources.resx loco:68396d06ff6b3f753f0e72dd
 #| msgid "Total shares"
 msgid "PromptTotalShares"
-msgstr "Total de partes"
+msgstr "分片总数"
 
 #. An information question yes/no dialog text asking if the user wants to see the release notes. [ReleaseNotesInformation]
 #: Resources.resx loco:68938b4aabe7a1f7370aed72
 #| msgid ""
 #| "You're running a new version! Would you like to see the release notes?"
 msgid "ReleaseNotesInformation"
-msgstr ""
-"¡Está utilizando una nueva versión! ¿Desea ver las notas de la versión?"
+msgstr "您正在运行新版本。是否要查看发行说明？"
 
 #. A pop-up asking for reviews. It should have OK and Cancel, and OK leads to a web page being opened. [RequestReviewQuestion]
 #: Resources.resx loco:68b0150e351d8f49b20c34f2
 #| msgid "Please help us by reviewing and rating the app!"
 msgid "RequestReviewQuestion"
-msgstr "Por favor, ayúdanos reseñando y calificando la aplicación."
+msgstr "是否愿意为本应用评分并撰写评价？"
 
 #. Radio button text to share any arbitrary secret. [SelectShareAny]
 #: Resources.resx loco:68396d06ff6b3f753f0e72de
 #| msgid "Share any secret"
 msgid "SelectShareAny"
-msgstr "Compartir cualquier secreto"
+msgstr "拆分任意秘密值"
 
 #. Radio button text to share the sign in password. [SelectShareSignIn]
 #: Resources.resx loco:68396d06ff6b3f753f0e72df
 #| msgid "Share sign in password"
 msgid "SelectShareSignIn"
-msgstr "Compartir contraseña de inicio de sesión"
+msgstr "拆分登录密码"
 
 #. A menu entry or label to select a dark visual theme. [ThemeDark]
 #: Resources.resx loco:670e1cf615d80a27bc0eb43e
 #| msgid "_Dark"
 msgid "ThemeDark"
-msgstr "_Oscuro"
+msgstr "_深色"
 
 #. A menu entry or label to select a light visual theme. [ThemeLight]
 #: Resources.resx loco:670e1cf615d80a27bc0eb43f
 #| msgid "_Light"
 msgid "ThemeLight"
-msgstr "_Claro"
+msgstr "_浅色"
 
 #. A menu entry or lablel to select the visual theme to match the system theme. [ThemeSystem]
 #: Resources.resx loco:670e1cf615d80a27bc0eb440
 #| msgid "_System"
 msgid "ThemeSystem"
-msgstr "_Sistema"
+msgstr "_系统"
 
 #. An additional prompt informing that more information is available with a click. It may be added to help button and other tool tips at the end as a last sentence. [TipMoreHelp]
 #: Resources.resx loco:670e1cf615d80a27bc0eb441
 #| msgid "Click for more information…"
 msgid "TipMoreHelp"
-msgstr "Haz clic para más información…"
+msgstr "单击可了解更多信息…"
 
 #. Tooltip for the Add Password dialog, explaining a litte more. [ToolTipAddPassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb442
@@ -1295,10 +1231,7 @@ msgstr "Haz clic para más información…"
 #| "someone else or you have used another password previously. It does not "
 #| "affect encryption."
 msgid "ToolTipAddPassword"
-msgstr ""
-"Agregar una contraseña es solo para la descifrado, cuando recibes archivos "
-"de otra persona o has utilizado otra contraseña anteriormente. No afecta al "
-"cifrado."
+msgstr "添加密码仅用于解密，适用于收到他人发送的文件或以前使用过其他密码的情况。它不会影响加密。"
 
 #. Tooltip for the clear passwords dialog. [ToolTipClearPasswords]
 #: Resources.resx loco:670e1cf615d80a27bc0eb443
@@ -1306,23 +1239,20 @@ msgstr ""
 #| "Clear decryption passwords saved in settings. You can always add them "
 #| "back again."
 msgid "ToolTipClearPasswords"
-msgstr ""
-"Borra las contraseñas de descifrado guardadas en la configuración. Siempre "
-"puedes agregarlas de nuevo."
+msgstr "清除保存在设置中的解密密码。您随时可以重新添加这些密码。"
 
 #. Help tool tip for the combine shares dialog. It should be followed by a "Click for more info…" prompt, leading to a help page. [ToolTipCombineShares]
 #: Resources.resx loco:68396d06ff6b3f753f0e72e0
 #| msgid ""
 #| "Enter the required number of shares to combine them and view the secret."
 msgid "ToolTipCombineShares"
-msgstr ""
-"Ingrese el número requerido de partes para combinarlas y ver el secreto."
+msgstr "输入所需数量的分片，即可合并分片并查看秘密值。"
 
 #. A tool tip shown when hovering over the copy button in the suggest password dialog. [ToolTipCopySuggested]
 #: Resources.resx loco:670e1cf615d80a27bc0eb444
 #| msgid "Copy the suggested password and close the dialog."
 msgid "ToolTipCopySuggested"
-msgstr "Copiar la contraseña sugerida y cerrar el diálogo."
+msgstr "复制生成的密码并关闭对话框。"
 
 #. Help tool tip for the create shares dialog. It should be followed by a "Click for more info.." prompt, leading to a help page. [ToolTipCreateShares]
 #: Resources.resx loco:68396d06ff6b3f753f0e72e1
@@ -1330,15 +1260,13 @@ msgstr "Copiar la contraseña sugerida y cerrar el diálogo."
 #| "Split a secret into shares, specifying how many shares and how many are "
 #| "required to recover the secret."
 msgid "ToolTipCreateShares"
-msgstr ""
-"Divida un secreto en partes, especificando cuántas crear y cuántas se "
-"requieren para recuperarlo."
+msgstr "将秘密值拆分为多个分片，并指定分片总数和恢复秘密值所需的分片数。"
 
 #. A tool tip text explaining the function of the scale factor decrease button. [ToolTipDecreaseScaleFactor]
 #: Resources.resx loco:670e1cf615d80a27bc0eb445
 #| msgid "Make text and window smaller."
 msgid "ToolTipDecreaseScaleFactor"
-msgstr "Hacer el texto y la ventana más pequeños."
+msgstr "缩小文本和窗口。"
 
 #. A tool tip text explaining that entering an email is only a convient format to name or tag a user, it's not used to send emails. [ToolTipEmail]
 #: Resources.resx loco:670e1cf615d80a27bc0eb446
@@ -1346,9 +1274,7 @@ msgstr "Hacer el texto y la ventana más pequeños."
 #| "Not used for sending emails. It's an identifier for your local profile in "
 #| "the software and for sharing with others."
 msgid "ToolTipEmail"
-msgstr ""
-"No se utiliza para enviar correos electrónicos. Es un identificador para su "
-"perfil local en el software y para compartirlo con otros."
+msgstr "不会用于发送电子邮件。此地址用于在软件中标识您的本地配置文件，并在与他人共享时作为标识符。"
 
 #. A tool tip for the emergency reset, warning that old files still need the old password. [ToolTipEmergencyReset]
 #: Resources.resx loco:670e1cf615d80a27bc0eb447
@@ -1356,10 +1282,7 @@ msgstr ""
 #| "Set a new master password. Warning! The old password is still needed to "
 #| "decrypt previously encrypted files!"
 msgid "ToolTipEmergencyReset"
-msgstr ""
-"Establecer una nueva contraseña maestra. ¡Advertencia! La contraseña "
-"anterior sigue siendo necesaria para descifrar los archivos cifrados "
-"previamente."
+msgstr "设置新的主密码。警告！之前加密的文件仍需要使用旧密码才能解密！"
 
 #. A tooltip for the text encryption feature [ToolTipEncryptDecryptText]
 #: Resources.resx loco:670e1cf615d80a27bc0eb448
@@ -1370,10 +1293,8 @@ msgstr ""
 #| "and the END footer with the encrypted text."
 msgid "ToolTipEncryptDecryptText"
 msgstr ""
-"Escriba o copie/pegue el texto para cifrar o descifrar. La contraseña se "
-"utilizará para cifrar o descifrar el texto y debe compartirse a través de un "
-"canal separado entre el remitente y el destinatario. Siempre incluya el "
-"encabezado \"BEGIN\" y el pie de página \"END\" con el texto cifrado."
+"输入或复制粘贴文本进行加密或解密。此密码将用于加密或解密文本，发送方和接收方应通过其他独立渠道共享该密码。加密文本必须始终包含 BEGIN 和 END "
+"标记。"
 
 #. A tool tip for the get license dialog which using the user name and the last 4 digits, will open a browser page with the license if found. [ToolTipGetLicense]
 #: Resources.resx loco:670e1cf615d80a27bc0eb449
@@ -1382,10 +1303,7 @@ msgstr ""
 #| " you must fetch a license from the server. Provide the information here "
 #| "and follow the instructions."
 msgid "ToolTipGetLicense"
-msgstr ""
-"Cuando tu licencia de suscripción haya expirado o estés usando un "
-"dispositivo nuevo, debes obtener una licencia del servidor. Proporciona la "
-"información aquí y sigue las instrucciones."
+msgstr "订阅许可证到期或使用新设备时，必须从服务器获取许可证。请在此提供相关信息并按照说明操作。"
 
 #. An additional tooltip part, that explains that if no card was entered, getting the license this way won't work so easily. [ToolTipGetLicenseNoCard]
 #: Resources.resx loco:670e1cf615d80a27bc0eb44a
@@ -1393,46 +1311,44 @@ msgstr ""
 #| "Leave the last 4 digits empty if you didn't use a card or don't recall "
 #| "them."
 msgid "ToolTipGetLicenseNoCard"
-msgstr ""
-"Deja en blanco los últimos 4 dígitos si no usaste una tarjeta o no los "
-"recuerdas."
+msgstr "未使用信用卡或不记得卡号后 4 位时请留空。"
 
 #. A tooltip for the hide password buton in password dialogs [ToolTipHidePassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb44b
 #| msgid "Hide password."
 msgid "ToolTipHidePassword"
-msgstr "Ocultar contraseña."
+msgstr "隐藏密码。"
 
 #. A tooltip describing that a clicking a button hides the menus and buttons for premium when in free version. [ToolTipHidePremium]
 #: Resources.resx loco:670e1cf615d80a27bc0eb44c
 #| msgid "Hide premium features unavailable in the free version."
 msgid "ToolTipHidePremium"
-msgstr "Ocultar las funciones Premium no disponibles en la versión gratuita."
+msgstr "隐藏免费版中不可用的 Premium 功能。"
 
 #. A tool tip text explaining the function of the scale factor increase button. [ToolTipIncreaseScaleFactor]
 #: Resources.resx loco:670e1cf615d80a27bc0eb44d
 #| msgid "Make text and window bigger."
 msgid "ToolTipIncreaseScaleFactor"
-msgstr "Agranda el texto y la ventana."
+msgstr "放大文本和窗口。"
 
 #. A tool tip text explaining briefly about the master password, that it should be strong and kept safe. [ToolTipMasterPassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb44e
 #| msgid ""
 #| "Your master password. Make it strong, write it down and keep it safe."
 msgid "ToolTipMasterPassword"
-msgstr "Tu contraseña maestra. Hazla fuerte, escríbela y mantenla segura."
+msgstr "这是您的主密码。请设置一个强密码，并将其记录下来妥善保管。"
 
 #. A tooltip for the show password button in password dialogs [ToolTipShowPassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb44f
 #| msgid "Show password."
 msgid "ToolTipShowPassword"
-msgstr "Mostrar contraseña."
+msgstr "显示密码。"
 
 #. A tooltip describing that clicking a button shows the menus and buttons for premium even when in free version. [ToolTipShowPremium]
 #: Resources.resx loco:670e1cf615d80a27bc0eb450
 #| msgid "Show all premium features."
 msgid "ToolTipShowPremium"
-msgstr "Mostrar todas las funciones Premium"
+msgstr "显示所有 Premium 功能。"
 
 #. Tooltip for the sign in dialog, explaining the reason. [ToolTipSignIn]
 #: Resources.resx loco:670e1cf615d80a27bc0eb451
@@ -1441,26 +1357,20 @@ msgstr "Mostrar todas las funciones Premium"
 #| "that you don't need to retype the password each time. This is the master "
 #| "password for all encryption. The sign in is only local to the app."
 msgid "ToolTipSignIn"
-msgstr ""
-"Iniciar sesión asegura que estás utilizando la contraseña correcta para el "
-"cifrado y que no necesitas volver a escribir la contraseña cada vez. Esta es "
-"la contraseña maestra para todo el cifrado. El inicio de sesión es solo "
-"local para la aplicación."
+msgstr "登录可确保加密时使用正确的密码，并避免每次都重新输入。这是所有加密操作使用的主密码，登录仅在本应用本地进行。"
 
 #. A tool tip for the suggest a password for create new user or change password. [ToolTipSuggestMasterPassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb452
 #| msgid "Suggest a password."
 msgid "ToolTipSuggestMasterPassword"
-msgstr "Sugerir una contraseña."
+msgstr "提供密码建议。"
 
 #. Tooltip for the view shares dialog. Should be followed by a "Click for more info…" prompt, leading to the help page. [ToolTipViewShares]
 #: Resources.resx loco:68396d06ff6b3f753f0e72e2
 #| msgid ""
 #| "View previously created shares, and send or save them to different places."
 msgid "ToolTipViewShares"
-msgstr ""
-"Ver partes creadas anteriormente, y enviarlas o guardarlas en diferentes "
-"ubicaciones."
+msgstr "查看之前创建的分片，并将其发送或保存到不同位置。"
 
 #. The tool tip for the help button in the YubiKey setup dialog. [ToolTipYubiKeySetup]
 #: Resources.resx loco:670e1cf615d80a27bc0eb453
@@ -1470,9 +1380,7 @@ msgstr ""
 #| "PIV configuration in more detail."
 msgid "ToolTipYubiKeySetup"
 msgstr ""
-"Habilitar o deshabilitar el uso de una YubiKey para iniciar sesión. Usa "
-"Yubico Authenticator u otras herramientas para restablecer, cambiar e "
-"inspeccionar la configuración PIV de YubiKey con más detalle."
+"启用或禁用 YubiKey 登录。可使用 Yubico Authenticator 或其他工具重置、更改并详细查看 YubiKey PIV 配置。"
 
 #. A text fragment appearing in the about window, informing that there is no license. [UnlicensedBlurb]
 #: Resources.resx loco:670e1cf615d80a27bc0eb454
@@ -1482,21 +1390,21 @@ msgstr ""
 #| "Please buy a license. See https://www.axantum.com/ ."
 msgid "UnlicensedBlurb"
 msgstr ""
-"Free version, some features are unavailable.\n"
+"免费版，部分功能不可用。\n"
 "\n"
-"Please buy a license. See https://www.axantum.com/ ."
+"请购买许可证。请参阅 https://www.axantum.com/。"
 
 #. The information text in the message box displayed when it's time to check for updates. [UpdateCheckInformation]
 #: Resources.resx loco:670e1cf615d80a27bc0eb455
 #| msgid "Would you like to check if there's an update available?"
 msgid "UpdateCheckInformation"
-msgstr "¿Quieres comprobar si hay una actualización disponible?"
+msgstr "是否检查可用更新？"
 
 #. The title of the message box displayed when it's time to check for updates. [UpdateCheckTitle]
 #: Resources.resx loco:670e1cf615d80a27bc0eb456
 #| msgid "Update check"
 msgid "UpdateCheckTitle"
-msgstr "Comprobación de actualización"
+msgstr "检查更新"
 
 #. The explanatory text in the view shares dialog. {0} refers to the threshold, or number of shares required. [ViewSharesDescriptionFormat]
 #: Resources.resx loco:68396d06ff6b3f753f0e72e3
@@ -1505,120 +1413,116 @@ msgstr "Comprobación de actualización"
 #| "Save or distribute these shares to different people or places. At least "
 #| "{0} shares are required to recover the secret."
 msgid "ViewSharesDescriptionFormat"
-msgstr ""
-"Guarde o distribuya estas partes entre diferentes personas o lugares. Se "
-"requieren al menos {0} partes para recuperar el secreto."
+msgstr "将这些分片保存或分发给不同的人或存放到不同位置。至少需要 {0} 个分片才能恢复秘密值。"
 
 #. The text used as watermark (slightly transparent grey) in a password confirmation entry text box, i.e. "Confirm Password". [WatermarkConfirmPassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb457
 #| msgid "Confirm password"
 msgid "WatermarkConfirmPassword"
-msgstr "Confirmar contraseña"
+msgstr "确认密码"
 
 #. The text used as watermark (slightly transparent grey) in a current password entry text box when changing password, i.e. "Current Password". [WatermarkCurrentPassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb458
 #| msgid "Current password"
 msgid "WatermarkCurrentPassword"
-msgstr "Contraseña actual"
+msgstr "当前密码"
 
 #. The text used as watermark (slightly transparent grey) in a email entry text box, i.e. "Email". [WatermarkEmail]
 #: Resources.resx loco:670e1cf615d80a27bc0eb459
 #| msgid "Email"
 msgid "WatermarkEmail"
-msgstr "Correo electrónico"
+msgstr "电子邮件"
 
 #. A watermark helping guide users where to paste the license string [WatermarkEnterLicenseHere]
 #: Resources.resx loco:68c58fbe8a59c0d4460a2605
 #| msgid "The license key goes here: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ…"
 msgid "WatermarkEnterLicenseHere"
-msgstr ""
-"La clave de licencia va aquí: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ…"
+msgstr "在此输入许可证密钥：eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ…"
 
 #. The watermark prompt for the last 4 digits to enter. [WatermarkLast4]
 #: Resources.resx loco:670e1cf615d80a27bc0eb45a
 #| msgid "4 digits"
 msgid "WatermarkLast4"
-msgstr "4 dígitos"
+msgstr "4 位数字"
 
 #. The text used as watermark (slightly transparent grey) in a new password entry text box when changing password, i.e. "New Password". [WatermarkNewPassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb45b
 #| msgid "New password"
 msgid "WatermarkNewPassword"
-msgstr "Nueva contraseña"
+msgstr "新密码"
 
 #. The text used as watermark (slightly transparent grey) in a password entry text box, i.e. "Master Password". [WatermarkPassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb45c
 #| msgid "Password"
 msgid "WatermarkPassword"
-msgstr "Contraseña"
+msgstr "密码"
 
 #. Watermark text for password or secret entry to share. [WatermarkPasswordSecret]
 #: Resources.resx loco:68396d06ff6b3f753f0e72e4
 #| msgid "Enter any password or secret…"
 msgid "WatermarkPasswordSecret"
-msgstr "Ingrese cualquier contraseña o secreto…"
+msgstr "输入任意密码或秘密值…"
 
 #. A watermark for entering sharing passwords [WatermarkPasswordShare]
 #: Resources.resx loco:670e1cf615d80a27bc0eb45d
 #| msgid "Password to share"
 msgid "WatermarkPasswordShare"
-msgstr "Contraseña para compartir"
+msgstr "要拆分的密码"
 
 #. A warning text, stating that one or more files are zero length, asking if the user is sure. The text should be followed by ConfirmationQuestion. It's followed by a list of the files that are detected as zero length. [ZeroLengthWarning]
 #: Resources.resx loco:68224b6ec1aa19265801d812
 #| msgid "One or more selected files are empty. They might be damaged."
 msgid "ZeroLengthWarning"
-msgstr ""
-"Uno o más archivos seleccionados están vacíos. Es posible que estén dañados."
+msgstr "一个或多个所选文件为空。它们可能已损坏。"
 
 #. Status text for number of files currently open, {0} is the number of files. Singular version|Plural version [ZzCommandBarContentFilesOpenFormat]
 #: Resources.resx loco:670e1cf615d80a27bc0eb45e
 #, icu-format
 #| msgid "No open files|One open file…|{0} Open files…"
 msgid "ZzCommandBarContentFilesOpenFormat"
-msgstr "Ningún archivo abierto|Un archivo abierto…|{0} Archivos abiertos…"
+msgstr "当前没有打开的文件|已打开 1 个文件…|已打开 {0} 个文件…"
 
 #. A heading in the sign in window, {0} is the program name, i.e. "Xecrets Ez". [ZzHeadingSignInFormat]
 #: Resources.resx loco:670e1cf615d80a27bc0eb45f
 #, icu-format
 #| msgid "Sign in to {0}"
 msgid "ZzHeadingSignInFormat"
-msgstr "Iniciar sesión en {0}"
+msgstr "登录 {0}"
 
 #. CLI API version label in about box, {0} is the tools display name, followed by the version, i.e. "Command Line Tools API Version:" 1.2 [ZzLabelCliToolApiVersionFormat]
 #: Resources.resx loco:670e1cf615d80a27bc0eb460
 #, icu-format
 #| msgid "{0} API version:"
 msgid "ZzLabelCliToolApiVersionFormat"
-msgstr "{0} versión de la API:"
+msgstr "{0} API 版本："
 
 #. CLI information label in about box, {0} is the tools display name, followed by some information, i.e. "Command Line Tools Information:" …Splash from CLI. [ZzLabelCliToolInformationFormat]
 #: Resources.resx loco:670e1cf615d80a27bc0eb461
 #, icu-format
 #| msgid "{0} information:"
 msgid "ZzLabelCliToolInformationFormat"
-msgstr "{0} información:"
+msgstr "{0} 信息："
 
 #. CLI path label in about box, {0} is the tools display name, followed by a path, i.e. "Command Line Tools Path:" … [ZzLabelCliToolPathFormat]
 #: Resources.resx loco:670e1cf615d80a27bc0eb462
 #, icu-format
 #| msgid "{0} path:"
 msgid "ZzLabelCliToolPathFormat"
-msgstr "{0} ruta:"
+msgstr "{0} 路径："
 
 #. The SDK API Version label in about box, {0} is the SDK API display name, i.e. "SDK API Version:" 1.3. [ZzLabelSdkApiVersionFormat]
 #: Resources.resx loco:670e1cf615d80a27bc0eb463
 #, icu-format
 #| msgid "{0} version:"
 msgid "ZzLabelSdkApiVersionFormat"
-msgstr "{0} versión:"
+msgstr "{0} 版本："
 
 #. Window title for About dialog. {0} is the full program version name, i.e. "Xecrets Ez 2.1.1337.0". [ZzTitleAboutFormat]
 #: Resources.resx loco:670e1cf615d80a27bc0eb464
 #, icu-format
 #| msgid "About {0}"
 msgid "ZzTitleAboutFormat"
-msgstr "Acerca de {0}"
+msgstr "关于 {0}"
 
 #. Program version window title format string, {0} is the actual version, i.e. "2.1.1337.0", {1} is the program name, i.e. "Xecrets Ez", {2} is the email of the signed in user, or empty. [ZzTitleProgramVersionNameFormat]
 #: Resources.resx loco:670e1cf615d80a27bc0eb465

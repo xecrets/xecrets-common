@@ -237,4 +237,8 @@
     <value>Polski [Polish]</value>
     <comment>DO NOT TRANSLATE - A dual language culture selector</comment>
   </data>
+  <data name="MenuSimplifiedChinese" xml:space="preserve">
+    <value>简体中文 [Chinese (Simplified)]</value>
+    <comment>DO NOT TRANSLATE - A dual language culture selector</comment>
+  </data>
 </root>

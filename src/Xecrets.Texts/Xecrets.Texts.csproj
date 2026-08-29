@@ -98,6 +98,7 @@
     <EmbeddedResource Include="Translations\pl_PL\LC_MESSAGES\xecrets-ez.po" />
     <EmbeddedResource Include="Translations\pt_BR\LC_MESSAGES\xecrets-ez.po" />
     <EmbeddedResource Include="Translations\sv_SE\LC_MESSAGES\xecrets-ez.po" />
+    <EmbeddedResource Include="Translations\zh_CN\LC_MESSAGES\xecrets-ez.po" />
   </ItemGroup>
 
   <ItemGroup>
