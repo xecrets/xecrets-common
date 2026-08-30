@@ -1,36 +1,35 @@
-# README
+# Xecrets Common
 
-Xecrets Texts - a library containing user interface texts and localization
-for the Xecrets family of apps.
+This repository holds code and localized texts that are shared across the Xecrets desktop and
+mobile apps. Anything that more than one Xecrets app needs - a data model, a storage or
+protection abstraction, a piece of user-facing text - belongs here rather than being duplicated
+in each app.
 
-## Library Documentation
+Because it is shared this widely, code in this repository is kept free of dependencies beyond the
+.NET framework itself, so that it can safely be referenced from any Xecrets app on any platform
+without dragging in anything an app doesn't already need.
 
-See the [Xecrets.Texts](src/Xecrets.Texts/docs/index.md) namespace documentation
-for more information.
+The repository contains two NuGet packages, each documented in its own README:
 
-```
+- **[Xecrets.Common](src/Xecrets.Common/README.md)** - common data models and the
+  storage/protection abstractions (`IXecretsDataStore`, `IUserDataStore`, `IPersistentData<T>`,
+  `IXecretsProtection`) shared by the apps.
+- **[Xecrets.Texts](src/Xecrets.Texts/README.md)** - user interface texts and gettext-based
+  localization for the apps.
 
-Xecrets Texts is free software, licensed under the GNU GPL Version 3 or later
-license. This means you can use it anywhere and any way you like for free, and
-you are also free to modify it as you wish as long as you do not redistribute
-it. If you do redistribute it, please check with the Free Software Foundation
-how this works, https://www.gnu.org/licenses/ .
+## How To Build?
 
-### How To Build?
+Open the solution in `src` in Visual Studio, or the workspace in Visual Studio Code, and build.
+There are no external dependencies that are not resolved with NuGet.
 
-Download the [xecrets-common](https://github.com/xecrets/xecrets-common)
-repository. Open the solution in Visual Studio or the workspace in Visual Studio
-Code and build. There are no external dependencies that are not resolved with
-Nuget.
+## How to Contribute
 
-### How to Contribute
-
-Talk to us. Due to the nature of the application, pull requests are audited very
-carefully. Before requesting a pull it's best if we discuss things.
+Talk to us. Due to the nature of the application, pull requests are audited very carefully.
+Before requesting a pull it's best if we discuss things.
 
 Minimum requirement is that there are no compiler warnings and no failed tests.
 
-### Contact
+## Contact
 
-Contact us via our [support](https://www.axantum.com/support "Xecrets Support
-Site") or through github .
+Contact us via our [support](https://www.axantum.com/support "Xecrets Support Site") or through
+github.

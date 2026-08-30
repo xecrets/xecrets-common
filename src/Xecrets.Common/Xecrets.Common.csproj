@@ -24,6 +24,7 @@
     <PackageTags>common;xecrets</PackageTags>
     <AssemblyVersion>2.3.0.0</AssemblyVersion>
     <FileVersion>2.3.0.0</FileVersion>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
     <IncludeSymbols>False</IncludeSymbols>
@@ -39,5 +40,12 @@
     <WarningLevel>9999</WarningLevel>
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
