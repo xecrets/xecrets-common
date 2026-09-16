@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-12 02:04+0200\n"
+"POT-Creation-Date: 2026-09-16 02:53+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1121,6 +1121,14 @@ msgstr "Required shares"
 #, new
 msgid "PromptTotalShares"
 msgstr "Total shares"
+
+#. A warning text, followed by one or more file paths, representing open files that for some reason can't be re-encrypted to the original location. [ReEncryptionDestinationWarning]
+#: Resources.resx
+#, new
+msgid "ReEncryptionDestinationWarning"
+msgstr ""
+"There are open files that can't be re-encrypted to their original location. "
+"Do you want to save to a different location?"
 
 #. An information question yes/no dialog text asking if the user wants to see the release notes. [ReleaseNotesInformation]
 #: Resources.resx

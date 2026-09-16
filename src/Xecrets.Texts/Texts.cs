@@ -295,6 +295,7 @@ public class Texts
     public static string PromptEnterRemainingShares => T[nameof(Resources.PromptEnterRemainingShares)];
     public static string PromptRequiredShares => T[nameof(Resources.PromptRequiredShares)];
     public static string PromptTotalShares => T[nameof(Resources.PromptTotalShares)];
+    public static string ReEncryptionDestinationWarning => T[nameof(Resources.ReEncryptionDestinationWarning)];
     public static string ReleaseNotesInformation => T[nameof(Resources.ReleaseNotesInformation)];
     public static string ReleaseNotesUrl => InvariantResources.ReleaseNotesUrl.ToSite();
     public static string RequestReviewQuestion => T[nameof(Resources.RequestReviewQuestion)];

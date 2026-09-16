@@ -1634,6 +1634,15 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to There are open files that can&apos;t be re-encrypted to their original location. Do you want to save to a different location?.
+        /// </summary>
+        internal static string ReEncryptionDestinationWarning {
+            get {
+                return ResourceManager.GetString("ReEncryptionDestinationWarning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to You&apos;re running a new version! Would you like to see the release notes?.
         /// </summary>
         internal static string ReleaseNotesInformation {

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Xecrets Ez\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-08 08:19+0200\n"
-"PO-Revision-Date: 2026-09-12 14:17+0200\n"
+"PO-Revision-Date: 2026-09-16 14:58+0200\n"
 "Last-Translator: Svante Seleborg\n"
 "Language-Team: French (France)\n"
 "Language: fr-FR\n"
@@ -1259,6 +1259,16 @@ msgstr "Parts requises"
 #| msgid "Total shares"
 msgid "PromptTotalShares"
 msgstr "Nombre total de parts"
+
+#. A warning text, followed by one or more file paths, representing open files that for some reason can't be re-encrypted to the original location. [ReEncryptionDestinationWarning]
+#: Resources.resx loco:6aaa919f1529ff1d65025122
+#| msgid ""
+#| "There are open files that can't be re-encrypted to their original "
+#| "location. Do you want to save to a different location?"
+msgid "ReEncryptionDestinationWarning"
+msgstr ""
+"Des fichiers ouverts ne peuvent pas être rechiffrés à leur emplacement "
+"d’origine. Voulez-vous les enregistrer à un autre emplacement ?"
 
 #. An information question yes/no dialog text asking if the user wants to see the release notes. [ReleaseNotesInformation]
 #: Resources.resx loco:68938b4aabe7a1f7370aed72
