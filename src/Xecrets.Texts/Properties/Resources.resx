@@ -736,6 +736,10 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <value>Incompatible Xecrets Cli found at "{0}" with API version {1}, but version {2}.[&gt;={3}] is required.\n\nUpdate Xecrets Cli, or remove it and use the one included in the app.</value>
     <comment>Error message for incompatible Cli API. {0} is the full path to the Cli Tool, {1} is the Cli Tool API version, {2} is the SDK API Major version, and {3} is the minor version.</comment>
   </data>
+  <data name="DialogTextCliToolNotFound" xml:space="preserve">
+    <value>The app can't find its command line component. The installation appears to be damaged. Please reinstall or restart the app. If this doesn't help, contact support and include the log files in "{0}".</value>
+    <comment>Error message when the command line tool that the app depends on can't be found, after which the app exits. {0} is the full path to the folder with the log files.</comment>
+  </data>
   <data name="ExpirationCheckPurchaseWarning" xml:space="preserve">
     <value>Your free trial license has expired. Do you want to view the subscription information web page?</value>
     <comment>A warning message displayed when a free, non-purchased, license has expired.</comment>

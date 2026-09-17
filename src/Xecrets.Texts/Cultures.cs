@@ -24,6 +24,7 @@
 #endregion Copyright and License
 
 using System.Globalization;
+using JetBrains.Annotations;
 
 namespace Xecrets.Texts;
 
@@ -50,11 +51,13 @@ public sealed class Cultures
     /// <summary>
     /// Gets the supported culture names.
     /// </summary>
+    [PublicAPI]
     public string[] Names { get; }
 
     /// <summary>
     /// Gets the invariant display names corresponding to <see cref="Names"/>.
     /// </summary>
+    [PublicAPI]
     public string[] DisplayNames { get; }
 
     /// <summary>
@@ -87,12 +90,13 @@ public sealed class Cultures
     /// <summary>
     /// Selects the closest supported UI culture and restores the platform formatting culture.
     /// </summary>
-    /// <param name="name">A preferred culture name, or an empty string to use the current UI culture.</param>
+    /// <param name="name">A preferred culture name or an empty string to use the current UI culture.</param>
     /// <returns>The canonical selected supported culture name.</returns>
     public string SetBestCurrent(string name)
     {
         string current = FindBest(name);
         CultureInfo.CurrentUICulture = new CultureInfo(current);
+        CultureInfo.DefaultThreadCurrentUICulture = CultureInfo.CurrentUICulture;
 
         string formattingCultureName = _formattingCultureName();
         if (formattingCultureName != CultureInfo.CurrentCulture.Name)

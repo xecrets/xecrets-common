@@ -315,6 +315,15 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The app can&apos;t find its command line component. The installation appears to be damaged. Please reinstall or restart the app. If this doesn&apos;t help, contact support and include the log files in &quot;{0}&quot;..
+        /// </summary>
+        internal static string DialogTextCliToolNotFound {
+            get {
+                return ResourceManager.GetString("DialogTextCliToolNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to You seem to have downgraded to an older version. This can happen if multiple versions are installed. Do you really want to continue with this version?.
         /// </summary>
         internal static string DialogTextDowngradedVersionWarning {

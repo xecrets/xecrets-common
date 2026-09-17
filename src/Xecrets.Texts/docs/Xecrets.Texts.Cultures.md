@@ -126,7 +126,7 @@ public string SetBestCurrent(string name);
 
 `name` [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')
 
-A preferred culture name, or an empty string to use the current UI culture.
+A preferred culture name or an empty string to use the current UI culture.
 
 #### Returns
 [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')  

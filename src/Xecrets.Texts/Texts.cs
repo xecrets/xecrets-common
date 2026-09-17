@@ -37,16 +37,16 @@ namespace Xecrets.Texts;
 /// <remarks>
 /// <para>
 /// Although all members are static, this class is intentionally non-static so that XAML bindings can access static
-/// members through an instance property — typically <c>public Texts Texts { get; } = new();</c> on the view-model
+/// members through an instance property — typically <c>public AllTexts Texts { get; } = new();</c> on the view-model
 /// base. Avalonia binding syntax such as <c>{Binding Texts.MenuAbout}</c> reaches the static members via that
 /// instance without any per-call allocation.
 /// </para>
 /// <para>
-/// When a localizable text resource is renamed, added or deleted, the corresponding property in this class must be
+/// When a localizable text resource is renamed, added, or deleted, the corresponding property in this class must be
 /// updated. Also, a new extraction of the resources must be done. Use 'extract-po-files.cmd' to extract the
 /// resources to the .pot file and update the .po files.
-/// The extraction is done with the tool POTools from https://github.com/xecrets/aspnetskeleton2 .
-/// To update the translations in the .po files, use any suitable .po editor, e.g. Poedit or the online editor at
+/// The extraction is done with the tool POTools from https://github.com/xecrets/aspnetskeleton2.
+/// To update the translations in the .po files, use any suitable .po editor, e.g., Poedit or the online editor at
 /// https://localise.biz etc. When the translations are updated, the .po files must be updated here and the project
 /// rebuilt.
 /// </para>
@@ -114,6 +114,7 @@ public class Texts
     public static string DialogTextAllFiles => T[nameof(Resources.DialogTextAllFiles)];
     public static string DialogTextClearRecent => T[nameof(Resources.MenuClearRecent)].StripAccelerator().StripEllipsis();
     public static string DialogTextCliApiVersionError => T[nameof(Resources.DialogTextCliApiVersionError)];
+    public static string DialogTextCliToolNotFound => T[nameof(Resources.DialogTextCliToolNotFound)];
     public static string DialogTextDowngradedVersionWarning => T[nameof(Resources.DialogTextDowngradedVersionWarning)];
     public static string DialogTextDropOrPasteTitle => T[nameof(Resources.DialogTextDropOrPasteTitle)];
     public static string DialogTextDropOrPasteToolTip => T[nameof(Resources.DialogTextDropOrPasteToolTip)];
