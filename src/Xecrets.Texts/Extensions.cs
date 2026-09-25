@@ -123,6 +123,192 @@ public static partial class Extensions
     private static partial Regex TrailingNumberInParenthesis();
 
     /// <summary>
+    /// Shortens a file path to at most <paramref name="maxLength"/> characters by replacing leading directory
+    /// segments with an ellipsis, preserving the root and the file name as far as possible.
+    /// </summary>
+    /// <param name="path">The path to shorten.</param>
+    /// <param name="maxLength">The maximum length of the result.</param>
+    /// <returns>The path, shortened with an ellipsis if it is longer than <paramref name="maxLength"/>.</returns>
+    [PublicAPI]
+    public static string PathEllipsis(this string path, int maxLength)
+    {
+        return
+            Ellipsis(Ellipsis(path, maxLength, EllipsisFormat.Path | EllipsisFormat.Start), maxLength,
+                EllipsisFormat.Start);
+    }
+
+    /// <summary>
+    /// Specifies ellipsis format and alignment.
+    /// </summary>
+    [Flags]
+    // ReSharper disable once UnusedMember.Local
+    private enum EllipsisFormat
+    {
+        /// <summary>
+        /// Text is not modified.
+        /// </summary>
+        // ReSharper disable once UnusedMember.Local
+        None = 0,
+
+        /// <summary>
+        /// Text is trimmed at the end of the string. An ellipsis (…) is drawn in place of the remaining text.
+        /// </summary>
+        End = 1,
+
+        /// <summary>
+        /// Text is trimmed at the beginning of the string. An ellipsis (…) is drawn in place of the remaining text. 
+        /// </summary>
+        Start = 2,
+
+        /// <summary>
+        /// Text is trimmed in the middle of the string. An ellipsis (…) is drawn in place of the remaining text.
+        /// </summary>
+        Middle = End | Start,
+
+        /// <summary>
+        /// Preserve as much as possible of the drive and filename information. Must be combined with alignment information.
+        /// </summary>
+        Path = 4,
+
+        /// <summary>
+        /// Text is trimmed at a word boundary. Must be combined with alignment information.
+        /// </summary>
+        Word = 8
+    }
+
+    private const string EllipsisChars = "…";
+
+    private static readonly Regex PrevWord = PrevWordRegex();
+
+    private static readonly Regex NextWord = NextWordRegex();
+
+    /// <summary>
+    /// Truncates a text string to fit within a given control width by replacing trimmed text with ellipses. 
+    /// </summary>
+    /// <param name="text">String to be trimmed.</param>
+    /// <param name="maxLength">Maximum length of trimmed string.</param>
+    /// <param name="options">Format and alignment of ellipsis.</param>
+    /// <returns>This function returns text trimmed to the specified length.</returns>
+    /// <remarks>Based on https://www.codeproject.com/Articles/37503/Auto-Ellipsis</remarks>
+    private static string Ellipsis(string text, int maxLength, EllipsisFormat options)
+    {
+        if (!options.HasFlag(EllipsisFormat.Start) && !options.HasFlag(EllipsisFormat.End))
+        {
+            return text;
+        }
+
+        if (text.Length <= maxLength)
+        {
+            return text;
+        }
+
+        string pre = string.Empty;
+        string mid = text;
+        string post = string.Empty;
+
+        if (options.HasFlag(EllipsisFormat.Path))
+        {
+            // Split into <drive><directory><filename>
+            pre = Path.GetPathRoot(text) ?? string.Empty;
+            mid = Path.GetDirectoryName(text)?.Substring(pre.Length) ?? string.Empty;
+            post = Path.GetFileName(text);
+        }
+
+        int len = 0;
+        int seg = mid.Length;
+        string fit = string.Empty;
+
+        // find the longest string that fits into 
+        // the control boundaries using bisection method
+        while (seg > 1)
+        {
+            seg -= seg / 2;
+
+            int left = len + seg;
+            int right = mid.Length;
+
+            if (left > right)
+            {
+                continue;
+            }
+
+            if (options.HasFlag(EllipsisFormat.Middle))
+            {
+                right -= left / 2;
+                left -= left / 2;
+            }
+            else if (options.HasFlag(EllipsisFormat.Start))
+            {
+                right -= left;
+                left = 0;
+            }
+
+            // trim at a word boundary using regular expressions
+            if (options.HasFlag(EllipsisFormat.Word))
+            {
+                if (options.HasFlag(EllipsisFormat.End))
+                {
+                    left -= PrevWord.Match(mid, 0, left).Length;
+                }
+
+                if (options.HasFlag(EllipsisFormat.Start))
+                {
+                    right += NextWord.Match(mid, right).Length;
+                }
+            }
+
+            // build and measure a candidate string with ellipsis
+            string tst = string.Concat(mid.AsSpan(0, left), EllipsisChars, mid.AsSpan(right));
+
+            // restore path with <drive> and <filename>
+            if (options.HasFlag(EllipsisFormat.Path))
+            {
+                tst = Path.Combine(Path.Combine(pre, tst), post);
+            }
+
+            // candidate string fits into control boundaries, try a longer string
+            // stop when seg <= 1
+            if (tst.Length <= maxLength)
+            {
+                len += seg;
+                fit = tst;
+            }
+        }
+
+        if (len == 0) // string can't fit into control
+        {
+            // "path" mode is off, just return ellipsis characters
+            if (!options.HasFlag(EllipsisFormat.Path))
+            {
+                return EllipsisChars;
+            }
+
+            // <drive> and <directory> are empty, return <filename>
+            if (pre.Length == 0 && mid.Length == 0)
+            {
+                return post;
+            }
+
+            // measure "C:\…\filename.ext"
+            fit = Path.Combine(Path.Combine(pre, EllipsisChars), post);
+
+            // if still does not fit, then return "…\filename.ext"
+            if (fit.Length > maxLength)
+            {
+                fit = Path.Combine(EllipsisChars, post);
+            }
+        }
+
+        return fit;
+    }
+
+    [GeneratedRegex("\\W*\\w*$")]
+    private static partial Regex PrevWordRegex();
+
+    [GeneratedRegex("\\w*\\W*")]
+    private static partial Regex NextWordRegex();
+
+    /// <summary>
     /// Formats a string using <see cref="CultureInfo.CurrentCulture"/>.
     /// </summary>
     /// <param name="args">Format arguments passed to <see cref="string.Format(IFormatProvider, string, object[])"/>.</param>

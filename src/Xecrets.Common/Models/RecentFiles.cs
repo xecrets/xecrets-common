@@ -23,18 +23,15 @@
 
 #endregion Copyright and License
 
-using System.Text.Json.Serialization;
-
 namespace Xecrets.Common.Models;
 
 /// <summary>
-/// Represents the files most recently used by a user.
+/// The in-memory view of the files most recently used by a user. Each user data store persists it in its own format.
 /// </summary>
 public sealed class RecentFiles
 {
     /// <summary>
     /// Gets or sets the full paths of the most recently used files.
     /// </summary>
-    [JsonPropertyName("recentFiles")]
     public List<string> Files { get; set; } = [];
 }

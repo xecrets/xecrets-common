@@ -137,6 +137,34 @@ File names to filter
 [System.Collections.Generic.IEnumerable&lt;](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1 'System.Collections.Generic.IEnumerable`1')[System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')[&gt;](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1 'System.Collections.Generic.IEnumerable`1')  
 An enumeration of the files that do not match the pattern for encrypted files.
 
+<a name='Xecrets.Texts.Extensions.PathEllipsis(thisstring,int)'></a>
+
+## Extensions.PathEllipsis(this string, int) Method
+
+Shortens a file path to at most [maxLength](Xecrets.Texts.Extensions.md#Xecrets.Texts.Extensions.PathEllipsis(thisstring,int).maxLength 'Xecrets.Texts.Extensions.PathEllipsis(this string, int).maxLength') characters by replacing leading directory
+segments with an ellipsis, preserving the root and the file name as far as possible.
+
+```csharp
+public static string PathEllipsis(this string path, int maxLength);
+```
+#### Parameters
+
+<a name='Xecrets.Texts.Extensions.PathEllipsis(thisstring,int).path'></a>
+
+`path` [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')
+
+The path to shorten.
+
+<a name='Xecrets.Texts.Extensions.PathEllipsis(thisstring,int).maxLength'></a>
+
+`maxLength` [System.Int32](https://learn.microsoft.com/en-us/dotnet/api/system.int32 'System.Int32')
+
+The maximum length of the result.
+
+#### Returns
+[System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')  
+The path, shortened with an ellipsis if it is longer than [maxLength](Xecrets.Texts.Extensions.md#Xecrets.Texts.Extensions.PathEllipsis(thisstring,int).maxLength 'Xecrets.Texts.Extensions.PathEllipsis(this string, int).maxLength').
+
 <a name='Xecrets.Texts.Extensions.PluralFormatUi(thisstring,int,object[])'></a>
 
 ## Extensions.PluralFormatUi(this string, int, object[]) Method
