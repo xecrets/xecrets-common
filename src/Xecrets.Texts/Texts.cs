@@ -356,6 +356,7 @@ public class Texts
     public static string WatermarkPasswordSecret => T[nameof(Resources.WatermarkPasswordSecret)];
     public static string WatermarkPasswordShare => T[nameof(Resources.WatermarkPasswordShare)];
     public static string WatermarkPasteLicenseHere => T[nameof(Resources.WatermarkEnterLicenseHere)];
+    public static string XecretsSupportUrl => InvariantResources.XecretsSupportUrl.ToSite();
     public static string YouTubeVideosUrl => InvariantResources.YouTubeVideosUrl.ToSite();
     public static string ZeroLengthWarning => T[nameof(Resources.ZeroLengthWarning)];
     #endregion Localized texts directly from resources

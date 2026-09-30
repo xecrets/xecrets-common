@@ -185,6 +185,10 @@
     <value>https://www.axantum.com/help</value>
     <comment>DO NOT TRANSLATE - The URL for the help page</comment>
   </data>
+  <data name="XecretsSupportUrl" xml:space="preserve">
+    <value>https://www.axantum.com/support</value>
+    <comment>DO NOT TRANSLATE - The URL for the support page</comment>
+  </data>
   <data name="PasswordResetId" xml:space="preserve">
     <value>#reset</value>
     <comment>DO NOT TRANSLATE - The anchor in page for the password reset item on that page.</comment>

@@ -331,6 +331,15 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to https://www.axantum.com/support.
+        /// </summary>
+        internal static string XecretsSupportUrl {
+            get {
+                return ResourceManager.GetString("XecretsSupportUrl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to https://www.youtube.com/@xecrets.
         /// </summary>
         internal static string YouTubeVideosUrl {
