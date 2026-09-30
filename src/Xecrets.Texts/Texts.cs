@@ -62,7 +62,7 @@ namespace Xecrets.Texts;
 #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 public class Texts
 {
-    private static readonly ResourceFallbackLocalizer T = new ResourceFallbackLocalizer(
+    private static readonly ResourceFallbackLocalizer T = new(
         new POStringLocalizerFactory(new POTranslationsProvider(Assembly.GetExecutingAssembly()))
             .Create(string.Empty, "Embedded .po resources"));
 

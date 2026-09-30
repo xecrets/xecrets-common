@@ -87,7 +87,7 @@ public static partial class Extensions
     public static string ToEncryptedName(this string file, string destinationFileFullFolder)
     {
         string extensionWithDot = Path.GetExtension(file);
-        string pathWithoutExtensionAndDot = file.Substring(0, file.Length - extensionWithDot.Length);
+        string pathWithoutExtensionAndDot = file[..^extensionWithDot.Length];
         string trailingNumberInParenthesis = string.Empty;
         string pathWithoutExtensionAndDotAndTrailingNumberInParenthesis = TrailingNumberInParenthesis().Replace(
             pathWithoutExtensionAndDot,
@@ -97,7 +97,7 @@ public static partial class Extensions
                 return string.Empty;
             });
         string encryptedFullName = extensionWithDot.Length > 1
-            ? $"{pathWithoutExtensionAndDotAndTrailingNumberInParenthesis}-{extensionWithDot.Substring(1)}{trailingNumberInParenthesis}{EncryptedExtension}"
+            ? $"{pathWithoutExtensionAndDotAndTrailingNumberInParenthesis}-{extensionWithDot[1..]}{trailingNumberInParenthesis}{EncryptedExtension}"
             : $"{pathWithoutExtensionAndDotAndTrailingNumberInParenthesis}{trailingNumberInParenthesis}{EncryptedExtension}";
 
         if (destinationFileFullFolder.Length > 0)
@@ -210,7 +210,7 @@ public static partial class Extensions
         {
             // Split into <drive><directory><filename>
             pre = Path.GetPathRoot(text) ?? string.Empty;
-            mid = Path.GetDirectoryName(text)?.Substring(pre.Length) ?? string.Empty;
+            mid = Path.GetDirectoryName(text)?[pre.Length..] ?? string.Empty;
             post = Path.GetFileName(text);
         }
 

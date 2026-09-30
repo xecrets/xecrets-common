@@ -113,4 +113,10 @@ public sealed class ApplicationSettings
     /// </summary>
     [JsonPropertyName("inactivityTimeoutMinutes")]
     public int InactivityTimeout { get; set; }
+
+    /// <summary>
+    /// Gets or sets device-specific settings persisted on behalf of Xecrets.Core. Never exported.
+    /// </summary>
+    [JsonPropertyName("deviceSettings")]
+    public DeviceSettings DeviceSettings { get; set; } = new();
 }

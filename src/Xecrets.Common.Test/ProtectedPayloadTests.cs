@@ -9,7 +9,7 @@ namespace Xecrets.Common.Test;
 [TestFixture]
 public sealed class ProtectedPayloadTests
 {
-    private readonly IProtectedPayload _payload = new ProtectedPayload();
+    private readonly ProtectedPayload _payload = new();
 
     [Test]
     public async Task ExtraCredentialsDecodePreservesDuplicatePasswords()
