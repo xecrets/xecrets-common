@@ -69,6 +69,14 @@ public interface IUserDataStore
     Task<IPersistentData<RecentFiles>> LoadRecentFilesAsync();
 
     /// <summary>
+    /// Loads the user's recent files, together with the operation that put each file on the list, for reading and
+    /// editing. Only supported by user data stores that record the operations.
+    /// </summary>
+    /// <returns>An editable view of the user's <see cref="RecentFileOperations"/>.</returns>
+    /// <exception cref="NotSupportedException">The user data store does not record the operations.</exception>
+    Task<IPersistentData<RecentFileOperations>> LoadRecentFileOperationsAsync() => throw new NotSupportedException();
+
+    /// <summary>
     /// Loads the user's license data for reading and editing.
     /// </summary>
     /// <returns>An editable view of the user's <see cref="LicenseData"/>.</returns>
