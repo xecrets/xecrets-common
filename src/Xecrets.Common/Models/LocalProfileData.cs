@@ -1,4 +1,4 @@
-#region Copyright and License
+﻿#region Copyright and License
 
 /*
  * Xecrets Common - Copyright © 2026-2026, Svante Seleborg, All Rights Reserved.
@@ -87,10 +87,16 @@ public sealed class LocalProfileData
     public WorkFolders WorkFolders { get; set; } = new();
 
     /// <summary>
-    /// Gets or sets the files most recently encrypted or decrypted by this local profile, most recent first.
+    /// Gets or sets the files most recently encrypted or decrypted by this local profile, most recent first, in the
     /// </summary>
     [JsonPropertyName("recentFiles")]
     public List<string> RecentFiles { get; set; } = [];
+
+    /// <summary>
+    /// Gets or sets the files most recently used by this local profile, most recent first.
+    /// </summary>
+    [JsonPropertyName("recentFileOperations")]
+    public List<RecentFile> RecentFileOperations { get; set; } = [];
 
     /// <summary>
     /// Gets or sets protected, opaque payloads keyed by name, such as extra credentials.

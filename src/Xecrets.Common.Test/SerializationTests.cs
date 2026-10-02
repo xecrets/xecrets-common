@@ -109,6 +109,113 @@ public class SerializationTests
     }
 
     [Test]
+    public void RecentFileOperationsRoundTripAsAnIndependentModel()
+    {
+        RecentFileOperations recentFiles = new()
+        {
+            Files =
+            [
+                new RecentFile { Id = "one.axx", Operation = RecentFileOperation.InPlace },
+                new RecentFile { Id = "two.axx", Operation = RecentFileOperation.View },
+            ],
+        };
+
+        string json = JsonSerializer.Serialize(recentFiles, LegacyOptions);
+        RecentFileOperations roundTrip = JsonSerializer.Deserialize<RecentFileOperations>(json)!;
+
+        Assert.That(roundTrip.Files.Select(file => (file.Id, file.Operation)), Is.EqualTo(new[]
+        {
+            ("one.axx", RecentFileOperation.InPlace),
+            ("two.axx", RecentFileOperation.View),
+        }));
+    }
+
+    [Test]
+    public void RecentFileIsWrittenAsAnObjectWithTheOperationName()
+    {
+        string json = JsonSerializer.Serialize(
+            new RecentFile { Id = "one.axx", Operation = RecentFileOperation.EncryptWithSendTo },
+            LegacyOptions);
+
+        using JsonDocument document = JsonDocument.Parse(json);
+        Assert.Multiple(() =>
+        {
+            Assert.That(document.RootElement.GetProperty("id").GetString(), Is.EqualTo("one.axx"));
+            Assert.That(document.RootElement.GetProperty("operation").GetString(), Is.EqualTo("EncryptWithSendTo"));
+        });
+    }
+
+    [Test]
+    public void RecentFileReadsMissingAndUnknownOperationsAsUnknown()
+    {
+        RecentFileOperations recentFiles = JsonSerializer.Deserialize<RecentFileOperations>(
+            """{ "Files": [ { "id": "one.axx" }, { "id": "two.axx", "operation": "SomethingNew" }, { "id": "three.axx", "operation": "3" } ] }""")!;
+
+        Assert.That(recentFiles.Files.Select(file => (file.Id, file.Operation)), Is.EqualTo(new[]
+        {
+            ("one.axx", RecentFileOperation.Unknown),
+            ("two.axx", RecentFileOperation.Unknown),
+            ("three.axx", RecentFileOperation.Unknown),
+        }));
+    }
+
+    [Test]
+    public void RecentFileKeepsAnUnknownOperationNameWhenWrittenAgain()
+    {
+        RecentFile recentFile = JsonSerializer.Deserialize<RecentFile>("""{ "id": "one.axx", "operation": "SomethingNew" }""")!;
+
+        string json = JsonSerializer.Serialize(recentFile, LegacyOptions);
+
+        using JsonDocument document = JsonDocument.Parse(json);
+        Assert.That(document.RootElement.GetProperty("operation").GetString(), Is.EqualTo("SomethingNew"));
+    }
+
+    [Test]
+    public void RecentFileRoundTripsItsNames()
+    {
+        string json = JsonSerializer.Serialize(
+            new RecentFile { Id = "one.axx", Name = "One.axx", FolderName = "Documents" },
+            LegacyOptions);
+        RecentFile roundTrip = JsonSerializer.Deserialize<RecentFile>(json)!;
+
+        Assert.That((roundTrip.Name, roundTrip.FolderName), Is.EqualTo(("One.axx", "Documents")));
+    }
+
+    [Test]
+    public void RecentFileReadsMissingNamesAsNull()
+    {
+        RecentFile recentFile = JsonSerializer.Deserialize<RecentFile>("""{ "id": "one.axx", "operation": "View" }""")!;
+
+        Assert.That((recentFile.Name, recentFile.FolderName), Is.EqualTo(((string?)null, (string?)null)));
+    }
+
+    [Test]
+    public void LocalProfileDataReadsLegacyAndCurrentRecentFiles()
+    {
+        LocalProfileData profile = JsonSerializer.Deserialize<LocalProfileData>(
+            """{ "recentFiles": [ "one.axx" ], "recentFileOperations": [ { "id": "two.axx", "operation": "View" } ] }""")!;
+
+        Assert.Multiple(() =>
+        {
+            Assert.That(profile.RecentFiles, Is.EqualTo(new[] { "one.axx" }));
+            Assert.That(profile.RecentFileOperations.Select(file => (file.Id, file.Operation)), Is.EqualTo(new[]
+            {
+                ("two.axx", RecentFileOperation.View),
+            }));
+        });
+    }
+
+    [Test]
+    public void LocalProfileDataOmitsClearedLegacyRecentFiles()
+    {
+        LocalProfileData profile = new() { RecentFiles = null! };
+
+        string json = JsonSerializer.Serialize(profile, LegacyOptions);
+
+        Assert.That(json, Does.Not.Contain("\"recentFiles\""));
+    }
+
+    [Test]
     public void OpenStateRoundTripsOpenAndRecentFilesTogether()
     {
         OpenState state = new()

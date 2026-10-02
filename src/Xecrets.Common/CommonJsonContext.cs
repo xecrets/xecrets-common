@@ -47,6 +47,7 @@ namespace Xecrets.Common;
 [JsonSerializable(typeof(OpenState))]
 [JsonSerializable(typeof(OpenFiles))]
 [JsonSerializable(typeof(RecentFiles))]
+[JsonSerializable(typeof(RecentFileOperations))]
 [JsonSerializable(typeof(PrivateKeyData))]
 [JsonSerializable(typeof(LicenseData))]
 [JsonSerializable(typeof(ApplicationData))]
