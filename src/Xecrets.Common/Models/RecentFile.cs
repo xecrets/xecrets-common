@@ -1,4 +1,4 @@
-#region Copyright and License
+﻿#region Copyright and License
 
 /*
  * Xecrets Common - Copyright © 2026-2026, Svante Seleborg, All Rights Reserved.
@@ -30,7 +30,7 @@ namespace Xecrets.Common.Models;
 /// <summary>
 /// Represents a file on the list of recently used files, together with the operation that put it there.
 /// </summary>
-public sealed class RecentFile
+public sealed record RecentFile
 {
     /// <summary>
     /// Gets or sets the full path of, or the platform reference to, the file.
@@ -40,35 +40,31 @@ public sealed class RecentFile
 
     /// <summary>
     /// Gets or sets the name of the file as last seen while it could be accessed, for showing it when it no longer
-    /// can be and its name cannot be had from <see cref="Id"/>. Null when not known.
+    /// can be and its name cannot be had from <see cref="Id"/>. Empty when not known.
     /// </summary>
     [JsonPropertyName("name")]
-    public string? Name { get; set; }
+    public string Name { get; set; } = "";
 
     /// <summary>
-    /// Gets or sets the name of the known folder the file was last accessed through, for naming that folder when it
-    /// is no longer known. Null when not known.
+    /// Gets or sets where the file is stored, persisted by name. <see cref="RootProvider.Unknown"/> when not known, or
+    /// when the name is not known by this version.
     /// </summary>
-    [JsonPropertyName("folder")]
-    public string? FolderName { get; set; }
+    [JsonPropertyName("root")]
+    [JsonConverter(typeof(DefaultingStringEnumConverter<RootProvider>))]
+    public RootProvider Root { get; set; }
 
     /// <summary>
-    /// Gets or sets the name of the operation that put the file on the list, as persisted. The name is kept as is,
-    /// even when not known by this version, so that it survives being read and written again.
+    /// Gets or sets the names of the folders leading to the file below <see cref="Root"/>, outermost first, as far as
+    /// they are known.
+    /// </summary>
+    [JsonPropertyName("folderPath")]
+    public IReadOnlyList<string> FolderPath { get; set; } = [];
+
+    /// <summary>
+    /// Gets or sets the operation that put the file on the list, persisted by name. A missing name, or a name not known
+    /// by this version, is read as <see cref="RecentFileOperation.Unknown"/>.
     /// </summary>
     [JsonPropertyName("operation")]
-    public string? OperationName { get; set; }
-
-    /// <summary>
-    /// Gets or sets the operation that put the file on the list. A missing name, or a name not known by this version,
-    /// is read as <see cref="RecentFileOperation.Unknown"/>.
-    /// </summary>
-    [JsonIgnore]
-    public RecentFileOperation Operation
-    {
-        get => Enum.TryParse(OperationName, out RecentFileOperation value) && value.ToString() == OperationName
-            ? value
-            : RecentFileOperation.Unknown;
-        set => OperationName = value.ToString();
-    }
+    [JsonConverter(typeof(DefaultingStringEnumConverter<RecentFileOperation>))]
+    public RecentFileOperation Operation { get; set; }
 }

@@ -149,44 +149,105 @@ public class SerializationTests
     public void RecentFileReadsMissingAndUnknownOperationsAsUnknown()
     {
         RecentFileOperations recentFiles = JsonSerializer.Deserialize<RecentFileOperations>(
-            """{ "Files": [ { "id": "one.axx" }, { "id": "two.axx", "operation": "SomethingNew" }, { "id": "three.axx", "operation": "3" } ] }""")!;
+            """{ "Files": [ { "id": "one.axx" }, { "id": "two.axx", "operation": "SomethingNew" } ] }""")!;
 
         Assert.That(recentFiles.Files.Select(file => (file.Id, file.Operation)), Is.EqualTo(new[]
         {
             ("one.axx", RecentFileOperation.Unknown),
             ("two.axx", RecentFileOperation.Unknown),
-            ("three.axx", RecentFileOperation.Unknown),
         }));
     }
 
     [Test]
-    public void RecentFileKeepsAnUnknownOperationNameWhenWrittenAgain()
+    public void RecentFileRoundTripsItsName()
     {
-        RecentFile recentFile = JsonSerializer.Deserialize<RecentFile>("""{ "id": "one.axx", "operation": "SomethingNew" }""")!;
-
-        string json = JsonSerializer.Serialize(recentFile, LegacyOptions);
-
-        using JsonDocument document = JsonDocument.Parse(json);
-        Assert.That(document.RootElement.GetProperty("operation").GetString(), Is.EqualTo("SomethingNew"));
-    }
-
-    [Test]
-    public void RecentFileRoundTripsItsNames()
-    {
-        string json = JsonSerializer.Serialize(
-            new RecentFile { Id = "one.axx", Name = "One.axx", FolderName = "Documents" },
-            LegacyOptions);
+        string json = JsonSerializer.Serialize(new RecentFile { Id = "one.axx", Name = "One.axx" }, LegacyOptions);
         RecentFile roundTrip = JsonSerializer.Deserialize<RecentFile>(json)!;
 
-        Assert.That((roundTrip.Name, roundTrip.FolderName), Is.EqualTo(("One.axx", "Documents")));
+        Assert.That(roundTrip.Name, Is.EqualTo("One.axx"));
     }
 
     [Test]
-    public void RecentFileReadsMissingNamesAsNull()
+    public void RecentFileReadsAMissingNameAsEmpty()
     {
         RecentFile recentFile = JsonSerializer.Deserialize<RecentFile>("""{ "id": "one.axx", "operation": "View" }""")!;
 
-        Assert.That((recentFile.Name, recentFile.FolderName), Is.EqualTo(((string?)null, (string?)null)));
+        Assert.That(recentFile.Name, Is.Empty);
+    }
+
+    [Test]
+    public void RecentFileRoundTripsItsRootAndFolderPath()
+    {
+        string json = JsonSerializer.Serialize(
+            new RecentFile { Id = "one.axx", Root = RootProvider.GoogleDrive, FolderPath = ["Work", "Secret"] },
+            LegacyOptions);
+        RecentFile roundTrip = JsonSerializer.Deserialize<RecentFile>(json)!;
+
+        Assert.Multiple(() =>
+        {
+            Assert.That(roundTrip.Root, Is.EqualTo(RootProvider.GoogleDrive));
+            Assert.That(roundTrip.FolderPath, Is.EqualTo(new[] { "Work", "Secret" }));
+        });
+    }
+
+    [Test]
+    public void WorkFolderRoundTripsItsRootAndFolderPath()
+    {
+        string json = JsonSerializer.Serialize(
+            new WorkFolder("id", "Work", "grant") { Root = RootProvider.Dropbox, FolderPath = ["Projects"] },
+            LegacyOptions);
+        WorkFolder roundTrip = JsonSerializer.Deserialize<WorkFolder>(json)!;
+
+        Assert.Multiple(() =>
+        {
+            Assert.That(roundTrip.Root, Is.EqualTo(RootProvider.Dropbox));
+            Assert.That(roundTrip.FolderPath, Is.EqualTo(new[] { "Projects" }));
+            Assert.That(roundTrip.DisplayName, Is.EqualTo("Work"));
+        });
+    }
+
+    [Test]
+    public void WorkFolderReadsAMissingRootAsUnknown()
+    {
+        WorkFolder folder = JsonSerializer.Deserialize<WorkFolder>("""{ "id": "id", "displayName": "Work" }""")!;
+
+        Assert.Multiple(() =>
+        {
+            Assert.That(folder.Root, Is.EqualTo(RootProvider.Unknown));
+            Assert.That(folder.FolderPath, Is.Empty);
+        });
+    }
+
+    [Test]
+    public void RecentFileReadsAMissingRootAsUnknown()
+    {
+        RecentFile recentFile = JsonSerializer.Deserialize<RecentFile>("""{ "id": "one.axx" }""")!;
+
+        Assert.Multiple(() =>
+        {
+            Assert.That(recentFile.Root, Is.EqualTo(RootProvider.Unknown));
+            Assert.That(recentFile.FolderPath, Is.Empty);
+        });
+    }
+
+    [Test]
+    public void RecentFileIsWrittenWithTheRootName()
+    {
+        string json = JsonSerializer.Serialize(new RecentFile { Id = "one.axx", Root = RootProvider.None }, LegacyOptions);
+
+        using JsonDocument document = JsonDocument.Parse(json);
+        Assert.That(document.RootElement.GetProperty("root").GetString(), Is.EqualTo("None"));
+    }
+
+    [Test]
+    public void RecentFileDoesNotWriteAnUnknownRoot()
+    {
+        string json = JsonSerializer.Serialize(
+            new RecentFile { Id = "one.axx", Root = RootProvider.Unknown },
+            LegacyOptions);
+
+        using JsonDocument document = JsonDocument.Parse(json);
+        Assert.That(document.RootElement.TryGetProperty("root", out _), Is.False);
     }
 
     [Test]

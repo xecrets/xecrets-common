@@ -31,57 +31,57 @@ namespace Xecrets.Common.Models;
 public enum RecentFileOperation
 {
     /// <summary>
-    /// The operation was recorded by a later version, and is not known by this version.
+    /// The operation is not known, such as when recorded by a later version. The default value.
     /// </summary>
-    Unknown = -1,
+    Unknown = 0,
 
     /// <summary>
     /// The file was encrypted or decrypted where it is stored, or added to the list by the user.
     /// </summary>
-    InPlace = 0,
+    InPlace,
 
     /// <summary>
     /// The encrypted file was decrypted temporarily and viewed.
     /// </summary>
-    View = 1,
+    View,
 
     /// <summary>
     /// The encrypted file was decrypted temporarily and edited.
     /// </summary>
-    Edit = 2,
+    Edit,
 
     /// <summary>
     /// A decrypted copy of the encrypted file was opened in another app.
     /// </summary>
-    DecryptCopyOpenIn = 3,
+    DecryptCopyOpenIn,
 
     /// <summary>
     /// A decrypted copy of the encrypted file was saved.
     /// </summary>
-    DecryptCopySaveAs = 4,
+    DecryptCopySaveAs,
 
     /// <summary>
     /// A decrypted copy of the encrypted file was sent to another app.
     /// </summary>
-    DecryptCopySendTo = 5,
+    DecryptCopySendTo,
 
     /// <summary>
     /// An encrypted copy of the file was saved.
     /// </summary>
-    EncryptCopySaveAs = 6,
+    EncryptCopySaveAs,
 
     /// <summary>
     /// An encrypted copy of the file was sent to another app.
     /// </summary>
-    EncryptCopySendTo = 7,
+    EncryptCopySendTo,
 
     /// <summary>
     /// A copy of the file encrypted with a password was saved.
     /// </summary>
-    EncryptWithSaveAs = 8,
+    EncryptWithSaveAs,
 
     /// <summary>
     /// A copy of the file encrypted with a password was sent to another app.
     /// </summary>
-    EncryptWithSendTo = 9,
+    EncryptWithSendTo,
 }

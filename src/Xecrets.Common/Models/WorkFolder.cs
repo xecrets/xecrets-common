@@ -42,6 +42,21 @@ public sealed record WorkFolder(
     [property: JsonPropertyName("grantId")] string GrantId = "")
 {
     /// <summary>
+    /// Gets where the folder is stored, persisted by name. <see cref="RootProvider.Unknown"/> when not known, such as
+    /// for a folder added by an earlier version, or when the name is not known by this version.
+    /// </summary>
+    [JsonPropertyName("root")]
+    [JsonConverter(typeof(DefaultingStringEnumConverter<RootProvider>))]
+    public RootProvider Root { get; init; }
+
+    /// <summary>
+    /// Gets the names of the folders leading to the folder below <see cref="Root"/>, outermost first, as far as they
+    /// are known.
+    /// </summary>
+    [JsonPropertyName("folderPath")]
+    public IReadOnlyList<string> FolderPath { get; init; } = [];
+
+    /// <summary>
     /// The name to show in a list of folders, disambiguated with as much of the path as it takes when
     /// several folders share a display name. It is derived, so it is never persisted.
     /// </summary>
