@@ -28,6 +28,7 @@ using NUnit.Framework;
 
 using Xecrets.Common;
 using Xecrets.Common.Abstractions;
+using Xecrets.Common.Implementation;
 using Xecrets.Common.Models;
 
 namespace Xecrets.Common.Test;
@@ -251,29 +252,49 @@ public class SerializationTests
     }
 
     [Test]
-    public void LocalProfileDataReadsLegacyAndCurrentRecentFiles()
+    public void DeviceSettingsRoundTrip()
     {
-        LocalProfileData profile = JsonSerializer.Deserialize<LocalProfileData>(
-            """{ "recentFiles": [ "one.axx" ], "recentFileOperations": [ { "id": "two.axx", "operation": "View" } ] }""")!;
+        DeviceSettings settings = new()
+        {
+            Version = 1,
+            DeviceIdSalt = "00",
+            DeviceId = "device",
+            Values = { ["iterations"] = "1000" },
+            Profiles =
+            {
+                ["profile"] = new ProfileDeviceSettings
+                {
+                    WorkFolders = new WorkFolders { Folders = [new WorkFolder("folder", "Folder")] },
+                    RecentFiles = [new RecentFile { Id = "one.axx", Operation = RecentFileOperation.View }],
+                    DontShowAgain = "WelcomeInformation",
+                },
+            },
+        };
 
+        DeviceSettings roundTrip = JsonSerializer.Deserialize<DeviceSettings>(JsonFile.Serialize(settings))!;
+
+        ProfileDeviceSettings profile = roundTrip.Profiles["profile"];
         Assert.Multiple(() =>
         {
-            Assert.That(profile.RecentFiles, Is.EqualTo(new[] { "one.axx" }));
-            Assert.That(profile.RecentFileOperations.Select(file => (file.Id, file.Operation)), Is.EqualTo(new[]
+            Assert.That(roundTrip.Version, Is.EqualTo(1));
+            Assert.That(roundTrip.DeviceIdSalt, Is.EqualTo("00"));
+            Assert.That(roundTrip.DeviceId, Is.EqualTo("device"));
+            Assert.That(roundTrip.Values["iterations"], Is.EqualTo("1000"));
+            Assert.That(profile.WorkFolders.Folders.Select(folder => folder.Id), Is.EqualTo(new[] { "folder" }));
+            Assert.That(profile.RecentFiles.Select(file => (file.Id, file.Operation)), Is.EqualTo(new[]
             {
-                ("two.axx", RecentFileOperation.View),
+                ("one.axx", RecentFileOperation.View),
             }));
+            Assert.That(profile.DontShowAgain, Is.EqualTo("WelcomeInformation"));
         });
     }
 
     [Test]
-    public void LocalProfileDataOmitsClearedLegacyRecentFiles()
+    public void DeviceSettingsReadAMissingVersionAsZero()
     {
-        LocalProfileData profile = new() { RecentFiles = null! };
+        DeviceSettings settings = JsonSerializer.Deserialize<DeviceSettings>("""{ "values": {} }""")!;
 
-        string json = JsonSerializer.Serialize(profile, LegacyOptions);
-
-        Assert.That(json, Does.Not.Contain("\"recentFiles\""));
+        Assert.That(settings.Version, Is.Zero);
     }
 
     [Test]

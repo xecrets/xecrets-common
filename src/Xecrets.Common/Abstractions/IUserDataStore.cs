@@ -89,6 +89,14 @@ public interface IUserDataStore
     Task<IPersistentData<WorkFolders>> LoadWorkFoldersAsync();
 
     /// <summary>
+    /// Loads the user's settings that only apply to the installation on this device, for reading and editing. Only
+    /// supported by user data stores that keep such settings apart.
+    /// </summary>
+    /// <returns>An editable view of the user's <see cref="ProfileDeviceSettings"/>.</returns>
+    /// <exception cref="NotSupportedException">The user data store does not keep device-specific settings apart.</exception>
+    Task<IPersistentData<ProfileDeviceSettings>> LoadDeviceSettingsAsync() => throw new NotSupportedException();
+
+    /// <summary>
     /// Gets the sign-in keys currently registered for the user.
     /// </summary>
     /// <returns>The user's sign-in keys.</returns>

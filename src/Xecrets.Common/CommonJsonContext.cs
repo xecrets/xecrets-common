@@ -52,6 +52,7 @@ namespace Xecrets.Common;
 [JsonSerializable(typeof(LicenseData))]
 [JsonSerializable(typeof(ApplicationData))]
 [JsonSerializable(typeof(LocalProfileData))]
+[JsonSerializable(typeof(DeviceSettings))]
 internal partial class CommonJsonContext : JsonSerializerContext
 {
     /// <summary>

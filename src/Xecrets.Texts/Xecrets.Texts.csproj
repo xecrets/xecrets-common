@@ -38,6 +38,7 @@
     <LangVersion>default</LangVersion>
     <Platforms>AnyCPU;x64;ARM64</Platforms>
     <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">

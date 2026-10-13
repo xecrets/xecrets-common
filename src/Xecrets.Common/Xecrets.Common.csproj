@@ -39,6 +39,7 @@
     <IsAotCompatible>True</IsAotCompatible>
     <WarningLevel>9999</WarningLevel>
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+    <RunAnalyzersDuringLiveAnalysis>False</RunAnalyzersDuringLiveAnalysis>
   </PropertyGroup>
 
   <ItemGroup>

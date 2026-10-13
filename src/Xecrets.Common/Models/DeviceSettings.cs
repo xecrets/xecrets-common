@@ -28,14 +28,41 @@ using System.Text.Json.Serialization;
 namespace Xecrets.Common.Models;
 
 /// <summary>
-/// Represents device-specific settings persisted on behalf of Xecrets.Core, such as calibrated key-wrap iterations.
-/// They are not meaningful on another device and are never exported.
+/// Represents the settings that only apply to the installation on this device, such as calibrated key-wrap iterations
+/// and the folders and files the app has been granted access to. They are kept apart from other data, out of backups
+/// and transfers, since they are not meaningful on another device or in another installation, and are never exported.
 /// </summary>
 public sealed class DeviceSettings
 {
     /// <summary>
-    /// Gets or sets the settings values, keyed by the name Xecrets.Core uses for them.
+    /// Gets or sets the version of the device-specific settings. Settings of another version are discarded.
+    /// </summary>
+    [JsonPropertyName("version")]
+    public int Version { get; set; }
+
+    /// <summary>
+    /// Gets or sets the random salt, as hex, used to hash the device identifier into <see cref="DeviceId"/>.
+    /// </summary>
+    [JsonPropertyName("deviceIdSalt")]
+    public string DeviceIdSalt { get; set; } = string.Empty;
+
+    /// <summary>
+    /// Gets or sets the salted hash, as hex, of the identifier of the device the settings were written on, or empty if
+    /// it was unknown.
+    /// </summary>
+    [JsonPropertyName("deviceId")]
+    public string DeviceId { get; set; } = string.Empty;
+
+    /// <summary>
+    /// Gets or sets the settings values persisted on behalf of Xecrets.Core, keyed by the name Xecrets.Core uses for
+    /// them.
     /// </summary>
     [JsonPropertyName("values")]
     public Dictionary<string, string> Values { get; set; } = [];
+
+    /// <summary>
+    /// Gets or sets the device-specific settings of each local profile, keyed by the local profile identifier.
+    /// </summary>
+    [JsonPropertyName("profiles")]
+    public Dictionary<string, ProfileDeviceSettings> Profiles { get; set; } = [];
 }
