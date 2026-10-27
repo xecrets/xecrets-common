@@ -124,6 +124,7 @@ public class Texts
     public static string DialogTextInsufficientRights => T[nameof(Resources.DialogTextInsufficientRights)];
     public static string DialogTextOpenFailed => T[nameof(Resources.DialogTextOpenFailed)];
     public static string DialogTextOrphanedDocumentsFiles => T[nameof(Resources.DialogTextOrphanedDocumentsFiles)];
+    public static string DialogTextTextFiles => T[nameof(Resources.DialogTextTextFiles)];
     public static string DialogTextPasteOnlyTitle => T[nameof(Resources.DialogTextPasteOnlyTitle)];
     public static string DialogTextPasteOnlyToolTip => T[nameof(Resources.DialogTextPasteOnlyToolTip)];
     public static string DialogTextPrivateKeysImported => T[nameof(Resources.DialogTextPrivateKeysImported)];
@@ -222,6 +223,7 @@ public class Texts
     public static string MenuAbout => T[nameof(Resources.MenuAbout)];
     public static string MenuAddPassword => T[nameof(Resources.MenuAddPassword)];
     public static string MenuBuyNow => T[nameof(Resources.MenuBuyNow)];
+    public static string MenuAlwaysUseExternalTextEditor => T[nameof(Resources.MenuAlwaysUseExternalTextEditor)];
     public static string MenuChangeEmail => T[nameof(Resources.MenuChangeEmail)];
     public static string MenuChangePassword => T[nameof(Resources.MenuChangePassword)];
     public static string MenuSimplifiedChinese => InvariantResources.MenuSimplifiedChinese;
@@ -259,6 +261,7 @@ public class Texts
     public static string MenuItalian => InvariantResources.MenuItalian;
     public static string MenuLicense => T[nameof(Resources.MenuLicense)];
     public static string MenuLoadShares => T[nameof(Resources.MenuLoadShares)];
+    public static string MenuNewEncryptedTextFile => T[nameof(Resources.MenuNewEncryptedTextFile)];
     public static string MenuOpen => T[nameof(Resources.MenuOpen)];
     public static string MenuOpenRecent => T[nameof(Resources.MenuOpenRecent)];
     public static string MenuPaste => T[nameof(Resources.MenuPaste)];
@@ -350,12 +353,14 @@ public class Texts
     public static string WatermarkConfirmPassword => T[nameof(Resources.WatermarkConfirmPassword)];
     public static string WatermarkCurrentPassword => T[nameof(Resources.WatermarkCurrentPassword)];
     public static string WatermarkEmail => T[nameof(Resources.WatermarkEmail)];
+    public static string WatermarkFind => T[nameof(Resources.WatermarkFind)];
     public static string WatermarkLast4 => T[nameof(Resources.WatermarkLast4)];
     public static string WatermarkNewPassword => T[nameof(Resources.WatermarkNewPassword)];
     public static string WatermarkPassword => T[nameof(Resources.WatermarkPassword)];
     public static string WatermarkPasswordSecret => T[nameof(Resources.WatermarkPasswordSecret)];
     public static string WatermarkPasswordShare => T[nameof(Resources.WatermarkPasswordShare)];
     public static string WatermarkPasteLicenseHere => T[nameof(Resources.WatermarkEnterLicenseHere)];
+    public static string WatermarkReplace => T[nameof(Resources.WatermarkReplace)];
     public static string XecretsSupportUrl => InvariantResources.XecretsSupportUrl.ToSite();
     public static string YouTubeVideosUrl => InvariantResources.YouTubeVideosUrl.ToSite();
     public static string ZeroLengthWarning => T[nameof(Resources.ZeroLengthWarning)];
@@ -415,6 +420,12 @@ public class Texts
     /// </summary>
     /// <param name="n">The number of files processed; selects the appropriate plural form.</param>
     public static string FilesProcessedMessage(int n) => T[nameof(Resources.FilesProcessedMessageFormat)].PluralFormatUi(n);
+
+    /// <summary>
+    /// The question shown when closing the built-in text editor with unsaved changes.
+    /// </summary>
+    /// <param name="fileName">The name of the file being edited.</param>
+    public static string DialogTextSaveChanges(string fileName) => T[nameof(Resources.DialogTextSaveChanges)].FormatUi(fileName);
 
 
     /// <summary>

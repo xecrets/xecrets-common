@@ -114,4 +114,10 @@ public sealed class UserSettings
     /// </summary>
     [JsonPropertyName("nextReviewFromFirstStart")]
     public int? NextReviewFromFirstStart { get; set; }
+
+    /// <summary>
+    /// Gets or sets the user's preferences for the built-in text editor.
+    /// </summary>
+    [JsonPropertyName("textEditor")]
+    public TextEditor TextEditor { get; set; } = new();
 }

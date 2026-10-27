@@ -2111,5 +2111,59 @@ namespace Xecrets.Texts.Properties {
                 return ResourceManager.GetString("ZzTitleProgramVersionNameFormat", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to _New encrypted text file….
+        /// </summary>
+        internal static string MenuNewEncryptedTextFile {
+            get {
+                return ResourceManager.GetString("MenuNewEncryptedTextFile", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Always use external text _editor.
+        /// </summary>
+        internal static string MenuAlwaysUseExternalTextEditor {
+            get {
+                return ResourceManager.GetString("MenuAlwaysUseExternalTextEditor", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Text files.
+        /// </summary>
+        internal static string DialogTextTextFiles {
+            get {
+                return ResourceManager.GetString("DialogTextTextFiles", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Do you want to save the changes to {0}?.
+        /// </summary>
+        internal static string DialogTextSaveChanges {
+            get {
+                return ResourceManager.GetString("DialogTextSaveChanges", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Find….
+        /// </summary>
+        internal static string WatermarkFind {
+            get {
+                return ResourceManager.GetString("WatermarkFind", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Replace….
+        /// </summary>
+        internal static string WatermarkReplace {
+            get {
+                return ResourceManager.GetString("WatermarkReplace", resourceCulture);
+            }
+        }
     }
 }
