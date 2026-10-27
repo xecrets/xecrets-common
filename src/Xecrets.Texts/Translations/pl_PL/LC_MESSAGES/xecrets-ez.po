@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Xecrets Ez\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-08 08:19+0200\n"
-"PO-Revision-Date: 2026-09-16 14:58+0200\n"
+"PO-Revision-Date: 2026-10-27 22:21+0100\n"
 "Last-Translator: Svante Seleborg\n"
 "Language-Team: Polish (Poland)\n"
 "Language: pl-PL\n"
@@ -215,6 +215,20 @@ msgstr ""
 "wiersza poleceń Xecrets lub usuń go i użyj interfejsu dołączonego do "
 "aplikacji."
 
+#. Error message when the command line tool that the app depends on can't be found, after which the app exits. {0} is the full path to the folder with the log files. [DialogTextCliToolNotFound]
+#: Resources.resx loco:6ae11134186deb1f230bdaa2
+#, icu-format
+#| msgid ""
+#| "The app can't find its command line component. The installation appears "
+#| "to be damaged. Please reinstall or restart the app. If this doesn't help, "
+#| "contact support and include the log files in \"{0}\"."
+msgid "DialogTextCliToolNotFound"
+msgstr ""
+"Aplikacja nie może znaleźć swojego składnika wiersza poleceń. Instalacja "
+"wydaje się uszkodzona. Zainstaluj ponownie lub uruchom ponownie aplikację. "
+"Jeśli to nie pomoże, skontaktuj się z pomocą techniczną i dołącz pliki "
+"dziennika z \"{0}\"."
+
 #. Warning shown at startup when this executable version appears older than the most recently used version, asking whether to continue. [DialogTextDowngradedVersionWarning]
 #: Resources.resx loco:6a11e94a21b5c894ec094902
 #| msgid ""
@@ -357,11 +371,24 @@ msgstr ""
 "Przed odłączeniem upewnij się, że zamknąłeś aplikację i bezpiecznie "
 "wysunąłeś dysk, aby uniknąć utraty danych."
 
+#. A question when closing the built-in text editor with unsaved changes. {0} is the file name. [DialogTextSaveChanges]
+#: Resources.resx loco:6ae11134186deb1f230bdaa3
+#, icu-format
+#| msgid "Do you want to save the changes to {0}?"
+msgid "DialogTextSaveChanges"
+msgstr "Czy chcesz zapisać zmiany w {0}?"
+
 #. A message displayed when an attempt is made to encrypt or wipe a file located in a system protected location. It may be followed by a list of affected files. This will abort the entire operation and nothing happens. [DialogTextSystemProtected]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3df
 #| msgid "File(s) are system protected, the action was canceled."
 msgid "DialogTextSystemProtected"
 msgstr "Plik(i) jest(są) chronione przez system. Akcja została anulowana."
+
+#. The name of the file type filter for text files in a save file dialog. [DialogTextTextFiles]
+#: Resources.resx loco:6ae11134186deb1f230bdaa4
+#| msgid "Text files"
+msgid "DialogTextTextFiles"
+msgstr "Pliki tekstowe"
 
 #. Informing that one or more files could not be encrypted due to licensing restrictions. A list of files may be appended. [DialogTextTooLargeForLicense]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3e0
@@ -848,6 +875,12 @@ msgstr "_O programie..."
 msgid "MenuAddPassword"
 msgstr "_Dodaj hasło deszyfrujące…"
 
+#. A menu entry with a check mark, to always open encrypted text files in an external application instead of the built-in text editor. [MenuAlwaysUseExternalTextEditor]
+#: Resources.resx loco:6ae11134186deb1f230bdaa5
+#| msgid "Always use external text _editor"
+msgid "MenuAlwaysUseExternalTextEditor"
+msgstr "Zawsze używaj zewnętrznego _edytora tekstu"
+
 #. The menu text for a link to the purchase page. [MenuBuyNow]
 #: Resources.resx loco:670e1cf615d80a27bc0eb416
 #| msgid "Subscribe to _premium…"
@@ -1035,6 +1068,12 @@ msgstr "Uzyskaj _licencję premium w ramach subskrypcji…"
 msgid "MenuLoadShares"
 msgstr "_Zobacz utajnione udziały…"
 
+#. The menu item to create a new, empty, encrypted text file and open it in the built-in text editor. [MenuNewEncryptedTextFile]
+#: Resources.resx loco:6ae11134186deb1f230bdaa6
+#| msgid "_New encrypted text file…"
+msgid "MenuNewEncryptedTextFile"
+msgstr "_Nowy zaszyfrowany plik tekstowy…"
+
 #. The text in the menu to open a dialog to select a file to open, i.e. "Open…". (_ indicates keyboard accelerator) [MenuOpen]
 #: Resources.resx loco:670e1cf615d80a27bc0eb429
 #| msgid "_Open…"
@@ -1094,6 +1133,12 @@ msgstr "_Propozycja hasła…"
 #| msgid "_Theme…"
 msgid "MenuTheme"
 msgstr "_Motyw…"
+
+#. The menu text to open a window listing the licenses and copyright notices of third-party software included in the program. (_ indicates keyboard accelerator) [MenuThirdPartyNotices]
+#: Resources.resx loco:6ae11134186deb1f230bdaa7
+#| msgid "Third-party _notices…"
+msgid "MenuThirdPartyNotices"
+msgstr "_Informacje o składnikach innych firm…"
 
 #. A menu entry to request a temporary trial license. [MenuTrialDownload]
 #: Resources.resx loco:670e1cf615d80a27bc0eb433
@@ -1547,6 +1592,12 @@ msgid "WatermarkEnterLicenseHere"
 msgstr ""
 "Klucz licencyjny znajdziesz tutaj: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ…"
 
+#. The text used as watermark (slightly transparent grey) in the search text box of the built-in text editor. [WatermarkFind]
+#: Resources.resx loco:6ae11134186deb1f230bdaa8
+#| msgid "Find…"
+msgid "WatermarkFind"
+msgstr "Znajdź…"
+
 #. The watermark prompt for the last 4 digits to enter. [WatermarkLast4]
 #: Resources.resx loco:670e1cf615d80a27bc0eb45a
 #| msgid "4 digits"
@@ -1576,6 +1627,12 @@ msgstr "Wprowadź dowolne hasło lub tajny klucz…"
 #| msgid "Password to share"
 msgid "WatermarkPasswordShare"
 msgstr "Hasło do udostępnienia"
+
+#. The text used as watermark (slightly transparent grey) in the replacement text box of the built-in text editor. [WatermarkReplace]
+#: Resources.resx loco:6ae11134186deb1f230bdaa9
+#| msgid "Replace…"
+msgid "WatermarkReplace"
+msgstr "Zamień…"
 
 #. A warning text, stating that one or more files are zero length, asking if the user is sure. The text should be followed by ConfirmationQuestion. It's followed by a list of the files that are detected as zero length. [ZeroLengthWarning]
 #: Resources.resx loco:68224b6ec1aa19265801d812

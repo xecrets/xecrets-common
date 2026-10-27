@@ -1056,4 +1056,8 @@ Would you like to view a help page with more information?</value>
     <value>Replace…</value>
     <comment>The text used as watermark (slightly transparent grey) in the replacement text box of the built-in text editor.</comment>
   </data>
+  <data name="MenuThirdPartyNotices" xml:space="preserve">
+    <value>Third-party _notices…</value>
+    <comment>The menu text to open a window listing the licenses and copyright notices of third-party software included in the program. (_ indicates keyboard accelerator)</comment>
+  </data>
 </root>

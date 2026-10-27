@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Xecrets Ez\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-08 08:19+0200\n"
-"PO-Revision-Date: 2026-09-16 14:58+0200\n"
+"PO-Revision-Date: 2026-10-27 22:21+0100\n"
 "Last-Translator: Svante Seleborg\n"
 "Language-Team: Simplified Chinese\n"
 "Language: zh-CN\n"
@@ -209,6 +209,16 @@ msgstr ""
 "在\"{0}\"中找到的 Xecrets Cli API 版本为 {1}，与本应用不兼容。本应用要求版本 {2}.[>={3}]。\\n\\n请更新 "
 "Xecrets Cli，或将其删除并使用应用随附的版本。"
 
+#. Error message when the command line tool that the app depends on can't be found, after which the app exits. {0} is the full path to the folder with the log files. [DialogTextCliToolNotFound]
+#: Resources.resx loco:6ae11134186deb1f230bdaa2
+#, icu-format
+#| msgid ""
+#| "The app can't find its command line component. The installation appears "
+#| "to be damaged. Please reinstall or restart the app. If this doesn't help, "
+#| "contact support and include the log files in \"{0}\"."
+msgid "DialogTextCliToolNotFound"
+msgstr "应用找不到其命令行组件。安装似乎已损坏。请重新安装或重启应用。如果问题仍未解决，请联系技术支持，并附上 \"{0}\" 中的日志文件。"
+
 #. Warning shown at startup when this executable version appears older than the most recently used version, asking whether to continue. [DialogTextDowngradedVersionWarning]
 #: Resources.resx loco:6a11e94a21b5c894ec094902
 #| msgid ""
@@ -331,11 +341,24 @@ msgstr "设置和临时文件将存储在可移动驱动器上，而不是主驱
 msgid "DialogTextRemovableDriveUnplugWarning"
 msgstr "拔出驱动器前，请务必退出应用并安全弹出驱动器以免数据丢失。"
 
+#. A question when closing the built-in text editor with unsaved changes. {0} is the file name. [DialogTextSaveChanges]
+#: Resources.resx loco:6ae11134186deb1f230bdaa3
+#, icu-format
+#| msgid "Do you want to save the changes to {0}?"
+msgid "DialogTextSaveChanges"
+msgstr "是否保存对 {0} 的更改？"
+
 #. A message displayed when an attempt is made to encrypt or wipe a file located in a system protected location. It may be followed by a list of affected files. This will abort the entire operation and nothing happens. [DialogTextSystemProtected]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3df
 #| msgid "File(s) are system protected, the action was canceled."
 msgid "DialogTextSystemProtected"
 msgstr "文件受系统保护，操作已取消。"
+
+#. The name of the file type filter for text files in a save file dialog. [DialogTextTextFiles]
+#: Resources.resx loco:6ae11134186deb1f230bdaa4
+#| msgid "Text files"
+msgid "DialogTextTextFiles"
+msgstr "文本文件"
 
 #. Informing that one or more files could not be encrypted due to licensing restrictions. A list of files may be appended. [DialogTextTooLargeForLicense]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3e0
@@ -794,6 +817,12 @@ msgstr "_关于"
 msgid "MenuAddPassword"
 msgstr "_添加解密密码…"
 
+#. A menu entry with a check mark, to always open encrypted text files in an external application instead of the built-in text editor. [MenuAlwaysUseExternalTextEditor]
+#: Resources.resx loco:6ae11134186deb1f230bdaa5
+#| msgid "Always use external text _editor"
+msgid "MenuAlwaysUseExternalTextEditor"
+msgstr "始终使用外部文本编辑器(_E)"
+
 #. The menu text for a link to the purchase page. [MenuBuyNow]
 #: Resources.resx loco:670e1cf615d80a27bc0eb416
 #| msgid "Subscribe to _premium…"
@@ -981,6 +1010,12 @@ msgstr "获取 Premium 订阅_许可证…"
 msgid "MenuLoadShares"
 msgstr "_查看秘密分片…"
 
+#. The menu item to create a new, empty, encrypted text file and open it in the built-in text editor. [MenuNewEncryptedTextFile]
+#: Resources.resx loco:6ae11134186deb1f230bdaa6
+#| msgid "_New encrypted text file…"
+msgid "MenuNewEncryptedTextFile"
+msgstr "新建加密文本文件(_N)…"
+
 #. The text in the menu to open a dialog to select a file to open, i.e. "Open…". (_ indicates keyboard accelerator) [MenuOpen]
 #: Resources.resx loco:670e1cf615d80a27bc0eb429
 #| msgid "_Open…"
@@ -1040,6 +1075,12 @@ msgstr "_随机生成的密码…"
 #| msgid "_Theme…"
 msgid "MenuTheme"
 msgstr "_主题…"
+
+#. The menu text to open a window listing the licenses and copyright notices of third-party software included in the program. (_ indicates keyboard accelerator) [MenuThirdPartyNotices]
+#: Resources.resx loco:6ae11134186deb1f230bdaa7
+#| msgid "Third-party _notices…"
+msgid "MenuThirdPartyNotices"
+msgstr "第三方声明(_N)…"
 
 #. A menu entry to request a temporary trial license. [MenuTrialDownload]
 #: Resources.resx loco:670e1cf615d80a27bc0eb433
@@ -1453,6 +1494,12 @@ msgstr "电子邮件"
 msgid "WatermarkEnterLicenseHere"
 msgstr "在此输入许可证密钥：eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ…"
 
+#. The text used as watermark (slightly transparent grey) in the search text box of the built-in text editor. [WatermarkFind]
+#: Resources.resx loco:6ae11134186deb1f230bdaa8
+#| msgid "Find…"
+msgid "WatermarkFind"
+msgstr "查找…"
+
 #. The watermark prompt for the last 4 digits to enter. [WatermarkLast4]
 #: Resources.resx loco:670e1cf615d80a27bc0eb45a
 #| msgid "4 digits"
@@ -1482,6 +1529,12 @@ msgstr "输入任意密码或秘密值…"
 #| msgid "Password to share"
 msgid "WatermarkPasswordShare"
 msgstr "要拆分的密码"
+
+#. The text used as watermark (slightly transparent grey) in the replacement text box of the built-in text editor. [WatermarkReplace]
+#: Resources.resx loco:6ae11134186deb1f230bdaa9
+#| msgid "Replace…"
+msgid "WatermarkReplace"
+msgstr "替换…"
 
 #. A warning text, stating that one or more files are zero length, asking if the user is sure. The text should be followed by ConfirmationQuestion. It's followed by a list of the files that are detected as zero length. [ZeroLengthWarning]
 #: Resources.resx loco:68224b6ec1aa19265801d812

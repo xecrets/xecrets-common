@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-16 02:53+0200\n"
+"POT-Creation-Date: 2026-10-27 09:58+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -189,6 +189,15 @@ msgstr ""
 "{2}.[>={3}] is required.\\n\\nUpdate Xecrets Cli, or remove it and use the "
 "one included in the app."
 
+#. Error message when the command line tool that the app depends on can't be found, after which the app exits. {0} is the full path to the folder with the log files. [DialogTextCliToolNotFound]
+#: Resources.resx
+#, new
+msgid "DialogTextCliToolNotFound"
+msgstr ""
+"The app can't find its command line component. The installation appears to be "
+"damaged. Please reinstall or restart the app. If this doesn't help, contact "
+"support and include the log files in \"{0}\"."
+
 #. Warning shown at startup when this executable version appears older than the most recently used version, asking whether to continue. [DialogTextDowngradedVersionWarning]
 #: Resources.resx
 #, new
@@ -304,11 +313,23 @@ msgstr ""
 "Before unplugging it, make sure to exit the app and eject the drive safely to "
 "avoid data loss."
 
+#. A question when closing the built-in text editor with unsaved changes. {0} is the file name. [DialogTextSaveChanges]
+#: Resources.resx
+#, new
+msgid "DialogTextSaveChanges"
+msgstr "Do you want to save the changes to {0}?"
+
 #. A message displayed when an attempt is made to encrypt or wipe a file located in a system protected location. It may be followed by a list of affected files. This will abort the entire operation and nothing happens. [DialogTextSystemProtected]
 #: Resources.resx
 #, new
 msgid "DialogTextSystemProtected"
 msgstr "File(s) are system protected, the action was canceled."
+
+#. The name of the file type filter for text files in a save file dialog. [DialogTextTextFiles]
+#: Resources.resx
+#, new
+msgid "DialogTextTextFiles"
+msgstr "Text files"
 
 #. Informing that one or more files could not be encrypted due to licensing restrictions. A list of files may be appended. [DialogTextTooLargeForLicense]
 #: Resources.resx
@@ -740,6 +761,12 @@ msgstr "_About"
 msgid "MenuAddPassword"
 msgstr "_Add decryption password…"
 
+#. A menu entry with a check mark, to always open encrypted text files in an external application instead of the built-in text editor. [MenuAlwaysUseExternalTextEditor]
+#: Resources.resx
+#, new
+msgid "MenuAlwaysUseExternalTextEditor"
+msgstr "Always use external text _editor"
+
 #. The menu text for a link to the purchase page. [MenuBuyNow]
 #: Resources.resx
 #, new
@@ -926,6 +953,12 @@ msgstr "Get your subscription premium _license…"
 msgid "MenuLoadShares"
 msgstr "_View secret shares…"
 
+#. The menu item to create a new, empty, encrypted text file and open it in the built-in text editor. [MenuNewEncryptedTextFile]
+#: Resources.resx
+#, new
+msgid "MenuNewEncryptedTextFile"
+msgstr "_New encrypted text file…"
+
 #. The text in the menu to open a dialog to select a file to open, i.e. "Open…". (_ indicates keyboard accelerator) [MenuOpen]
 #: Resources.resx
 #, new
@@ -985,6 +1018,12 @@ msgstr "_Suggest password…"
 #, new
 msgid "MenuTheme"
 msgstr "_Theme…"
+
+#. The menu text to open a window listing the licenses and copyright notices of third-party software included in the program. (_ indicates keyboard accelerator) [MenuThirdPartyNotices]
+#: Resources.resx
+#, new
+msgid "MenuThirdPartyNotices"
+msgstr "Third-party _notices…"
 
 #. A menu entry to request a temporary trial license. [MenuTrialDownload]
 #: Resources.resx
@@ -1384,6 +1423,12 @@ msgstr "Email"
 msgid "WatermarkEnterLicenseHere"
 msgstr "The license key goes here: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ…"
 
+#. The text used as watermark (slightly transparent grey) in the search text box of the built-in text editor. [WatermarkFind]
+#: Resources.resx
+#, new
+msgid "WatermarkFind"
+msgstr "Find…"
+
 #. The watermark prompt for the last 4 digits to enter. [WatermarkLast4]
 #: Resources.resx
 #, new
@@ -1413,6 +1458,12 @@ msgstr "Enter any password or secret…"
 #, new
 msgid "WatermarkPasswordShare"
 msgstr "Password to share"
+
+#. The text used as watermark (slightly transparent grey) in the replacement text box of the built-in text editor. [WatermarkReplace]
+#: Resources.resx
+#, new
+msgid "WatermarkReplace"
+msgstr "Replace…"
 
 #. A warning text, stating that one or more files are zero length, asking if the user is sure. The text should be followed by ConfirmationQuestion. It's followed by a list of the files that are detected as zero length. [ZeroLengthWarning]
 #: Resources.resx

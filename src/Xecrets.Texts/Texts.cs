@@ -145,6 +145,7 @@ public class Texts
     public static string DialogTitleFetchLicense => T[nameof(Resources.DialogTitleFetchLicense)];
     public static string DialogTitleLoadShares => T[nameof(Resources.MenuLoadShares)].StripAccelerator().StripEllipsis();
     public static string DialogTitleRandomRename => T[nameof(Resources.MenuRandomRename)].StripAccelerator().StripEllipsis();
+    public static string DialogTitleThirdPartyNotices => T[nameof(Resources.MenuThirdPartyNotices)].StripAccelerator().StripEllipsis();
     public static string DialogTitleRemovableDrive => T[nameof(Resources.DialogTitleRemovableDrive)];
     public static string DialogTitleSelectDestinationFolder => T[nameof(Resources.DialogTitleSelectDestinationFolder)];
     public static string DialogTitleSelectFileToOpen => T[nameof(Resources.DialogTitleSelectFileToOpen)];
@@ -276,6 +277,7 @@ public class Texts
     public static string MenuSuggestPassword => T[nameof(Resources.MenuSuggestPassword)];
     public static string MenuSwedish => InvariantResources.MenuSwedish;
     public static string MenuTheme => T[nameof(Resources.MenuTheme)];
+    public static string MenuThirdPartyNotices => T[nameof(Resources.MenuThirdPartyNotices)];
     public static string MenuTrialDownload => T[nameof(Resources.MenuTrialDownload)];
     public static string MenuUser => T[nameof(Resources.MenuUser)];
     public static string MenuWipe => T[nameof(Resources.MenuWipe)];

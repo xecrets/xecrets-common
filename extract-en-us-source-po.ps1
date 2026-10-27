@@ -22,7 +22,7 @@
 #
 # Export translations using:
 #
-# All (8)
+# All (9)
 # Filter: All tags /  Any state
 # File format: Gettext, Gettext PO
 # Settings: 

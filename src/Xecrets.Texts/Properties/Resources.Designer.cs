@@ -1445,6 +1445,15 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Third-party _notices….
+        /// </summary>
+        internal static string MenuThirdPartyNotices {
+            get {
+                return ResourceManager.GetString("MenuThirdPartyNotices", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Get your 3 day _free premium license….
         /// </summary>
         internal static string MenuTrialDownload {
