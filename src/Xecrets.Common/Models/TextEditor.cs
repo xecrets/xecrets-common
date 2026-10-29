@@ -46,8 +46,14 @@ public sealed class TextEditor
     public double? FontSize { get; set; }
 
     /// <summary>
-    /// Gets or sets a value indicating whether line numbers are shown in the built-in text editor, or
-    /// <see langword="null"/> to use the default, which is to show them.
+    /// Gets or sets a value indicating whether the built-in text editor uses the regular proportional font of the
+    /// device instead of a monospace font.
+    /// </summary>
+    [JsonPropertyName("proportionalFont")]
+    public bool? ProportionalFont { get; set; }
+
+    /// <summary>
+    /// Gets or sets a value indicating whether line numbers are shown in the built-in text editor.
     /// </summary>
     [JsonPropertyName("showLineNumbers")]
     public bool? ShowLineNumbers { get; set; }
@@ -60,10 +66,10 @@ public sealed class TextEditor
 
     /// <summary>
     /// Gets or sets a value indicating whether syntax highlighting is used in the built-in text editor, when available
-    /// for the file type, or <see langword="null"/> to use the default, which is to highlight.
+    /// for the file type. The default is to highlight.
     /// </summary>
     [JsonPropertyName("syntaxHighlighting")]
-    public bool? SyntaxHighlighting { get; set; }
+    public bool? SyntaxHighlighting { get; set; } = true;
 
     /// <summary>
     /// Gets or sets a value indicating whether long lines are wrapped in the built-in text editor.
