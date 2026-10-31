@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-27 09:58+0100\n"
+"POT-Creation-Date: 2026-11-01 03:42+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -167,6 +167,12 @@ msgstr "Start command:"
 #, new
 msgid "DialogSavePasswordPermanently"
 msgstr "Save in settings"
+
+#. An error message displayed when encrypting, decrypting, wiping or saving failed because a file could not be read, written or deleted, for example because it is in use by another program. A more detailed reason and a list of files may be appended. [DialogTextAccessDenied]
+#: Resources.resx
+#, new
+msgid "DialogTextAccessDenied"
+msgstr "Access denied."
 
 #. The text displayed as heading in the dialog to enter an extra alternate password. [DialogTextAddPassword]
 #: Resources.resx

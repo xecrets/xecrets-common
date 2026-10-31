@@ -288,6 +288,15 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Access denied..
+        /// </summary>
+        internal static string DialogTextAccessDenied {
+            get {
+                return ResourceManager.GetString("DialogTextAccessDenied", resourceCulture);
+            }
+        }
+
+        /// <summary>
         ///   Looks up a localized string similar to Add a decryption password.
         /// </summary>
         internal static string DialogTextAddPassword {

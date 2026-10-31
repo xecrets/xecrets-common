@@ -110,6 +110,7 @@ public class Texts
     public static string DialogLabelRealStartFolder => T[nameof(Resources.DialogLabelRealStartFolder)];
     public static string DialogLabelStartCommand => T[nameof(Resources.DialogLabelStartCommand)];
     public static string DialogSavePasswordPermanently => T[nameof(Resources.DialogSavePasswordPermanently)];
+    public static string DialogTextAccessDenied => T[nameof(Resources.DialogTextAccessDenied)];
     public static string DialogTextAddPassword => T[nameof(Resources.DialogTextAddPassword)];
     public static string DialogTextAllFiles => T[nameof(Resources.DialogTextAllFiles)];
     public static string DialogTextClearRecent => T[nameof(Resources.MenuClearRecent)].StripAccelerator().StripEllipsis();

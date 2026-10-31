@@ -213,6 +213,10 @@
     <value>_Ok</value>
     <comment>The text in a button that says "OK", i.e. "Ok".</comment>
   </data>
+  <data name="DialogTextAccessDenied" xml:space="preserve">
+    <value>Access denied.</value>
+    <comment>An error message displayed when encrypting, decrypting, wiping or saving failed because a file could not be read, written or deleted, for example because it is in use by another program. A more detailed reason and a list of files may be appended.</comment>
+  </data>
   <data name="DialogTextAllFiles" xml:space="preserve">
     <value>All files</value>
     <comment>A text used in a file selection dialog for the file pattern "*".</comment>

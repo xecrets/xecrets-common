@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Xecrets Ez\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-08 08:19+0200\n"
-"PO-Revision-Date: 2026-10-27 22:21+0100\n"
+"PO-Revision-Date: 2026-11-01 15:49+0100\n"
 "Last-Translator: Svante Seleborg\n"
 "Language-Team: Simplified Chinese\n"
 "Language: zh-CN\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Loco-Source-Locale: en-US\n"
 "X-Loco-Project-Id: 158107\n"
 "X-Loco-Lookup: id\n"
-"X-Loco-Api-Version: 1.0.29 20260829-1"
+"X-Loco-Api-Version: 1.0.29 20261028-1"
 
 #. The warning text displayed in the main window when the program does not have a valid license. [BannerUnlicensedWarning]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3c2
@@ -184,6 +184,12 @@ msgstr "启动命令："
 #| msgid "Save in settings"
 msgid "DialogSavePasswordPermanently"
 msgstr "保存到设置中"
+
+#. An error message displayed when encrypting, decrypting, wiping or saving failed because a file could not be read, written or deleted, for example because it is in use by another program. A more detailed reason and a list of files may be appended. [DialogTextAccessDenied]
+#: Resources.resx loco:6ae7507e27b7784c1802f8e2
+#| msgid "Access denied."
+msgid "DialogTextAccessDenied"
+msgstr "访问被拒绝。"
 
 #. The text displayed as heading in the dialog to enter an extra alternate password. [DialogTextAddPassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3d3
