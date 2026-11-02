@@ -880,9 +880,17 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <value>Original start folder:</value>
     <comment>A label in the about box, for the real user-visible start folder, before the OS maybe moved it.</comment>
   </data>
-  <data name="DialogTextExpiresSoonInfoFormat" xml:space="preserve">
-    <value>Your premium license will expire on {0}. To keep using premium features, please renew your license in the app after it expires.</value>
-    <comment>An informational message when a license is about to expire.</comment>
+  <data name="DialogTextTrialExpiresSoonFormat" xml:space="preserve">
+    <value>Your trial license will expire on {0}.</value>
+    <comment>Shown when a trial license is about to expire. {0} is the local date and time of expiry. It is followed by DialogTextExpiresSoonActionFormat.</comment>
+  </data>
+  <data name="DialogTextPremiumExpiresSoonFormat" xml:space="preserve">
+    <value>Your premium license will expire on {0}.</value>
+    <comment>Shown when a premium license is about to expire. {0} is the local date and time of expiry. It is followed by DialogTextExpiresSoonActionFormat.</comment>
+  </data>
+  <data name="DialogTextExpiresSoonActionFormat" xml:space="preserve">
+    <value>When it has expired, get a new license key from the customer portal at {0} and activate it in the app again.</value>
+    <comment>Follows the expiry message and tells the user what to do. {0} is the customer portal URL, which is shown as a clickable link.</comment>
   </data>
   <data name="DialogTextRemovableDriveFirstWarning" xml:space="preserve">
     <value>Settings and temp files will be stored on a removable drive, not your main drive. Continue?</value>

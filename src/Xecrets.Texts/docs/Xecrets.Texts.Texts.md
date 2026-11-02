@@ -30,6 +30,20 @@ Useful resources for translation can be found at:
 https://learn.microsoft.com/en-us/globalization/reference/microsoft-style-guides
 https://learn.microsoft.com/en-us/globalization/reference/microsoft-language-resources
 ChatGPT and DeepL (or whatever AI rules in the future) may be of assistance for translations.
+### Properties
+
+<a name='Xecrets.Texts.Texts.DialogTextExpiresSoonAction'></a>
+
+## Texts.DialogTextExpiresSoonAction Property
+
+The text following the expiring soon information, telling the user how to get and activate a new license.
+
+```csharp
+public static string DialogTextExpiresSoonAction { get; }
+```
+
+#### Property Value
+[System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')
 ### Methods
 
 <a name='Xecrets.Texts.Texts.Confirmation(string)'></a>
@@ -72,18 +86,18 @@ The number of decryption passwords currently loaded.
 #### Returns
 [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')
 
-<a name='Xecrets.Texts.Texts.DialogTextExpiresSoonInfo(string)'></a>
+<a name='Xecrets.Texts.Texts.DialogTextPremiumExpiresSoon(string)'></a>
 
-## Texts.DialogTextExpiresSoonInfo(string) Method
+## Texts.DialogTextPremiumExpiresSoon(string) Method
 
-The information text shown when a license is expiring soon.
+The information text shown when a premium license is expiring soon.
 
 ```csharp
-public static string DialogTextExpiresSoonInfo(string expiresLocal);
+public static string DialogTextPremiumExpiresSoon(string expiresLocal);
 ```
 #### Parameters
 
-<a name='Xecrets.Texts.Texts.DialogTextExpiresSoonInfo(string).expiresLocal'></a>
+<a name='Xecrets.Texts.Texts.DialogTextPremiumExpiresSoon(string).expiresLocal'></a>
 
 `expiresLocal` [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')
 
@@ -108,6 +122,26 @@ public static string DialogTextSaveChanges(string fileName);
 `fileName` [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')
 
 The name of the file being edited.
+
+#### Returns
+[System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')
+
+<a name='Xecrets.Texts.Texts.DialogTextTrialExpiresSoon(string)'></a>
+
+## Texts.DialogTextTrialExpiresSoon(string) Method
+
+The information text shown when a trial license is expiring soon.
+
+```csharp
+public static string DialogTextTrialExpiresSoon(string expiresLocal);
+```
+#### Parameters
+
+<a name='Xecrets.Texts.Texts.DialogTextTrialExpiresSoon(string).expiresLocal'></a>
+
+`expiresLocal` [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')
+
+The expiry date and time, already formatted in the local timezone.
 
 #### Returns
 [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string 'System.String')

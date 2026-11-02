@@ -383,10 +383,21 @@ public class Texts
     public static string DecryptionPasswordsAbout(int n) => T[nameof(Resources.DecryptionPasswordsAboutFormat)].FormatUi(n);
 
     /// <summary>
-    /// The information text shown when a license is expiring soon.
+    /// The text following the expiring soon information, telling the user how to get and activate a new license.
+    /// </summary>
+    public static string DialogTextExpiresSoonAction => T[nameof(Resources.DialogTextExpiresSoonActionFormat)].FormatUi(InvariantResources.CustomerPortalUrl.ToSite());
+
+    /// <summary>
+    /// The information text shown when a premium license is expiring soon.
     /// </summary>
     /// <param name="expiresLocal">The expiry date and time, already formatted in the local timezone.</param>
-    public static string DialogTextExpiresSoonInfo(string expiresLocal) => T[nameof(Resources.DialogTextExpiresSoonInfoFormat)].FormatUi(expiresLocal);
+    public static string DialogTextPremiumExpiresSoon(string expiresLocal) => T[nameof(Resources.DialogTextPremiumExpiresSoonFormat)].FormatUi(expiresLocal);
+
+    /// <summary>
+    /// The information text shown when a trial license is expiring soon.
+    /// </summary>
+    /// <param name="expiresLocal">The expiry date and time, already formatted in the local timezone.</param>
+    public static string DialogTextTrialExpiresSoon(string expiresLocal) => T[nameof(Resources.DialogTextTrialExpiresSoonFormat)].FormatUi(expiresLocal);
 
     /// <summary>
     /// The message shown when the YubiKey CCID redistributable is missing, with a link to download it.

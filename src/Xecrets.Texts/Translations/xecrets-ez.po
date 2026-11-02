@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-01 03:42+0100\n"
+"POT-Creation-Date: 2026-11-02 03:49+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -238,13 +238,13 @@ msgstr "Encrypted files"
 msgid "DialogTextEnterLicense"
 msgstr "Activate Premium license"
 
-#. An informational message when a license is about to expire. [DialogTextExpiresSoonInfoFormat]
+#. Follows the expiry message and tells the user what to do. {0} is the customer portal URL, which is shown as a clickable link. [DialogTextExpiresSoonActionFormat]
 #: Resources.resx
 #, new
-msgid "DialogTextExpiresSoonInfoFormat"
+msgid "DialogTextExpiresSoonActionFormat"
 msgstr ""
-"Your premium license will expire on {0}. To keep using premium features, "
-"please renew your license in the app after it expires."
+"When it has expired, get a new license key from the customer portal at {0} "
+"and activate it in the app again."
 
 #. An error message displayed when encrypting, decrypting or wiping could not proceed because one or more files simply were not not found and the operation is canceled. A list of files may be appended. [DialogTextFileDoesNotExist]
 #: Resources.resx
@@ -285,6 +285,12 @@ msgid "DialogTextPasteOnlyToolTip"
 msgstr ""
 "Paste files here to encrypt or decrypt them. Use keyboard {0} to decrypt a "
 "single file, otherwise it opens."
+
+#. Shown when a premium license is about to expire. {0} is the local date and time of expiry. It is followed by DialogTextExpiresSoonActionFormat. [DialogTextPremiumExpiresSoonFormat]
+#: Resources.resx
+#, new
+msgid "DialogTextPremiumExpiresSoonFormat"
+msgstr "Your premium license will expire on {0}."
 
 #. A pop-up message displayed after importing AxCrypt account keys. [DialogTextPrivateKeysImported]
 #: Resources.resx
@@ -342,6 +348,12 @@ msgstr "Text files"
 #, new
 msgid "DialogTextTooLargeForLicense"
 msgstr "File(s) were not encrypted. Encryption limit is 1 MB. See About."
+
+#. Shown when a trial license is about to expire. {0} is the local date and time of expiry. It is followed by DialogTextExpiresSoonActionFormat. [DialogTextTrialExpiresSoonFormat]
+#: Resources.resx
+#, new
+msgid "DialogTextTrialExpiresSoonFormat"
+msgstr "Your trial license will expire on {0}."
 
 #. The text shown when a decryption fails because of unknown password. [DialogTextUnknownPassword]
 #: Resources.resx

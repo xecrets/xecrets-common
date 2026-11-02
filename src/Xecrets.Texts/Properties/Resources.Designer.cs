@@ -295,7 +295,7 @@ namespace Xecrets.Texts.Properties {
                 return ResourceManager.GetString("DialogTextAccessDenied", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Add a decryption password.
         /// </summary>
@@ -378,11 +378,11 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Your premium license will expire on {0}. To keep using premium features, please renew your license in the app after it expires..
+        ///   Looks up a localized string similar to When it has expired, get a new license key from the customer portal at {0} and activate it in the app again..
         /// </summary>
-        internal static string DialogTextExpiresSoonInfoFormat {
+        internal static string DialogTextExpiresSoonActionFormat {
             get {
-                return ResourceManager.GetString("DialogTextExpiresSoonInfoFormat", resourceCulture);
+                return ResourceManager.GetString("DialogTextExpiresSoonActionFormat", resourceCulture);
             }
         }
         
@@ -441,6 +441,15 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Your premium license will expire on {0}..
+        /// </summary>
+        internal static string DialogTextPremiumExpiresSoonFormat {
+            get {
+                return ResourceManager.GetString("DialogTextPremiumExpiresSoonFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to We found and imported account keys from AxCrypt. You may still need to provide the original password a file was encrypted with if the AxCrypt password was reset, changed or is different from the Xecrets Ez password..
         /// </summary>
         internal static string DialogTextPrivateKeysImported {
@@ -477,6 +486,15 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Do you want to save the changes to {0}?.
+        /// </summary>
+        internal static string DialogTextSaveChanges {
+            get {
+                return ResourceManager.GetString("DialogTextSaveChanges", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to File(s) are system protected, the action was canceled..
         /// </summary>
         internal static string DialogTextSystemProtected {
@@ -486,11 +504,29 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Text files.
+        /// </summary>
+        internal static string DialogTextTextFiles {
+            get {
+                return ResourceManager.GetString("DialogTextTextFiles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to File(s) were not encrypted. Encryption limit is 1 MB. See About..
         /// </summary>
         internal static string DialogTextTooLargeForLicense {
             get {
                 return ResourceManager.GetString("DialogTextTooLargeForLicense", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your trial license will expire on {0}..
+        /// </summary>
+        internal static string DialogTextTrialExpiresSoonFormat {
+            get {
+                return ResourceManager.GetString("DialogTextTrialExpiresSoonFormat", resourceCulture);
             }
         }
         
@@ -1085,6 +1121,15 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Always use external text _editor.
+        /// </summary>
+        internal static string MenuAlwaysUseExternalTextEditor {
+            get {
+                return ResourceManager.GetString("MenuAlwaysUseExternalTextEditor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Subscribe to _premium….
         /// </summary>
         internal static string MenuBuyNow {
@@ -1360,6 +1405,15 @@ namespace Xecrets.Texts.Properties {
         internal static string MenuLoadShares {
             get {
                 return ResourceManager.GetString("MenuLoadShares", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to _New encrypted text file….
+        /// </summary>
+        internal static string MenuNewEncryptedTextFile {
+            get {
+                return ResourceManager.GetString("MenuNewEncryptedTextFile", resourceCulture);
             }
         }
         
@@ -2005,6 +2059,15 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Find….
+        /// </summary>
+        internal static string WatermarkFind {
+            get {
+                return ResourceManager.GetString("WatermarkFind", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 4 digits.
         /// </summary>
         internal static string WatermarkLast4 {
@@ -2046,6 +2109,15 @@ namespace Xecrets.Texts.Properties {
         internal static string WatermarkPasswordShare {
             get {
                 return ResourceManager.GetString("WatermarkPasswordShare", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Replace….
+        /// </summary>
+        internal static string WatermarkReplace {
+            get {
+                return ResourceManager.GetString("WatermarkReplace", resourceCulture);
             }
         }
         
@@ -2127,60 +2199,6 @@ namespace Xecrets.Texts.Properties {
         internal static string ZzTitleProgramVersionNameFormat {
             get {
                 return ResourceManager.GetString("ZzTitleProgramVersionNameFormat", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to _New encrypted text file….
-        /// </summary>
-        internal static string MenuNewEncryptedTextFile {
-            get {
-                return ResourceManager.GetString("MenuNewEncryptedTextFile", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Always use external text _editor.
-        /// </summary>
-        internal static string MenuAlwaysUseExternalTextEditor {
-            get {
-                return ResourceManager.GetString("MenuAlwaysUseExternalTextEditor", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Text files.
-        /// </summary>
-        internal static string DialogTextTextFiles {
-            get {
-                return ResourceManager.GetString("DialogTextTextFiles", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Do you want to save the changes to {0}?.
-        /// </summary>
-        internal static string DialogTextSaveChanges {
-            get {
-                return ResourceManager.GetString("DialogTextSaveChanges", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Find….
-        /// </summary>
-        internal static string WatermarkFind {
-            get {
-                return ResourceManager.GetString("WatermarkFind", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Replace….
-        /// </summary>
-        internal static string WatermarkReplace {
-            get {
-                return ResourceManager.GetString("WatermarkReplace", resourceCulture);
             }
         }
     }

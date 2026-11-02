@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Xecrets Ez\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-08 08:19+0200\n"
-"PO-Revision-Date: 2026-11-01 15:49+0100\n"
+"PO-Revision-Date: 2026-11-02 16:02+0100\n"
 "Last-Translator: Svante Seleborg\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt-BR\n"
@@ -275,6 +275,17 @@ msgstr "Arquivos criptografados"
 msgid "DialogTextEnterLicense"
 msgstr "Ativar licença Premium"
 
+#. Follows the expiry message and tells the user what to do. {0} is the customer portal URL, which is shown as a clickable link. [DialogTextExpiresSoonActionFormat]
+#: Resources.resx loco:6ae8a3b044d9ca2615039822
+#, icu-format
+#| msgid ""
+#| "When it has expired, get a new license key from the customer portal at {0}"
+#| " and activate it in the app again."
+msgid "DialogTextExpiresSoonActionFormat"
+msgstr ""
+"Quando a licença expirar, obtenha uma nova chave de licença no portal do "
+"cliente em {0} e ative-a novamente no aplicativo."
+
 #. An informational message when a license is about to expire. [DialogTextExpiresSoonInfoFormat]
 #: Resources.resx loco:6822e2b30e5cfb56550bc502
 #, icu-format
@@ -330,6 +341,13 @@ msgid "DialogTextPasteOnlyToolTip"
 msgstr ""
 "Cole arquivos aqui para criptografar ou descriptografar. Use a tecla {0} "
 "para descriptografar um único arquivo, caso contrário ele será aberto."
+
+#. Shown when a premium license is about to expire. {0} is the local date and time of expiry. It is followed by DialogTextExpiresSoonActionFormat. [DialogTextPremiumExpiresSoonFormat]
+#: Resources.resx loco:6ae8a3b044d9ca2615039823
+#, icu-format
+#| msgid "Your premium license will expire on {0}."
+msgid "DialogTextPremiumExpiresSoonFormat"
+msgstr "Sua licença premium expirará em {0}."
 
 #. A pop-up message displayed after importing AxCrypt account keys. [DialogTextPrivateKeysImported]
 #: Resources.resx loco:6745a304c4fd5b3bae0bcef4
@@ -402,6 +420,13 @@ msgid "DialogTextTooLargeForLicense"
 msgstr ""
 "Arquivo(s) não foram criptografados. O limite de criptografia é 1 MB. Veja "
 "Sobre."
+
+#. Shown when a trial license is about to expire. {0} is the local date and time of expiry. It is followed by DialogTextExpiresSoonActionFormat. [DialogTextTrialExpiresSoonFormat]
+#: Resources.resx loco:6ae8a3b044d9ca2615039824
+#, icu-format
+#| msgid "Your trial license will expire on {0}."
+msgid "DialogTextTrialExpiresSoonFormat"
+msgstr "Sua licença de avaliação expirará em {0}."
 
 #. The text shown when a decryption fails because of unknown password. [DialogTextUnknownPassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3e1

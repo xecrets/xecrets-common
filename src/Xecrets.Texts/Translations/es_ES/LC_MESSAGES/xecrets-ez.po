@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Xecrets Ez\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-08 08:19+0200\n"
-"PO-Revision-Date: 2026-11-01 15:49+0100\n"
+"PO-Revision-Date: 2026-11-02 16:02+0100\n"
 "Last-Translator: Svante Seleborg\n"
 "Language-Team: Spanish (Spain)\n"
 "Language: es-ES\n"
@@ -273,6 +273,17 @@ msgstr "Archivos cifrados"
 msgid "DialogTextEnterLicense"
 msgstr "Activar licencia Premium"
 
+#. Follows the expiry message and tells the user what to do. {0} is the customer portal URL, which is shown as a clickable link. [DialogTextExpiresSoonActionFormat]
+#: Resources.resx loco:6ae8a3b044d9ca2615039822
+#, icu-format
+#| msgid ""
+#| "When it has expired, get a new license key from the customer portal at {0}"
+#| " and activate it in the app again."
+msgid "DialogTextExpiresSoonActionFormat"
+msgstr ""
+"Cuando haya caducado la licencia, obtén una nueva clave de licencia en el "
+"portal del cliente en {0} y actívala de nuevo en la aplicación."
+
 #. An informational message when a license is about to expire. [DialogTextExpiresSoonInfoFormat]
 #: Resources.resx loco:6822e2b30e5cfb56550bc502
 #, icu-format
@@ -328,6 +339,13 @@ msgid "DialogTextPasteOnlyToolTip"
 msgstr ""
 "Pegue aquí los archivos para cifrarlos o descifrarlos. Utilice el teclado {0}"
 " botón para descifrar un solo archivo, de lo contrario se abre."
+
+#. Shown when a premium license is about to expire. {0} is the local date and time of expiry. It is followed by DialogTextExpiresSoonActionFormat. [DialogTextPremiumExpiresSoonFormat]
+#: Resources.resx loco:6ae8a3b044d9ca2615039823
+#, icu-format
+#| msgid "Your premium license will expire on {0}."
+msgid "DialogTextPremiumExpiresSoonFormat"
+msgstr "Tu licencia premium caducará el {0}."
 
 #. A pop-up message displayed after importing AxCrypt account keys. [DialogTextPrivateKeysImported]
 #: Resources.resx loco:6745a304c4fd5b3bae0bcef4
@@ -401,6 +419,13 @@ msgid "DialogTextTooLargeForLicense"
 msgstr ""
 " Los archivo(s) no fueron cifrados. El límite de cifrado es de 1 MB. Ver "
 "Acerca de."
+
+#. Shown when a trial license is about to expire. {0} is the local date and time of expiry. It is followed by DialogTextExpiresSoonActionFormat. [DialogTextTrialExpiresSoonFormat]
+#: Resources.resx loco:6ae8a3b044d9ca2615039824
+#, icu-format
+#| msgid "Your trial license will expire on {0}."
+msgid "DialogTextTrialExpiresSoonFormat"
+msgstr "Tu licencia de prueba caducará el {0}."
 
 #. The text shown when a decryption fails because of unknown password. [DialogTextUnknownPassword]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3e1
