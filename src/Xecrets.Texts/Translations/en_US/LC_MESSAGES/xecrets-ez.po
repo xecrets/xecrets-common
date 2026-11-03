@@ -815,9 +815,9 @@ msgstr "Create new profile"
 
 #. A heading in the create user window, i.e. "First Time Setup". [HeadingCreateUserFirstTimeSetup]
 #: Resources.resx loco:670e1cf615d80a27bc0eb40c
-#| msgid "Setup a local profile"
+#| msgid "Set up a local profile"
 msgid "HeadingCreateUserFirstTimeSetup"
-msgstr "Setup a local profile"
+msgstr "Set up a local profile"
 
 #. The heading for the emergency reset password dialog [HeadingEmergencyReset]
 #: Resources.resx loco:670e1cf615d80a27bc0eb40d

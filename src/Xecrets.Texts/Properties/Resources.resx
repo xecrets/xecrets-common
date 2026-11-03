@@ -122,7 +122,7 @@
     <comment>The text in a button to create a user, i.e. "Create".</comment>
   </data>
   <data name="HeadingCreateUserFirstTimeSetup" xml:space="preserve">
-    <value>Setup a local profile</value>
+    <value>Set up a local profile</value>
     <comment>A heading in the create user window, i.e. "First Time Setup".</comment>
   </data>
   <data name="ToolTipEmail" xml:space="preserve">
