@@ -1425,12 +1425,6 @@ namespace Xecrets.Texts.Properties {
             }
         }
         
-        internal static string MenuNewEncryptedTextFile {
-            get {
-                return ResourceManager.GetString("MenuNewEncryptedTextFile", resourceCulture);
-            }
-        }
-        
         internal static string MenuAlwaysUseExternalTextEditor {
             get {
                 return ResourceManager.GetString("MenuAlwaysUseExternalTextEditor", resourceCulture);
@@ -1458,6 +1452,42 @@ namespace Xecrets.Texts.Properties {
         internal static string WatermarkReplace {
             get {
                 return ResourceManager.GetString("WatermarkReplace", resourceCulture);
+            }
+        }
+        
+        internal static string MenuNewEncryptedFile {
+            get {
+                return ResourceManager.GetString("MenuNewEncryptedFile", resourceCulture);
+            }
+        }
+        
+        internal static string NewFileDocument {
+            get {
+                return ResourceManager.GetString("NewFileDocument", resourceCulture);
+            }
+        }
+        
+        internal static string NewFileSpreadsheet {
+            get {
+                return ResourceManager.GetString("NewFileSpreadsheet", resourceCulture);
+            }
+        }
+        
+        internal static string NewFileText {
+            get {
+                return ResourceManager.GetString("NewFileText", resourceCulture);
+            }
+        }
+        
+        internal static string DialogTextDocuments {
+            get {
+                return ResourceManager.GetString("DialogTextDocuments", resourceCulture);
+            }
+        }
+        
+        internal static string DialogTextSpreadsheets {
+            get {
+                return ResourceManager.GetString("DialogTextSpreadsheets", resourceCulture);
             }
         }
         

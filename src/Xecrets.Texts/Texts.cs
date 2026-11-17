@@ -116,6 +116,7 @@ public class Texts
     public static string DialogTextClearRecent => T[nameof(Resources.MenuClearRecent)].StripAccelerator().StripEllipsis();
     public static string DialogTextCliApiVersionError => T[nameof(Resources.DialogTextCliApiVersionError)];
     public static string DialogTextCliToolNotFound => T[nameof(Resources.DialogTextCliToolNotFound)];
+    public static string DialogTextDocuments => T[nameof(Resources.DialogTextDocuments)];
     public static string DialogTextDowngradedVersionWarning => T[nameof(Resources.DialogTextDowngradedVersionWarning)];
     public static string DialogTextDropOrPasteTitle => T[nameof(Resources.DialogTextDropOrPasteTitle)];
     public static string DialogTextDropOrPasteToolTip => T[nameof(Resources.DialogTextDropOrPasteToolTip)];
@@ -125,6 +126,7 @@ public class Texts
     public static string DialogTextInsufficientRights => T[nameof(Resources.DialogTextInsufficientRights)];
     public static string DialogTextOpenFailed => T[nameof(Resources.DialogTextOpenFailed)];
     public static string DialogTextOrphanedDocumentsFiles => T[nameof(Resources.DialogTextOrphanedDocumentsFiles)];
+    public static string DialogTextSpreadsheets => T[nameof(Resources.DialogTextSpreadsheets)];
     public static string DialogTextTextFiles => T[nameof(Resources.DialogTextTextFiles)];
     public static string DialogTextPasteOnlyTitle => T[nameof(Resources.DialogTextPasteOnlyTitle)];
     public static string DialogTextPasteOnlyToolTip => T[nameof(Resources.DialogTextPasteOnlyToolTip)];
@@ -263,7 +265,10 @@ public class Texts
     public static string MenuItalian => InvariantResources.MenuItalian;
     public static string MenuLicense => T[nameof(Resources.MenuLicense)];
     public static string MenuLoadShares => T[nameof(Resources.MenuLoadShares)];
-    public static string MenuNewEncryptedTextFile => T[nameof(Resources.MenuNewEncryptedTextFile)];
+    public static string MenuNewEncryptedFile => T[nameof(Resources.MenuNewEncryptedFile)];
+    public static string MenuNewFileDocument => T[nameof(Resources.NewFileDocument)] + "…";
+    public static string MenuNewFileSpreadsheet => T[nameof(Resources.NewFileSpreadsheet)] + "…";
+    public static string MenuNewFileText => T[nameof(Resources.NewFileText)] + "…";
     public static string MenuOpen => T[nameof(Resources.MenuOpen)];
     public static string MenuOpenRecent => T[nameof(Resources.MenuOpenRecent)];
     public static string MenuPaste => T[nameof(Resources.MenuPaste)];
@@ -293,6 +298,9 @@ public class Texts
     public static string MessageTextLaunchLicensePage => T[nameof(Resources.MessageTextLaunchLicensePage)];
     public static string MessageZeroLength => T[nameof(Resources.MessageZeroLength)];
     public static string MixedFilesWarning => T[nameof(Resources.MixedFilesWarning)];
+    public static string NewFileDocument => T[nameof(Resources.NewFileDocument)];
+    public static string NewFileSpreadsheet => T[nameof(Resources.NewFileSpreadsheet)];
+    public static string NewFileText => T[nameof(Resources.NewFileText)];
     public static string OpenFilesRemainMessage => T[nameof(Resources.OpenFilesRemainMessage)];
     public static string OperationCanceledFormat => T[nameof(Resources.OperationCanceledFormat)];
     public static string PasswordResetId => InvariantResources.PasswordResetId;

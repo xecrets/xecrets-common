@@ -1044,10 +1044,6 @@ Would you like to view a help page with more information?</value>
     <value>There are open files that can't be re-encrypted to their original location. Do you want to save to a different location?</value>
     <comment>A warning text, followed by one or more file paths, representing open files that for some reason can't be re-encrypted to the original location.</comment>
   </data>
-  <data name="MenuNewEncryptedTextFile" xml:space="preserve">
-    <value>_New encrypted text file…</value>
-    <comment>The menu item to create a new, empty, encrypted text file and open it in the built-in text editor.</comment>
-  </data>
   <data name="MenuAlwaysUseExternalTextEditor" xml:space="preserve">
     <value>Always use external text _editor</value>
     <comment>A menu entry with a check mark, to always open encrypted text files in an external application instead of the built-in text editor.</comment>
@@ -1071,5 +1067,29 @@ Would you like to view a help page with more information?</value>
   <data name="MenuThirdPartyNotices" xml:space="preserve">
     <value>Third-party _notices…</value>
     <comment>The menu text to open a window listing the licenses and copyright notices of third-party software included in the program. (_ indicates keyboard accelerator)</comment>
+  </data>
+  <data name="MenuNewEncryptedFile" xml:space="preserve">
+    <value>_New encrypted file</value>
+    <comment>The menu text for a sub menu of file types, to create a new, empty, encrypted file of the selected type and open it for editing. (_ indicates keyboard accelerator)</comment>
+  </data>
+  <data name="NewFileDocument" xml:space="preserve">
+    <value>Document</value>
+    <comment>The kind of a new, empty, word processing document. Used in menu items like "Document (.docx)", and as the suggested file name, like "Document.docx".</comment>
+  </data>
+  <data name="NewFileSpreadsheet" xml:space="preserve">
+    <value>Spreadsheet</value>
+    <comment>The kind of a new, empty, spreadsheet. Used in menu items like "Spreadsheet (.xlsx)", and as the suggested file name, like "Spreadsheet.xlsx".</comment>
+  </data>
+  <data name="NewFileText" xml:space="preserve">
+    <value>Text</value>
+    <comment>The kind of a new, empty, text file. Used in the menu item "Text (.txt)", and as the suggested file name "Text.txt".</comment>
+  </data>
+  <data name="DialogTextDocuments" xml:space="preserve">
+    <value>Documents</value>
+    <comment>The name of the file type filter for word processing documents in a save file dialog.</comment>
+  </data>
+  <data name="DialogTextSpreadsheets" xml:space="preserve">
+    <value>Spreadsheets</value>
+    <comment>The name of the file type filter for spreadsheets in a save file dialog.</comment>
   </data>
 </root>
