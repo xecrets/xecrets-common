@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Xecrets Ez\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-08 08:19+0200\n"
-"PO-Revision-Date: 2026-11-02 16:02+0100\n"
+"PO-Revision-Date: 2026-11-18 15:22+0100\n"
 "Last-Translator: Svante Seleborg\n"
 "Language-Team: English (USA)\n"
 "Language: en-US\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Loco-Source-Locale: en-US\n"
 "X-Loco-Project-Id: 158107\n"
 "X-Loco-Lookup: id\n"
-"X-Loco-Api-Version: 1.0.29 20261028-1"
+"X-Loco-Api-Version: 1.0.29 20261104-1"
 
 #. The warning text displayed in the main window when the program does not have a valid license. [BannerUnlicensedWarning]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3c2
@@ -282,17 +282,6 @@ msgid "DialogTextExpiresSoonActionFormat"
 msgstr ""
 "When it has expired, get a new license key from the customer portal at {0} "
 "and activate it in the app again."
-
-#. An informational message when a license is about to expire. [DialogTextExpiresSoonInfoFormat]
-#: Resources.resx loco:6822e2b30e5cfb56550bc502
-#, icu-format
-#| msgid ""
-#| "Your premium license will expire on {0}. To keep using premium features, "
-#| "please renew your license in the app after it expires."
-msgid "DialogTextExpiresSoonInfoFormat"
-msgstr ""
-"Your premium license will expire on {0}. To keep using premium features, "
-"please renew your license in the app after it expires."
 
 #. An error message displayed when encrypting, decrypting or wiping could not proceed because one or more files simply were not not found and the operation is canceled. A list of files may be appended. [DialogTextFileDoesNotExist]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3d9
@@ -815,9 +804,9 @@ msgstr "Create new profile"
 
 #. A heading in the create user window, i.e. "First Time Setup". [HeadingCreateUserFirstTimeSetup]
 #: Resources.resx loco:670e1cf615d80a27bc0eb40c
-#| msgid "Set up a local profile"
+#| msgid "Setup a local profile"
 msgid "HeadingCreateUserFirstTimeSetup"
-msgstr "Set up a local profile"
+msgstr "Setup a local profile"
 
 #. The heading for the emergency reset password dialog [HeadingEmergencyReset]
 #: Resources.resx loco:670e1cf615d80a27bc0eb40d
@@ -1088,6 +1077,12 @@ msgstr "Get your subscription premium _license…"
 msgid "MenuLoadShares"
 msgstr "_View secret shares…"
 
+#. The menu text for a sub menu of file types, to create a new, empty, encrypted file of the selected type and open it for editing. (_ indicates keyboard accelerator)
+#: Resources.resx loco:6afdb25c06269bbf95088922
+#| msgid "_New encrypted file"
+msgid "MenuNewEncryptedFile"
+msgstr "_New encrypted file"
+
 #. The menu item to create a new, empty, encrypted text file and open it in the built-in text editor. [MenuNewEncryptedTextFile]
 #: Resources.resx loco:6ae11134186deb1f230bdaa6
 #| msgid "_New encrypted text file…"
@@ -1252,6 +1247,24 @@ msgid "MixedFilesWarning"
 msgstr ""
 "Both encrypted and plain files are included. The plain files will be "
 "encrypted, and the already encrypted will be unchanged."
+
+#. The kind of a new, empty, word processing document. Used in menu items like "Document (.docx)", as the suggested file name, like "Document.docx", and as the name of the file type filter for word processing documents in the save file dialog.
+#: Resources.resx loco:6afdb25c06269bbf95088923
+#| msgid "Document"
+msgid "NewFileDocument"
+msgstr "Document"
+
+#. The kind of a new, empty, spreadsheet. Used in menu items like "Spreadsheet (.xlsx)", as the suggested file name, like "Spreadsheet.xlsx", and as the name of the file type filter for spreadsheets in the save file dialog.
+#: Resources.resx loco:6afdb25c06269bbf95088924
+#| msgid "Spreadsheet"
+msgid "NewFileSpreadsheet"
+msgstr "Spreadsheet"
+
+#. The kind of a new, empty, text file. Used in the menu item "Text (.txt)", as the suggested file name "Text.txt", and as the name of the file type filter for text files in the save file dialog.
+#: Resources.resx loco:6afdb25c06269bbf95088925
+#| msgid "Text"
+msgid "NewFileText"
+msgstr "Text"
 
 #. A warning/info message stating that an attempt to close all files did not succeed completely and at least one file remain open. [OpenFilesRemainMessage]
 #: Resources.resx loco:670e1cf615d80a27bc0eb43b
