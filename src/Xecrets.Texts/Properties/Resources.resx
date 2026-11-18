@@ -468,6 +468,10 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <value>File(s) are read-only, the destination directory is not writeable or you do not have sufficient permissions. The action was canceled.</value>
     <comment>An error message displayed when encrypting, decrypting or wiping could not proceed because one or more files were read-only or the user does not have sufficient permissions and the operation is canceled. A list of files may be appended.</comment>
   </data>
+  <data name="DialogTextAlreadyOpen" xml:space="preserve">
+    <value>Files are open in Xecrets Ez. Close all open files.</value>
+    <comment>An error message displayed when decrypting, re-encrypting, wiping or renaming could not proceed because one or more encrypted files are currently open by Xecrets Ez, i.e. decrypted for viewing or editing in an external application or the built-in text editor, and the operation is canceled. A list of files may be appended.</comment>
+  </data>
   <data name="DialogTextSystemProtected" xml:space="preserve">
     <value>File(s) are system protected, the action was canceled.</value>
     <comment>A message displayed when an attempt is made to encrypt or wipe a file located in a system protected location. It may be followed by a list of affected files. This will abort the entire operation and nothing happens.</comment>

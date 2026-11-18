@@ -113,6 +113,7 @@ public class Texts
     public static string DialogTextAccessDenied => T[nameof(Resources.DialogTextAccessDenied)];
     public static string DialogTextAddPassword => T[nameof(Resources.DialogTextAddPassword)];
     public static string DialogTextAllFiles => T[nameof(Resources.DialogTextAllFiles)];
+    public static string DialogTextAlreadyOpen => T[nameof(Resources.DialogTextAlreadyOpen)];
     public static string DialogTextClearRecent => T[nameof(Resources.MenuClearRecent)].StripAccelerator().StripEllipsis();
     public static string DialogTextCliApiVersionError => T[nameof(Resources.DialogTextCliApiVersionError)];
     public static string DialogTextCliToolNotFound => T[nameof(Resources.DialogTextCliToolNotFound)];
