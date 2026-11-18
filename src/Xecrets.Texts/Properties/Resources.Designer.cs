@@ -1679,6 +1679,15 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Waiting for applications to close….
+        /// </summary>
+        internal static string OpenFilesWaitingMessage {
+            get {
+                return ResourceManager.GetString("OpenFilesWaitingMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Operation was canceled during processing of &quot;{0}&quot;. Check and verify!.
         /// </summary>
         internal static string OperationCanceledFormat {

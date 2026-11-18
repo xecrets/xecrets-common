@@ -367,6 +367,10 @@ Please buy a license. See https://www.axantum.com/ .</value>
     <value>File(s) couldn't be closed and remain open!</value>
     <comment>A warning/info message stating that an attempt to close all files did not succeed completely and at least one file remain open.</comment>
   </data>
+  <data name="OpenFilesWaitingMessage" xml:space="preserve">
+    <value>Waiting for applications to close…</value>
+    <comment>An information message shown when closing all files or exiting, while at least one file is still open in an application that is expected to close soon. The message disappears by itself when the application(s) close the file(s). A new line separated list of the files is appended.</comment>
+  </data>
   <data name="DialogTextOrphanedDocumentsFiles" xml:space="preserve">
     <value>Unrecognized temporary files remain.</value>
     <comment>A warning message at program exit. A new line separated list of these filesmay be appended.</comment>

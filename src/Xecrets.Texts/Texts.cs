@@ -300,6 +300,7 @@ public class Texts
     public static string NewFileSpreadsheet => T[nameof(Resources.NewFileSpreadsheet)];
     public static string NewFileText => T[nameof(Resources.NewFileText)];
     public static string OpenFilesRemainMessage => T[nameof(Resources.OpenFilesRemainMessage)];
+    public static string OpenFilesWaitingMessage => T[nameof(Resources.OpenFilesWaitingMessage)];
     public static string OperationCanceledFormat => T[nameof(Resources.OperationCanceledFormat)];
     public static string PasswordResetId => InvariantResources.PasswordResetId;
     public static string PlaceholderLoading => T[nameof(Resources.PlaceholderLoading)];

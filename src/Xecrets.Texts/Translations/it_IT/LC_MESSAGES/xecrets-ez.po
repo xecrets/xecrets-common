@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Xecrets Ez\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-08 08:19+0200\n"
-"PO-Revision-Date: 2026-11-18 17:56+0100\n"
+"PO-Revision-Date: 2026-11-18 21:46+0100\n"
 "Last-Translator: Svante Seleborg\n"
 "Language-Team: Italian (Italy)\n"
 "Language: it-IT\n"
@@ -1293,6 +1293,12 @@ msgstr "Testo"
 #| msgid "File(s) couldn't be closed and remain open!"
 msgid "OpenFilesRemainMessage"
 msgstr "I file non possono essere chiusi e rimangono aperti!"
+
+#. An information message shown when closing all files or exiting, while at least one file is still open in an application that is expected to close soon. The message disappears by itself when the application(s) close the file(s). A new line separated list of the files is appended.
+#: Resources.resx loco:6afe0d66a9e01025ec0391e2
+#| msgid "Waiting for applications to close…"
+msgid "OpenFilesWaitingMessage"
+msgstr "In attesa della chiusura delle applicazioni…"
 
 #. A message displayed when a multi-file operation was canceled, {0} is the full name of the file that was interrupted. [OperationCanceledFormat]
 #: Resources.resx loco:670e1cf615d80a27bc0eb43c
