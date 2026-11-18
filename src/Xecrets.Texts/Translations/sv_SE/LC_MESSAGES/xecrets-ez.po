@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Xecrets Ez\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-08 08:19+0200\n"
-"PO-Revision-Date: 2026-11-02 16:02+0100\n"
+"PO-Revision-Date: 2026-11-18 15:22+0100\n"
 "Last-Translator: Svante Seleborg\n"
 "Language-Team: Swedish (Sweden)\n"
 "Language: sv-SE\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Loco-Source-Locale: en-US\n"
 "X-Loco-Project-Id: 158107\n"
 "X-Loco-Lookup: id\n"
-"X-Loco-Api-Version: 1.0.29 20261028-1"
+"X-Loco-Api-Version: 1.0.29 20261104-1"
 
 #. The warning text displayed in the main window when the program does not have a valid license. [BannerUnlicensedWarning]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3c2
@@ -283,17 +283,6 @@ msgid "DialogTextExpiresSoonActionFormat"
 msgstr ""
 "När licensen har gått ut hämtar du en ny licensnyckel från kundportalen på "
 "{0} och aktiverar den i appen igen."
-
-#. An informational message when a license is about to expire. [DialogTextExpiresSoonInfoFormat]
-#: Resources.resx loco:6822e2b30e5cfb56550bc502
-#, icu-format
-#| msgid ""
-#| "Your premium license will expire on {0}. To keep using premium features, "
-#| "please renew your license in the app after it expires."
-msgid "DialogTextExpiresSoonInfoFormat"
-msgstr ""
-"Din premium-licens upphör att gälla den {0}. För att fortsätta använda "
-"premiumfunktionerna, förnya licensen i appen efter att den har gått ut."
 
 #. An error message displayed when encrypting, decrypting or wiping could not proceed because one or more files simply were not not found and the operation is canceled. A list of files may be appended. [DialogTextFileDoesNotExist]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3d9
@@ -1093,6 +1082,12 @@ msgstr "Hämta din _licens för Premium-prenumeration…"
 msgid "MenuLoadShares"
 msgstr "_Visa hemliga delar…"
 
+#. The menu text for a sub menu of file types, to create a new, empty, encrypted file of the selected type and open it for editing. (_ indicates keyboard accelerator)
+#: Resources.resx loco:6afdb25c06269bbf95088922
+#| msgid "_New encrypted file"
+msgid "MenuNewEncryptedFile"
+msgstr "_Ny krypterad fil"
+
 #. The menu item to create a new, empty, encrypted text file and open it in the built-in text editor. [MenuNewEncryptedTextFile]
 #: Resources.resx loco:6ae11134186deb1f230bdaa6
 #| msgid "_New encrypted text file…"
@@ -1257,6 +1252,24 @@ msgid "MixedFilesWarning"
 msgstr ""
 "Både krypterade och okrypterade filer ingår. De okrypterade filerna kommer "
 "att krypteras, medan de redan krypterade förblir oförändrade."
+
+#. The kind of a new, empty, word processing document. Used in menu items like "Document (.docx)", as the suggested file name, like "Document.docx", and as the name of the file type filter for word processing documents in the save file dialog.
+#: Resources.resx loco:6afdb25c06269bbf95088923
+#| msgid "Document"
+msgid "NewFileDocument"
+msgstr "Dokument"
+
+#. The kind of a new, empty, spreadsheet. Used in menu items like "Spreadsheet (.xlsx)", as the suggested file name, like "Spreadsheet.xlsx", and as the name of the file type filter for spreadsheets in the save file dialog.
+#: Resources.resx loco:6afdb25c06269bbf95088924
+#| msgid "Spreadsheet"
+msgid "NewFileSpreadsheet"
+msgstr "Kalkylblad"
+
+#. The kind of a new, empty, text file. Used in the menu item "Text (.txt)", as the suggested file name "Text.txt", and as the name of the file type filter for text files in the save file dialog.
+#: Resources.resx loco:6afdb25c06269bbf95088925
+#| msgid "Text"
+msgid "NewFileText"
+msgstr "Text"
 
 #. A warning/info message stating that an attempt to close all files did not succeed completely and at least one file remain open. [OpenFilesRemainMessage]
 #: Resources.resx loco:670e1cf615d80a27bc0eb43b
