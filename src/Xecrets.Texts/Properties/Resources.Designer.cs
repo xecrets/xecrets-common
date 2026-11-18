@@ -1431,12 +1431,6 @@ namespace Xecrets.Texts.Properties {
             }
         }
         
-        internal static string DialogTextTextFiles {
-            get {
-                return ResourceManager.GetString("DialogTextTextFiles", resourceCulture);
-            }
-        }
-        
         internal static string DialogTextSaveChanges {
             get {
                 return ResourceManager.GetString("DialogTextSaveChanges", resourceCulture);
@@ -1476,18 +1470,6 @@ namespace Xecrets.Texts.Properties {
         internal static string NewFileText {
             get {
                 return ResourceManager.GetString("NewFileText", resourceCulture);
-            }
-        }
-        
-        internal static string DialogTextDocuments {
-            get {
-                return ResourceManager.GetString("DialogTextDocuments", resourceCulture);
-            }
-        }
-        
-        internal static string DialogTextSpreadsheets {
-            get {
-                return ResourceManager.GetString("DialogTextSpreadsheets", resourceCulture);
             }
         }
         

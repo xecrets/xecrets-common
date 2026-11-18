@@ -116,7 +116,6 @@ public class Texts
     public static string DialogTextClearRecent => T[nameof(Resources.MenuClearRecent)].StripAccelerator().StripEllipsis();
     public static string DialogTextCliApiVersionError => T[nameof(Resources.DialogTextCliApiVersionError)];
     public static string DialogTextCliToolNotFound => T[nameof(Resources.DialogTextCliToolNotFound)];
-    public static string DialogTextDocuments => T[nameof(Resources.DialogTextDocuments)];
     public static string DialogTextDowngradedVersionWarning => T[nameof(Resources.DialogTextDowngradedVersionWarning)];
     public static string DialogTextDropOrPasteTitle => T[nameof(Resources.DialogTextDropOrPasteTitle)];
     public static string DialogTextDropOrPasteToolTip => T[nameof(Resources.DialogTextDropOrPasteToolTip)];
@@ -126,8 +125,6 @@ public class Texts
     public static string DialogTextInsufficientRights => T[nameof(Resources.DialogTextInsufficientRights)];
     public static string DialogTextOpenFailed => T[nameof(Resources.DialogTextOpenFailed)];
     public static string DialogTextOrphanedDocumentsFiles => T[nameof(Resources.DialogTextOrphanedDocumentsFiles)];
-    public static string DialogTextSpreadsheets => T[nameof(Resources.DialogTextSpreadsheets)];
-    public static string DialogTextTextFiles => T[nameof(Resources.DialogTextTextFiles)];
     public static string DialogTextPasteOnlyTitle => T[nameof(Resources.DialogTextPasteOnlyTitle)];
     public static string DialogTextPasteOnlyToolTip => T[nameof(Resources.DialogTextPasteOnlyToolTip)];
     public static string DialogTextPrivateKeysImported => T[nameof(Resources.DialogTextPrivateKeysImported)];

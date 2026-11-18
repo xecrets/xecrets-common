@@ -1048,10 +1048,6 @@ Would you like to view a help page with more information?</value>
     <value>Always use external text _editor</value>
     <comment>A menu entry with a check mark, to always open encrypted text files in an external application instead of the built-in text editor.</comment>
   </data>
-  <data name="DialogTextTextFiles" xml:space="preserve">
-    <value>Text files</value>
-    <comment>The name of the file type filter for text files in a save file dialog.</comment>
-  </data>
   <data name="DialogTextSaveChanges" xml:space="preserve">
     <value>Do you want to save the changes to {0}?</value>
     <comment>A question when closing the built-in text editor with unsaved changes. {0} is the file name.</comment>
@@ -1074,22 +1070,14 @@ Would you like to view a help page with more information?</value>
   </data>
   <data name="NewFileDocument" xml:space="preserve">
     <value>Document</value>
-    <comment>The kind of a new, empty, word processing document. Used in menu items like "Document (.docx)", and as the suggested file name, like "Document.docx".</comment>
+    <comment>The kind of a new, empty, word processing document. Used in menu items like "Document (.docx)", as the suggested file name, like "Document.docx", and as the name of the file type filter for word processing documents in the save file dialog.</comment>
   </data>
   <data name="NewFileSpreadsheet" xml:space="preserve">
     <value>Spreadsheet</value>
-    <comment>The kind of a new, empty, spreadsheet. Used in menu items like "Spreadsheet (.xlsx)", and as the suggested file name, like "Spreadsheet.xlsx".</comment>
+    <comment>The kind of a new, empty, spreadsheet. Used in menu items like "Spreadsheet (.xlsx)", as the suggested file name, like "Spreadsheet.xlsx", and as the name of the file type filter for spreadsheets in the save file dialog.</comment>
   </data>
   <data name="NewFileText" xml:space="preserve">
     <value>Text</value>
-    <comment>The kind of a new, empty, text file. Used in the menu item "Text (.txt)", and as the suggested file name "Text.txt".</comment>
-  </data>
-  <data name="DialogTextDocuments" xml:space="preserve">
-    <value>Documents</value>
-    <comment>The name of the file type filter for word processing documents in a save file dialog.</comment>
-  </data>
-  <data name="DialogTextSpreadsheets" xml:space="preserve">
-    <value>Spreadsheets</value>
-    <comment>The name of the file type filter for spreadsheets in a save file dialog.</comment>
+    <comment>The kind of a new, empty, text file. Used in the menu item "Text (.txt)", as the suggested file name "Text.txt", and as the name of the file type filter for text files in the save file dialog.</comment>
   </data>
 </root>
