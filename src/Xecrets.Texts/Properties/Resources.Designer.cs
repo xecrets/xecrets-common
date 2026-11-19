@@ -225,6 +225,15 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Windows will now open Default apps in Settings. Select &quot;Choose default apps by file type&quot;, find .axx in the list, and choose Xecrets Ez..
+        /// </summary>
+        internal static string DefaultAppSettingsInformation {
+            get {
+                return ResourceManager.GetString("DefaultAppSettingsInformation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The value is not in the correct format!.
         /// </summary>
         internal static string DialogInputValidationError {
@@ -257,6 +266,15 @@ namespace Xecrets.Texts.Properties {
         internal static string DialogLabelCurrentDirectory {
             get {
                 return ResourceManager.GetString("DialogLabelCurrentDirectory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Default app:.
+        /// </summary>
+        internal static string DialogLabelDefaultApp {
+            get {
+                return ResourceManager.GetString("DialogLabelDefaultApp", resourceCulture);
             }
         }
         
@@ -1157,6 +1175,15 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to _Clear default app registration.
+        /// </summary>
+        internal static string MenuClearDefaultApp {
+            get {
+                return ResourceManager.GetString("MenuClearDefaultApp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Show all _messages again.
         /// </summary>
         internal static string MenuClearDontShowAgain {
@@ -1252,6 +1279,15 @@ namespace Xecrets.Texts.Properties {
         internal static string MenuDecryptFolder {
             get {
                 return ResourceManager.GetString("MenuDecryptFolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to _Default app.
+        /// </summary>
+        internal static string MenuDefaultApp {
+            get {
+                return ResourceManager.GetString("MenuDefaultApp", resourceCulture);
             }
         }
         
@@ -1477,6 +1513,15 @@ namespace Xecrets.Texts.Properties {
         internal static string MenuReEncryptFolder {
             get {
                 return ResourceManager.GetString("MenuReEncryptFolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Register as _default app.
+        /// </summary>
+        internal static string MenuSetDefaultApp {
+            get {
+                return ResourceManager.GetString("MenuSetDefaultApp", resourceCulture);
             }
         }
         
@@ -1792,6 +1837,15 @@ namespace Xecrets.Texts.Properties {
         internal static string SelectShareSignIn {
             get {
                 return ResourceManager.GetString("SelectShareSignIn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This Xecrets Ez is not the default app for opening .axx files. Do you want to register it as the default app?.
+        /// </summary>
+        internal static string SetDefaultAppQuestion {
+            get {
+                return ResourceManager.GetString("SetDefaultAppQuestion", resourceCulture);
             }
         }
         

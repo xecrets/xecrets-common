@@ -103,10 +103,12 @@ public class Texts
     public static string CliVersionMismatchWarning => T[nameof(Resources.CliVersionMismatchWarning)];
     public static string CustomerPortalUrl => InvariantResources.CustomerPortalUrl.ToSite();
     public static string DecryptionPasswordsAboutFormat => T[nameof(Resources.DecryptionPasswordsAboutFormat)];
+    public static string DefaultAppSettingsInformation => T[nameof(Resources.DefaultAppSettingsInformation)];
     public static string DialogInputValidationError => T[nameof(Resources.DialogInputValidationError)];
     public static string DialogInstructionEnterLicense => T[nameof(Resources.DialogInstructionEnterLicenseFormat)].FormatUi(InvariantResources.CustomerPortalUrl.ToSite(), InvariantResources.SiteUrl.ToSite());
     public static string DialogLabelAppSettingsDirectory => T[nameof(Resources.DialogLabelAppSettingsDirectory)];
     public static string DialogLabelCurrentDirectory => T[nameof(Resources.DialogLabelCurrentDirectory)];
+    public static string DialogLabelDefaultApp => T[nameof(Resources.DialogLabelDefaultApp)];
     public static string DialogLabelRealStartFolder => T[nameof(Resources.DialogLabelRealStartFolder)];
     public static string DialogLabelStartCommand => T[nameof(Resources.DialogLabelStartCommand)];
     public static string DialogSavePasswordPermanently => T[nameof(Resources.DialogSavePasswordPermanently)];
@@ -229,6 +231,7 @@ public class Texts
     public static string MenuChangeEmail => T[nameof(Resources.MenuChangeEmail)];
     public static string MenuChangePassword => T[nameof(Resources.MenuChangePassword)];
     public static string MenuSimplifiedChinese => InvariantResources.MenuSimplifiedChinese;
+    public static string MenuClearDefaultApp => T[nameof(Resources.MenuClearDefaultApp)];
     public static string MenuClearDontShowAgain => T[nameof(Resources.MenuClearDontShowAgain)];
     public static string MenuClearPasswords => T[nameof(Resources.MenuClearPasswords)];
     public static string MenuClearRecent => T[nameof(Resources.MenuClearRecent)];
@@ -241,6 +244,7 @@ public class Texts
     public static string MenuDebug => InvariantResources.MenuDebug;
     public static string MenuDecrypt => T[nameof(Resources.MenuDecrypt)];
     public static string MenuDecryptFolder => T[nameof(Resources.MenuDecryptFolder)];
+    public static string MenuDefaultApp => T[nameof(Resources.MenuDefaultApp)];
     public static string MenuDownload => T[nameof(Resources.MenuDownload)];
     public static string MenuEdit => T[nameof(Resources.MenuEdit)];
     public static string MenuEncrypt => T[nameof(Resources.MenuEncrypt)];
@@ -276,6 +280,7 @@ public class Texts
     public static string MenuRandomRename => T[nameof(Resources.MenuRandomRename)];
     public static string MenuReEncryptFiles => T[nameof(Resources.MenuReEncryptFiles)];
     public static string MenuReEncryptFolder => T[nameof(Resources.MenuReEncryptFolder)];
+    public static string MenuSetDefaultApp => T[nameof(Resources.MenuSetDefaultApp)];
     public static string MenuShow => T[nameof(Resources.MenuShow)];
     public static string MenuSpanish => InvariantResources.MenuSpanish;
     public static string MenuSuggestPassword => T[nameof(Resources.MenuSuggestPassword)];
@@ -317,6 +322,7 @@ public class Texts
     public static string SdkApiVersionLabel => T[nameof(Resources.ZzLabelSdkApiVersionFormat)].FormatUi(InvariantResources.DisplayNameSdkApi);
     public static string SelectShareAny => T[nameof(Resources.SelectShareAny)];
     public static string SelectShareSignIn => T[nameof(Resources.SelectShareSignIn)];
+    public static string SetDefaultAppQuestion => T[nameof(Resources.SetDefaultAppQuestion)];
     public static string ShamirsSecretSharing => InvariantResources.ShamirsSecretSharing;
     public static string SignInHeading => T[nameof(Resources.ZzHeadingSignInFormat)].FormatUi(InvariantResources.DisplayNameProgram);
     public static string SiteUrl => InvariantResources.SiteUrl.ToSite();

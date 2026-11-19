@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Xecrets Ez\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-08 08:19+0200\n"
-"PO-Revision-Date: 2026-11-18 21:46+0100\n"
+"PO-Revision-Date: 2026-11-23 13:49+0100\n"
 "Last-Translator: Svante Seleborg\n"
 "Language-Team: French (France)\n"
 "Language: fr-FR\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Loco-Source-Locale: en-US\n"
 "X-Loco-Project-Id: 158107\n"
 "X-Loco-Lookup: id\n"
-"X-Loco-Api-Version: 1.0.29 20261104-1"
+"X-Loco-Api-Version: 1.0.29 20261119-1"
 
 #. The warning text displayed in the main window when the program does not have a valid license. [BannerUnlicensedWarning]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3c2
@@ -138,6 +138,17 @@ msgid "DecryptionPasswordsAboutFormat"
 msgstr ""
 "Mot de passe de déchiffrement supplémentaire : {0}.\n"
 
+#. Information shown on Windows 10 before the Default apps page of Windows Settings opens, where the user must choose this app for encrypted .axx files. "Choose default apps by file type" should be the link text used by Windows Settings in the language.
+#: Resources.resx loco:6b0435da8d534686c7056167
+#| msgid ""
+#| "Windows will now open Default apps in Settings. Select \"Choose default "
+#| "apps by file type\", find .axx in the list, and choose Xecrets Ez."
+msgid "DefaultAppSettingsInformation"
+msgstr ""
+"Windows va ouvrir Applications par défaut dans les Paramètres. Sélectionnez "
+"« Choisir les applications par défaut par type de fichier », recherchez .axx "
+"dans la liste et choisissez Xecrets Ez."
+
 #. An error message when an input value is not in the expected format. [DialogInputValidationError]
 #: Resources.resx loco:670e1cf615d80a27bc0eb3ce
 #| msgid "The value is not in the correct format!"
@@ -170,6 +181,12 @@ msgstr "Répertoire des paramètres:"
 #| msgid "Current directory:"
 msgid "DialogLabelCurrentDirectory"
 msgstr "Répertoire actuel:"
+
+#. A label in the about box for the path or package identifier of the app, this or another, that opens encrypted .axx files by default.
+#: Resources.resx loco:6b0435da8d534686c7056162
+#| msgid "Default app:"
+msgid "DialogLabelDefaultApp"
+msgstr "Application par défaut :"
 
 #. A label in the about box, for the real user-visible start folder, before the OS maybe moved it. [DialogLabelRealStartFolder]
 #: Resources.resx loco:682199e78d3ada6cc1059402
@@ -944,6 +961,12 @@ msgstr "Modifier l’adresse _email…"
 msgid "MenuChangePassword"
 msgstr "Modifier _mot de passe…"
 
+#. The menu text to remove what a stand-alone installation of this app registered to become the default app for opening encrypted .axx files. (_ indicates keyboard accelerator)
+#: Resources.resx loco:6b0435da8d534686c7056164
+#| msgid "_Clear default app registration"
+msgid "MenuClearDefaultApp"
+msgstr "_Effacer l’enregistrement comme application par défaut"
+
 #. A menu entry to clear previously hidden warnings [MenuClearDontShowAgain]
 #: Resources.resx loco:6789570564500fc900019cc4
 #| msgid "Show all _messages again"
@@ -1009,6 +1032,12 @@ msgstr "_Déchiffrer…"
 #| msgid "Decrypt f_older files…"
 msgid "MenuDecryptFolder"
 msgstr "Déchiffrer les fichiers du _répertoire…"
+
+#. The submenu holding the menu items to set or clear this app as the default app for opening encrypted .axx files. (_ indicates keyboard accelerator)
+#: Resources.resx loco:6b0435da8d534686c7056165
+#| msgid "_Default app"
+msgid "MenuDefaultApp"
+msgstr "Application par _défaut"
 
 #. The menu text for a link to the download page. [MenuDownload]
 #: Resources.resx loco:670e1cf615d80a27bc0eb41e
@@ -1166,6 +1195,12 @@ msgstr "_Réencrypter…"
 #| msgid "_Re-encrypt folder files"
 msgid "MenuReEncryptFolder"
 msgstr "_Réencrypter des fichiers de dossier"
+
+#. The menu text to check, and if needed offer to make, this app the default app for opening encrypted .axx files. (_ indicates keyboard accelerator)
+#: Resources.resx loco:6b0435da8d534686c7056163
+#| msgid "Register as _default app"
+msgid "MenuSetDefaultApp"
+msgstr "Enregistrer comme application par _défaut"
 
 #. Text for a menu entry to show the program from a minimized state. [MenuShow]
 #: Resources.resx loco:670e1cf615d80a27bc0eb430
@@ -1397,6 +1432,17 @@ msgstr "Partager un secret quelconque"
 #| msgid "Share sign in password"
 msgid "SelectShareSignIn"
 msgstr "Partager le mot de passe de connexion"
+
+#. A Yes/No question shown when another app, or no app, is the default for opening encrypted .axx files.
+#: Resources.resx loco:6b0435da8d534686c7056166
+#| msgid ""
+#| "This Xecrets Ez is not the default app for opening .axx files. Do you "
+#| "want to register it as the default app?"
+msgid "SetDefaultAppQuestion"
+msgstr ""
+"Cette installation de Xecrets Ez n’est pas l’application par défaut pour "
+"ouvrir les fichiers .axx. Voulez-vous l’enregistrer comme application par "
+"défaut ?"
 
 #. A menu entry or label to select a dark visual theme. [ThemeDark]
 #: Resources.resx loco:670e1cf615d80a27bc0eb43e

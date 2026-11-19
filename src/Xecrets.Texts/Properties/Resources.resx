@@ -664,6 +664,10 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <value>Settings directory:</value>
     <comment>A label in the about box for the directory where all settings are stored.</comment>
   </data>
+  <data name="DialogLabelDefaultApp" xml:space="preserve">
+    <value>Default app:</value>
+    <comment>A label in the about box for the path or package identifier of the app, this or another, that opens encrypted .axx files by default.</comment>
+  </data>
   <data name="MenuRandomRename" xml:space="preserve">
     <value>_Rename randomly…</value>
     <comment>The menu text for the random renaming of files.</comment>
@@ -1087,5 +1091,25 @@ Would you like to view a help page with more information?</value>
   <data name="NewFileText" xml:space="preserve">
     <value>Text</value>
     <comment>The kind of a new, empty, text file. Used in the menu item "Text (.txt)", as the suggested file name "Text.txt", and as the name of the file type filter for text files in the save file dialog.</comment>
+  </data>
+  <data name="MenuSetDefaultApp" xml:space="preserve">
+    <value>Register as _default app</value>
+    <comment>The menu text to check, and if needed offer to make, this app the default app for opening encrypted .axx files. (_ indicates keyboard accelerator)</comment>
+  </data>
+  <data name="MenuClearDefaultApp" xml:space="preserve">
+    <value>_Clear default app registration</value>
+    <comment>The menu text to remove what a stand-alone installation of this app registered to become the default app for opening encrypted .axx files. (_ indicates keyboard accelerator)</comment>
+  </data>
+  <data name="MenuDefaultApp" xml:space="preserve">
+    <value>_Default app</value>
+    <comment>The submenu holding the menu items to set or clear this app as the default app for opening encrypted .axx files. (_ indicates keyboard accelerator)</comment>
+  </data>
+  <data name="SetDefaultAppQuestion" xml:space="preserve">
+    <value>This Xecrets Ez is not the default app for opening .axx files. Do you want to register it as the default app?</value>
+    <comment>A Yes/No question shown when another app, or no app, is the default for opening encrypted .axx files.</comment>
+  </data>
+  <data name="DefaultAppSettingsInformation" xml:space="preserve">
+    <value>Windows will now open Default apps in Settings. Select "Choose default apps by file type", find .axx in the list, and choose Xecrets Ez.</value>
+    <comment>Information shown on Windows 10 before the Default apps page of Windows Settings opens, where the user must choose this app for encrypted .axx files. "Choose default apps by file type" should be the link text used by Windows Settings in the language.</comment>
   </data>
 </root>
