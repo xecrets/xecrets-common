@@ -1049,6 +1049,15 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Xecrets Ez is the default app for opening .axx files..
+        /// </summary>
+        internal static string IsDefaultAppInformation {
+            get {
+                return ResourceManager.GetString("IsDefaultAppInformation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to There are no saved passwords to clear.|There is one saved password. Clear it?|There are {0} passwords saved. Clear them all?.
         /// </summary>
         internal static string LabelDecryptionPasswordCountFormat {
@@ -1481,6 +1490,15 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Set _default app….
+        /// </summary>
+        internal static string MenuSetDefaultApp {
+            get {
+                return ResourceManager.GetString("MenuSetDefaultApp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to _Show.
         /// </summary>
         internal static string MenuShow {
@@ -1792,6 +1810,15 @@ namespace Xecrets.Texts.Properties {
         internal static string SelectShareSignIn {
             get {
                 return ResourceManager.GetString("SelectShareSignIn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Xecrets Ez is not the default app for opening .axx files. Do you want to make it the default app?.
+        /// </summary>
+        internal static string SetDefaultAppQuestion {
+            get {
+                return ResourceManager.GetString("SetDefaultAppQuestion", resourceCulture);
             }
         }
         

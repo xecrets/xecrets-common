@@ -210,6 +210,7 @@ public class Texts
     public static string HeadingCreateUserFirstTimeSetup => T[nameof(Resources.HeadingCreateUserFirstTimeSetup)];
     public static string HeadingEmergencyReset => T[nameof(Resources.HeadingEmergencyReset)];
     public static string InvalidLicenseIgnored => T[nameof(Resources.InvalidLicenseIgnored)];
+    public static string IsDefaultAppInformation => T[nameof(Resources.IsDefaultAppInformation)];
     public static string LabelCancel => T[nameof(Resources.ButtonCancel)].StripAccelerator();
     public static string LabelCreate => T[nameof(Resources.ButtonCreate)].StripAccelerator();
     public static string LabelDecryptionPasswordCountFormat => T[nameof(Resources.LabelDecryptionPasswordCountFormat)];
@@ -276,6 +277,7 @@ public class Texts
     public static string MenuRandomRename => T[nameof(Resources.MenuRandomRename)];
     public static string MenuReEncryptFiles => T[nameof(Resources.MenuReEncryptFiles)];
     public static string MenuReEncryptFolder => T[nameof(Resources.MenuReEncryptFolder)];
+    public static string MenuSetDefaultApp => T[nameof(Resources.MenuSetDefaultApp)];
     public static string MenuShow => T[nameof(Resources.MenuShow)];
     public static string MenuSpanish => InvariantResources.MenuSpanish;
     public static string MenuSuggestPassword => T[nameof(Resources.MenuSuggestPassword)];
@@ -317,6 +319,7 @@ public class Texts
     public static string SdkApiVersionLabel => T[nameof(Resources.ZzLabelSdkApiVersionFormat)].FormatUi(InvariantResources.DisplayNameSdkApi);
     public static string SelectShareAny => T[nameof(Resources.SelectShareAny)];
     public static string SelectShareSignIn => T[nameof(Resources.SelectShareSignIn)];
+    public static string SetDefaultAppQuestion => T[nameof(Resources.SetDefaultAppQuestion)];
     public static string ShamirsSecretSharing => InvariantResources.ShamirsSecretSharing;
     public static string SignInHeading => T[nameof(Resources.ZzHeadingSignInFormat)].FormatUi(InvariantResources.DisplayNameProgram);
     public static string SiteUrl => InvariantResources.SiteUrl.ToSite();
