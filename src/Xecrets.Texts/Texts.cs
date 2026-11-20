@@ -244,6 +244,7 @@ public class Texts
     public static string MenuDebug => InvariantResources.MenuDebug;
     public static string MenuDecrypt => T[nameof(Resources.MenuDecrypt)];
     public static string MenuDecryptFolder => T[nameof(Resources.MenuDecryptFolder)];
+    public static string MenuDefaultApp => T[nameof(Resources.MenuDefaultApp)];
     public static string MenuDownload => T[nameof(Resources.MenuDownload)];
     public static string MenuEdit => T[nameof(Resources.MenuEdit)];
     public static string MenuEncrypt => T[nameof(Resources.MenuEncrypt)];

@@ -1281,7 +1281,16 @@ namespace Xecrets.Texts.Properties {
                 return ResourceManager.GetString("MenuDecryptFolder", resourceCulture);
             }
         }
-        
+
+        /// <summary>
+        ///   Looks up a localized string similar to _Default app.
+        /// </summary>
+        internal static string MenuDefaultApp {
+            get {
+                return ResourceManager.GetString("MenuDefaultApp", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to Check for _update….
         /// </summary>

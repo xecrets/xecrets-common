@@ -1096,6 +1096,10 @@ Would you like to view a help page with more information?</value>
     <value>_Clear default app</value>
     <comment>The menu text to remove what a stand-alone installation of this app registered to become the default app for opening encrypted .axx files. (_ indicates keyboard accelerator)</comment>
   </data>
+  <data name="MenuDefaultApp" xml:space="preserve">
+    <value>_Default app</value>
+    <comment>The submenu holding the menu items to set or clear this app as the default app for opening encrypted .axx files. (_ indicates keyboard accelerator)</comment>
+  </data>
   <data name="SetDefaultAppQuestion" xml:space="preserve">
     <value>This Xecrets Ez is not the default app for opening .axx files. Do you want to make it the default app?</value>
     <comment>A Yes/No question shown when another app, or no app, is the default for opening encrypted .axx files.</comment>
