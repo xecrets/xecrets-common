@@ -268,6 +268,15 @@ namespace Xecrets.Texts.Properties {
                 return ResourceManager.GetString("DialogLabelCurrentDirectory", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Default app:.
+        /// </summary>
+        internal static string DialogLabelDefaultApp {
+            get {
+                return ResourceManager.GetString("DialogLabelDefaultApp", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to Original start folder:.

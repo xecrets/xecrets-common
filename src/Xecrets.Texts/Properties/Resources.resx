@@ -664,6 +664,10 @@ It's not free, but it's not expensive either and totally worth it we think!</val
     <value>Settings directory:</value>
     <comment>A label in the about box for the directory where all settings are stored.</comment>
   </data>
+  <data name="DialogLabelDefaultApp" xml:space="preserve">
+    <value>Default app:</value>
+    <comment>A label in the about box for the path or package identifier of the app, this or another, that opens encrypted .axx files by default.</comment>
+  </data>
   <data name="MenuRandomRename" xml:space="preserve">
     <value>_Rename randomly…</value>
     <comment>The menu text for the random renaming of files.</comment>

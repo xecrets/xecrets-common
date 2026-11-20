@@ -108,6 +108,7 @@ public class Texts
     public static string DialogInstructionEnterLicense => T[nameof(Resources.DialogInstructionEnterLicenseFormat)].FormatUi(InvariantResources.CustomerPortalUrl.ToSite(), InvariantResources.SiteUrl.ToSite());
     public static string DialogLabelAppSettingsDirectory => T[nameof(Resources.DialogLabelAppSettingsDirectory)];
     public static string DialogLabelCurrentDirectory => T[nameof(Resources.DialogLabelCurrentDirectory)];
+    public static string DialogLabelDefaultApp => T[nameof(Resources.DialogLabelDefaultApp)];
     public static string DialogLabelRealStartFolder => T[nameof(Resources.DialogLabelRealStartFolder)];
     public static string DialogLabelStartCommand => T[nameof(Resources.DialogLabelStartCommand)];
     public static string DialogSavePasswordPermanently => T[nameof(Resources.DialogSavePasswordPermanently)];
