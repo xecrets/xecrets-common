@@ -231,6 +231,7 @@ public class Texts
     public static string MenuChangeEmail => T[nameof(Resources.MenuChangeEmail)];
     public static string MenuChangePassword => T[nameof(Resources.MenuChangePassword)];
     public static string MenuSimplifiedChinese => InvariantResources.MenuSimplifiedChinese;
+    public static string MenuClearDefaultApp => T[nameof(Resources.MenuClearDefaultApp)];
     public static string MenuClearDontShowAgain => T[nameof(Resources.MenuClearDontShowAgain)];
     public static string MenuClearPasswords => T[nameof(Resources.MenuClearPasswords)];
     public static string MenuClearRecent => T[nameof(Resources.MenuClearRecent)];

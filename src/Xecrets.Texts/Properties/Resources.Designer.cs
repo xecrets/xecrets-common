@@ -1173,7 +1173,16 @@ namespace Xecrets.Texts.Properties {
                 return ResourceManager.GetString("MenuChangePassword", resourceCulture);
             }
         }
-        
+
+        /// <summary>
+        ///   Looks up a localized string similar to _Clear default app.
+        /// </summary>
+        internal static string MenuClearDefaultApp {
+            get {
+                return ResourceManager.GetString("MenuClearDefaultApp", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to Show all _messages again.
         /// </summary>
