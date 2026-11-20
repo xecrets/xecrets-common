@@ -225,6 +225,15 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Windows will now open Default apps in Settings. Select &quot;Choose default apps by file type&quot;, find .axx in the list, and choose Xecrets Ez..
+        /// </summary>
+        internal static string DefaultAppSettingsInformation {
+            get {
+                return ResourceManager.GetString("DefaultAppSettingsInformation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The value is not in the correct format!.
         /// </summary>
         internal static string DialogInputValidationError {
@@ -1814,7 +1823,7 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Xecrets Ez is not the default app for opening .axx files. Do you want to make it the default app?.
+        ///   Looks up a localized string similar to This Xecrets Ez is not the default app for opening .axx files. Do you want to make it the default app?.
         /// </summary>
         internal static string SetDefaultAppQuestion {
             get {

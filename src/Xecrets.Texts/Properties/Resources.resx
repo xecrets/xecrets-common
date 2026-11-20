@@ -1093,11 +1093,15 @@ Would you like to view a help page with more information?</value>
     <comment>The menu text to check, and if needed offer to make, this app the default app for opening encrypted .axx files. (_ indicates keyboard accelerator)</comment>
   </data>
   <data name="SetDefaultAppQuestion" xml:space="preserve">
-    <value>Xecrets Ez is not the default app for opening .axx files. Do you want to make it the default app?</value>
+    <value>This Xecrets Ez is not the default app for opening .axx files. Do you want to make it the default app?</value>
     <comment>A Yes/No question shown when another app, or no app, is the default for opening encrypted .axx files.</comment>
   </data>
   <data name="IsDefaultAppInformation" xml:space="preserve">
     <value>Xecrets Ez is the default app for opening .axx files.</value>
     <comment>Information shown when the user checks the default app, and this app already is the default for opening encrypted .axx files.</comment>
+  </data>
+  <data name="DefaultAppSettingsInformation" xml:space="preserve">
+    <value>Windows will now open Default apps in Settings. Select "Choose default apps by file type", find .axx in the list, and choose Xecrets Ez.</value>
+    <comment>Information shown on Windows 10 before the Default apps page of Windows Settings opens, where the user must choose this app for encrypted .axx files. "Choose default apps by file type" should be the link text used by Windows Settings in the language.</comment>
   </data>
 </root>

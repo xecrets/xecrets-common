@@ -103,6 +103,7 @@ public class Texts
     public static string CliVersionMismatchWarning => T[nameof(Resources.CliVersionMismatchWarning)];
     public static string CustomerPortalUrl => InvariantResources.CustomerPortalUrl.ToSite();
     public static string DecryptionPasswordsAboutFormat => T[nameof(Resources.DecryptionPasswordsAboutFormat)];
+    public static string DefaultAppSettingsInformation => T[nameof(Resources.DefaultAppSettingsInformation)];
     public static string DialogInputValidationError => T[nameof(Resources.DialogInputValidationError)];
     public static string DialogInstructionEnterLicense => T[nameof(Resources.DialogInstructionEnterLicenseFormat)].FormatUi(InvariantResources.CustomerPortalUrl.ToSite(), InvariantResources.SiteUrl.ToSite());
     public static string DialogLabelAppSettingsDirectory => T[nameof(Resources.DialogLabelAppSettingsDirectory)];
