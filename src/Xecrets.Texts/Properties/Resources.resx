@@ -1093,7 +1093,7 @@ Would you like to view a help page with more information?</value>
     <comment>The kind of a new, empty, text file. Used in the menu item "Text (.txt)", as the suggested file name "Text.txt", and as the name of the file type filter for text files in the save file dialog.</comment>
   </data>
   <data name="MenuSetDefaultApp" xml:space="preserve">
-    <value>Set _default app…</value>
+    <value>Set _default app</value>
     <comment>The menu text to check, and if needed offer to make, this app the default app for opening encrypted .axx files. (_ indicates keyboard accelerator)</comment>
   </data>
   <data name="MenuClearDefaultApp" xml:space="preserve">

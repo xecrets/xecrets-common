@@ -1526,7 +1526,7 @@ namespace Xecrets.Texts.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Set _default app….
+        ///   Looks up a localized string similar to Set _default app.
         /// </summary>
         internal static string MenuSetDefaultApp {
             get {
