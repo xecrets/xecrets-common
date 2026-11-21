@@ -1093,11 +1093,11 @@ Would you like to view a help page with more information?</value>
     <comment>The kind of a new, empty, text file. Used in the menu item "Text (.txt)", as the suggested file name "Text.txt", and as the name of the file type filter for text files in the save file dialog.</comment>
   </data>
   <data name="MenuSetDefaultApp" xml:space="preserve">
-    <value>Set _default app</value>
+    <value>Register as _default app</value>
     <comment>The menu text to check, and if needed offer to make, this app the default app for opening encrypted .axx files. (_ indicates keyboard accelerator)</comment>
   </data>
   <data name="MenuClearDefaultApp" xml:space="preserve">
-    <value>_Clear default app</value>
+    <value>_Clear default app registration</value>
     <comment>The menu text to remove what a stand-alone installation of this app registered to become the default app for opening encrypted .axx files. (_ indicates keyboard accelerator)</comment>
   </data>
   <data name="MenuDefaultApp" xml:space="preserve">
@@ -1105,12 +1105,8 @@ Would you like to view a help page with more information?</value>
     <comment>The submenu holding the menu items to set or clear this app as the default app for opening encrypted .axx files. (_ indicates keyboard accelerator)</comment>
   </data>
   <data name="SetDefaultAppQuestion" xml:space="preserve">
-    <value>This Xecrets Ez is not the default app for opening .axx files. Do you want to make it the default app?</value>
+    <value>This Xecrets Ez is not the default app for opening .axx files. Do you want to register it as the default app?</value>
     <comment>A Yes/No question shown when another app, or no app, is the default for opening encrypted .axx files.</comment>
-  </data>
-  <data name="IsDefaultAppInformation" xml:space="preserve">
-    <value>Xecrets Ez is the default app for opening .axx files.</value>
-    <comment>Information shown when the user checks the default app, and this app already is the default for opening encrypted .axx files.</comment>
   </data>
   <data name="DefaultAppSettingsInformation" xml:space="preserve">
     <value>Windows will now open Default apps in Settings. Select "Choose default apps by file type", find .axx in the list, and choose Xecrets Ez.</value>

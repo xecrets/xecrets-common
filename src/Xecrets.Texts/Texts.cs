@@ -212,7 +212,6 @@ public class Texts
     public static string HeadingCreateUserFirstTimeSetup => T[nameof(Resources.HeadingCreateUserFirstTimeSetup)];
     public static string HeadingEmergencyReset => T[nameof(Resources.HeadingEmergencyReset)];
     public static string InvalidLicenseIgnored => T[nameof(Resources.InvalidLicenseIgnored)];
-    public static string IsDefaultAppInformation => T[nameof(Resources.IsDefaultAppInformation)];
     public static string LabelCancel => T[nameof(Resources.ButtonCancel)].StripAccelerator();
     public static string LabelCreate => T[nameof(Resources.ButtonCreate)].StripAccelerator();
     public static string LabelDecryptionPasswordCountFormat => T[nameof(Resources.LabelDecryptionPasswordCountFormat)];
